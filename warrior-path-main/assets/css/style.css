@@ -1,0 +1,172 @@
+/* Reset default browser styles for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* This makes padding and borders stay inside width/height */
+}
+
+/* Base styles for the whole page */
+body {
+  font-family: 'Inter', sans-serif; /* Clean, modern font for readability */
+  background-color: #111; /* Dark background gives a sleek gym vibe */
+  color: #f0f0f0; /* Light gray text for contrast */
+  padding: 2rem;
+  line-height: 1.6; /* More readable line spacing */
+}
+
+/* Headings: using Macondo font for something more stylish/unique */
+h1, h2, h3 {
+  font-family: 'Macondo', cursive;
+  color: #ff6600; /* Bright orange for energy and branding, not too aggressive */
+  margin-bottom: 0.5rem;
+}
+
+/* Navigation bar styles */
+nav {
+  display: flex; /* Puts title and links side by side */
+  justify-content: space-between; /* Space between title and nav links */
+  align-items: center;
+  background-color: #1c1c1c; /* Slightly lighter than body bg */
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+nav h1 {
+  font-size: 1.8rem;
+  color: #ff6600;
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+  display: flex;
+  gap: 1.5rem; /* Space between nav items */
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff6600;
+  font-weight: bold;
+  transition: color 0.2s ease;
+}
+
+nav a:hover {
+  color: #ffa040; /* Softer orange on hover */
+}
+
+/* Reusable hero section for attention-grabbing stuff */
+.hero {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* CTA = Call To Action button */
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #ff6600;
+  color: #111;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #ffa040;
+  color: #111;
+}
+
+/* About section + other info containers */
+.about {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+/* Footer at the bottom of the page */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+/* Intro section at the top of homepage */
+.intro {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  color: #f0f0f0;
+}
+
+.intro p {
+  margin-bottom: 1rem;
+}
+
+.intro a {
+  color: #ff6600;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.intro a:hover {
+  color: #ffa040;
+  text-decoration: underline;
+}
+
+/* Social media links */
+.social-links {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.social-links a {
+  color: #ff7a00;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design for tablets and phones (screen width 768px and below) */
+@media (max-width: 768px) {
+  
+  /* Make nav stack vertically instead of side-by-side */
+  nav {
+    flex-direction: column;
+    align-items: flex-start; /* Align nav links to the left for a cleaner stacked look */
+  }
+
+  /* Stack nav links and reduce spacing between them */
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem; /* Less gap for vertical layout */
+    width: 100%; /* Full width so links don’t get squashed */
+  }
+
+  /* Make main sections (hero, about, intro) tighter for small screens */
+  .hero, .about, .intro {
+    padding: 1rem; /* Less padding to save space */
+    text-align: left; /* Align text left for easier mobile reading */
+  }
+
+  /* Make CTA button stretch across the screen */
+  .cta {
+    width: 100%; /* Full width button on mobile */
+    text-align: center; /* Keep text centered inside the button */
+  }
+
+  /* Add a bit of breathing room to the footer */
+  footer {
+    padding: 1rem 0;
+  }
+}
