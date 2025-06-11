@@ -42,21 +42,28 @@
         <h2>Book Your Free First Session</h2>
         <p>Fill out the form below and we’ll get in touch to arrange your free trial.</p>
 
-        <form>
-            <!-- Basic user info: name, email -->
-            <label for="name">Full Name:</label>
-            <input type="text" id="name" name="name" required>
+        <form class="signup-form">
+  <!-- Full Name field -->
+  <div class="form-group">
+    <label for="name" class="form-label">Full Name:</label>
+    <input type="text" id="name" name="name" class="text-input" required aria-label="Full Name" placeholder="e.g. Jane Doe">
+  </div>
 
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
+  <!-- Email field -->
+  <div class="form-group">
+    <label for="email" class="form-label">Email Address:</label>
+    <input type="email" id="email" name="email" class="text-input" required aria-label="Email Address" placeholder="e.g. jane@email.com">
+  </div>
 
-            <!-- Let them share their goal -->
-            <label for="goal">What are you hoping to achieve?</label>
-            <textarea id="goal" name="goal" rows="4" placeholder="e.g. Confidence, fitness, self-defence..."></textarea>
+  <!-- Goal textarea -->
+  <div class="form-group">
+    <label for="goal" class="form-label">What are you hoping to achieve?</label>
+    <textarea id="goal" name="goal" class="text-area" rows="4" placeholder="e.g. Confidence, fitness, self-defence..." aria-label="Training Goals"></textarea>
+  </div>
 
-            <!-- Button to send the form -->
-            <button type="submit">Submit</button>
-        </form>
+  <!-- Submit -->
+  <button type="submit" class="submit-button">Submit</button>
+</form>
     </section>
 
     <!-- Footer (copied from index.html for brand consistency) -->
