@@ -2,31 +2,42 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* This makes padding and borders stay inside width/height */
+  box-sizing: border-box;
+  /* This makes padding and borders stay inside width/height */
 }
 
 /* Base styles for the whole page */
 body {
-  font-family: 'Inter', sans-serif; /* Clean, modern font for readability */
-  background-color: #111; /* Dark background gives a sleek gym vibe */
-  color: #f0f0f0; /* Light gray text for contrast */
+  font-family: 'Inter', sans-serif;
+  /* Clean, modern font for readability */
+  background-color: #111;
+  /* Dark background gives a sleek gym vibe */
+  color: #f0f0f0;
+  /* Light gray text for contrast */
   padding: 2rem;
-  line-height: 1.6; /* More readable line spacing */
+  line-height: 1.6;
+  /* More readable line spacing */
 }
 
 /* Headings: using Macondo font for something more stylish/unique */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: 'Macondo', cursive;
-  color: #ff6600; /* Bright orange for energy and branding, not too aggressive */
+  color: #ff6600;
+  /* Bright orange for energy and branding, not too aggressive */
   margin-bottom: 0.5rem;
 }
 
 /* Navigation bar styles */
 nav {
-  display: flex; /* Puts title and links side by side */
-  justify-content: space-between; /* Space between title and nav links */
+  display: flex;
+  /* Puts title and links side by side */
+  justify-content: space-between;
+  /* Space between title and nav links */
   align-items: center;
-  background-color: #1c1c1c; /* Slightly lighter than body bg */
+  background-color: #1c1c1c;
+  /* Slightly lighter than body bg */
   padding: 1rem;
   border-radius: 10px;
   margin-bottom: 2rem;
@@ -38,9 +49,11 @@ nav h1 {
 }
 
 nav ul {
-  list-style: none; /* Remove bullet points */
+  list-style: none;
+  /* Remove bullet points */
   display: flex;
-  gap: 1.5rem; /* Space between nav items */
+  gap: 1.5rem;
+  /* Space between nav items */
 }
 
 nav a {
@@ -51,7 +64,8 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffa040; /* Softer orange on hover */
+  color: #ffa040;
+  /* Softer orange on hover */
 }
 
 /* Reusable hero section for attention-grabbing stuff */
@@ -139,34 +153,113 @@ footer {
 
 /* Responsive Design for tablets and phones (screen width 768px and below) */
 @media (max-width: 768px) {
-  
+
   /* Make nav stack vertically instead of side-by-side */
   nav {
     flex-direction: column;
-    align-items: flex-start; /* Align nav links to the left for a cleaner stacked look */
+    align-items: flex-start;
+    /* Align nav links to the left for a cleaner stacked look */
   }
 
   /* Stack nav links and reduce spacing between them */
   nav ul {
     flex-direction: column;
-    gap: 0.5rem; /* Less gap for vertical layout */
-    width: 100%; /* Full width so links don’t get squashed */
+    gap: 0.5rem;
+    /* Less gap for vertical layout */
+    width: 100%;
+    /* Full width so links don’t get squashed */
   }
 
   /* Make main sections (hero, about, intro) tighter for small screens */
-  .hero, .about, .intro {
-    padding: 1rem; /* Less padding to save space */
-    text-align: left; /* Align text left for easier mobile reading */
+  .hero,
+  .about,
+  .intro {
+    padding: 1rem;
+    /* Less padding to save space */
+    text-align: left;
+    /* Align text left for easier mobile reading */
   }
 
   /* Make CTA button stretch across the screen */
   .cta {
-    width: 100%; /* Full width button on mobile */
-    text-align: center; /* Keep text centered inside the button */
+    width: 100%;
+    /* Full width button on mobile */
+    text-align: center;
+    /* Keep text centered inside the button */
   }
 
   /* Add a bit of breathing room to the footer */
   footer {
     padding: 1rem 0;
+  }
+}
+
+/* Mobile Styling */
+/* Apply styles only when screen width is 768px or less */
+@media (max-width: 768px) {
+
+  /* Add some padding around the whole page for small screens */
+  body {
+    padding: 10px;
+  }
+
+  /* Make the navigation stack vertically instead of horizontal */
+  nav {
+    flex-direction: column;
+    /* stack links top to bottom */
+    align-items: flex-start;
+    /* align links to left */
+    gap: 10px;
+    /* space between each nav item */
+  }
+
+  /* Stack hero section content vertically and center it */
+  .hero {
+    flex-direction: column;
+    /* column layout for image and text */
+    align-items: center;
+    /* center horizontally */
+    text-align: center;
+    /* center text */
+  }
+
+  /* Make hero image scale down but keep aspect ratio */
+  .hero img {
+    max-width: 90%;
+    /* never go wider than 90% of container */
+    height: auto;
+    /* auto height to keep proportions */
+  }
+
+  /* Make hero heading smaller and easier to read on small screens */
+  .hero-text h1 {
+    font-size: 1.8rem;
+    /* reduce font size */
+  }
+
+  /* Adjust paragraph font size for readability */
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  /* Footer font smaller and centered for better mobile look */
+  footer {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  /* Make all buttons take full width of their container for easier tapping on mobile */
+  button {
+    width: 100%;
+    /* stretch button to fill available horizontal space */
+    font-size: 1rem;
+    /* ensure text is readable and not too small */
+  }
+
+  /* Make all form input fields and textareas take full width */
+  form input,
+  form textarea {
+    width: 100%;
+    /* inputs and textareas stretch to container width for better usability */
   }
 }
