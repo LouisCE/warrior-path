@@ -302,3 +302,35 @@ footer {
     /* inputs and textareas stretch to container width for better usability */
   }
 }
+
+/* Flex layout for nav bar spacing */
+nav {
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Form container is centered and padded */
+.signup-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .signup-form {
+    padding: 1rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  nav a {
+    width: 100%;
+  }
+}
