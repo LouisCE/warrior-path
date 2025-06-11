@@ -63,6 +63,12 @@ nav a {
   transition: color 0.2s ease;
 }
 
+/* Highlight the active nav link */
+nav a.active-link {
+  color: #ffa040;
+  border-bottom: 2px solid #ffa040;
+}
+
 nav a:hover {
   color: #ffa040;
   /* Softer orange on hover */
