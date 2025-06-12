@@ -18,3 +18,10 @@ The website helps users understand what the school offers, who the instructors a
 - Custom form elements for the "Join Us" page  
 - HTML and CSS written to modern standards  
 - Accessibility and usability considered in design decisions
+
+## Pages Included
+
+- Home (`index.html`)
+- Classes (`classes.html`)
+- Trainers (`trainers.html`)
+- Join Us (`signup.html`)
