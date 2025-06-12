@@ -58,6 +58,12 @@ warrior-path/
 
 _Screenshots of each page and key feature will be included here._
 
+## Screenshots
+
+### Signup Page (Test Screenshot)
+
+![Signup Page Screenshot](assets/images/test-screenshot.png)
+
 ## Attribution
 
 - Bootstrap provided via official CDN: https://getbootstrap.com/
