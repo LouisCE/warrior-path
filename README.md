@@ -9,3 +9,12 @@ Warrior Path is a fictional martial arts school website designed to simulate a r
 ## Value to Users
 
 The website helps users understand what the school offers, who the instructors are, and how to sign up. It also gives them an impression of the school's tone and style. Clear navigation and responsive design make it easy to use on any device.
+
+## Key Features
+
+- Responsive layout using Bootstrap 5  
+- Fully functioning navigation bar with clear active states  
+- Consistent styling and layout across all pages  
+- Custom form elements for the "Join Us" page  
+- HTML and CSS written to modern standards  
+- Accessibility and usability considered in design decisions
