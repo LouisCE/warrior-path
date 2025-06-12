@@ -67,3 +67,13 @@ _Screenshots of each page and key feature will be included here._
 ## Attribution
 
 - Bootstrap provided via official CDN: https://getbootstrap.com/
+
+## Accessibility
+
+This website supports keyboard navigation to enhance accessibility. Interactive elements such as navigation links and call-to-action (CTA) buttons have visible `:focus` styles, allowing users who navigate using the Tab key to clearly see which element is currently selected. The focus styles use a high-contrast orange (#ffa040) consistent with the hover styles for visual continuity. Additionally, form inputs and buttons highlight on focus to assist users relying on keyboard interaction.
+
+### Accessibility Testing
+
+**Keyboard Navigation Test:**  
+Pressing the Tab key cycles through all interactive elements (links, buttons, form fields). Each focused element is clearly highlighted with a bright orange outline or underline. No elements are skipped, and focus order is logical.  
+**Result:** Pass
