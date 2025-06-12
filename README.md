@@ -25,3 +25,15 @@ The website helps users understand what the school offers, who the instructors a
 - Classes (`classes.html`)
 - Trainers (`trainers.html`)
 - Join Us (`signup.html`)
+
+## Deployment
+
+The website is deployed using GitHub Pages and is accessible at:  
+[https://louisce.github.io/warrior-path/](https://louisce.github.io/warrior-path/)
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Bootstrap 5 (via CDN)
+- Git and GitHub for version control and deployment
