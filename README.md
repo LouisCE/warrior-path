@@ -84,3 +84,14 @@ You can preview the website locally by opening the HTML files directly in your w
 
 Alternatively, view the live site hosted on GitHub Pages at:  
 [https://louisce.github.io/warrior-path/](https://louisce.github.io/warrior-path/)
+
+## Bug & Testing Log
+
+- Tested the website on Chrome, Firefox, and Edge on both desktop and mobile devices using device emulation.
+- HTML and CSS files were validated using W3C and Jigsaw validators with zero errors.
+- Keyboard navigation was tested, ensuring all interactive elements receive visible focus outlines with a high-contrast orange (#ffa040), consistent with hover states.
+- All images include descriptive alt attributes for accessibility compliance.
+- All external links open in new tabs with appropriate `rel` attributes to ensure security.
+- Responsive design confirmed with CSS media queries working across multiple screen sizes.
+- No critical bugs found.
+- Minor issue: On very small screens (under 320px width), footer text slightly overlaps; this will be addressed in a future update.
