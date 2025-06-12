@@ -75,5 +75,12 @@ This website supports keyboard navigation to enhance accessibility. Interactive 
 ### Accessibility Testing
 
 **Keyboard Navigation Test:**  
-Pressing the Tab key cycles through all interactive elements (links, buttons, form fields). Each focused element is clearly highlighted with a bright orange outline or underline. No elements are skipped, and focus order is logical.  
+Pressing the Tab key cycles through all interactive elements (links, buttons, form fields). Each focused element is clearly highlighted with a bright orange outline or underline. No elements are skipped, and focus order is logical.
 **Result:** Pass
+
+## How to Run/Preview the Project
+
+You can preview the website locally by opening the HTML files directly in your web browser. No additional setup is required.
+
+Alternatively, view the live site hosted on GitHub Pages at:  
+[https://louisce.github.io/warrior-path/](https://louisce.github.io/warrior-path/)
