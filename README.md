@@ -37,3 +37,20 @@ The website is deployed using GitHub Pages and is accessible at:
 - CSS3
 - Bootstrap 5 (via CDN)
 - Git and GitHub for version control and deployment
+
+- 
+## File Structure
+
+warrior-path/
+│
+├── assets/
+│ ├── css/
+│ │ └── styles.css
+│ └── images/
+│ └── (image files)
+│
+├── index.html
+├── classes.html
+├── trainers.html
+├── signup.html
+└── README.md
