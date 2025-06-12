@@ -95,3 +95,22 @@ Alternatively, view the live site hosted on GitHub Pages at:
 - Responsive design confirmed with CSS media queries working across multiple screen sizes.
 - No critical bugs found.
 - Minor issue: On very small screens (under 320px width), footer text slightly overlaps; this will be addressed in a future update.
+
+## Features in Detail
+
+### Home Page
+- Eye-catching banner introduces the brand
+- Clear navigation to other pages
+- Welcoming call to action
+
+### Classes Page
+- Grid layout displaying available classes
+- Descriptions help users choose the right program
+
+### Trainers Page
+- Profile cards for each instructor
+- Bio and specialties provided for each trainer
+
+### Join Us Page
+- Sign-up form with name, email, class choice, and comments
+- Designed for easy user interaction
