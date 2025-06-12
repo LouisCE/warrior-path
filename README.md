@@ -38,7 +38,6 @@ The website is deployed using GitHub Pages and is accessible at:
 - Bootstrap 5 (via CDN)
 - Git and GitHub for version control and deployment
 
-- 
 ## File Structure
 
 warrior-path/
@@ -54,3 +53,11 @@ warrior-path/
 ├── trainers.html
 ├── signup.html
 └── README.md
+
+## Screenshots
+
+_Screenshots of each page and key feature will be included here._
+
+## Attribution
+
+- Bootstrap provided via official CDN: https://getbootstrap.com/
