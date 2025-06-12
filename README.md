@@ -114,3 +114,12 @@ Alternatively, view the live site hosted on GitHub Pages at:
 ### Join Us Page
 - Sign-up form with name, email, class choice, and comments
 - Designed for easy user interaction
+
+## Target Audience
+
+The primary audience includes:
+- Beginners interested in martial arts classes
+- Parents looking for safe, structured activities for children
+- Experienced martial artists seeking new instructors or facilities
+
+The design and layout reflect a balance of professionalism, accessibility, and approachability to cater to all of these groups.
