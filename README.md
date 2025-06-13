@@ -123,3 +123,11 @@ The primary audience includes:
 - Experienced martial artists seeking new instructors or facilities
 
 The design and layout reflect a balance of professionalism, accessibility, and approachability to cater to all of these groups.
+
+## Design Decisions
+
+- **Orange highlights**: Used for focus and hover states to guide user interaction.
+- **Responsive design**: Ensures usability on phones, tablets, and desktops.
+- **Bootstrap 5**: Chosen for its ease of use and mobile-first approach.
+- **Image consistency**: All images follow a clean and modern visual style.
+- **Alt attributes**: Support screen readers and visually impaired users.
