@@ -131,3 +131,9 @@ The design and layout reflect a balance of professionalism, accessibility, and a
 - **Bootstrap 5**: Chosen for its ease of use and mobile-first approach.
 - **Image consistency**: All images follow a clean and modern visual style.
 - **Alt attributes**: Support screen readers and visually impaired users.
+
+## Future Improvements
+
+- Fix footer overlap issue on very small screens (<320px)
+- Add confirmation message after successful form submission
+- Expand the site with a blog/news page
