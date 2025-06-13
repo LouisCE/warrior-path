@@ -15,9 +15,13 @@ body {
   color: #f0f0f0;
   /* Light gray text for contrast */
   padding: 2rem;
+  /* Added top padding to body so content isn't hidden behind fixed navbar */
+  padding-top: 70px;
   line-height: 1.6;
   /* More readable line spacing */
 }
+
+
 
 /* Headings: using Macondo font for something more stylish/unique */
 h1,
