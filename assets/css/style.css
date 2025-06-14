@@ -208,12 +208,31 @@ footer {
 }
 
 /* Form container */
+Should I just start with this?
+
 .signup-form {
+  position: relative; /* so I can layer overlay if needed */ 
   max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: #1a1a1a;
+  background-color: rgba(26, 26, 26, 0.85); /* slightly transparent dark bg for contrast */
   border-radius: 10px;
+
+  /* Background image stuff */
+  background-image: url('../images/your-silhouette-image.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply; /* blends image with background color to darken */
+  color: #f0f0f0; /* light text to contrast with bg */
+}
+
+/* To ensure form inputs remain readable */ 
+.signup-form input,
+.signup-form textarea {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #f0f0f0;
+  border: 1px solid #555;
 }
 
 /* Accessibility: focus outlines for links, buttons, inputs, textareas */
