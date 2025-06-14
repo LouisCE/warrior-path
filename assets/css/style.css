@@ -208,7 +208,6 @@ footer {
 }
 
 /* Form container */
-Should I just start with this?
 
 .signup-form {
   position: relative; /* so I can layer overlay if needed */ 
@@ -216,13 +215,6 @@ Should I just start with this?
   margin: 0 auto;
   padding: 2rem;
   background-color: rgba(26, 26, 26, 0.85); /* slightly transparent dark bg for contrast */
-  border-radius: 10px;
-
-  .signup-form {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 2rem;
-  background-color: #1a1a1a;
   border-radius: 10px;
 }
 
