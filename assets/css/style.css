@@ -112,6 +112,12 @@ nav a:focus {
   text-decoration: underline;
 }
 
+#gallery p {
+  font-style: italic;
+  color: #667;
+  font-size: 0.9rem;
+}
+
 /* Call To Action button */
 .cta {
   display: inline-block;
