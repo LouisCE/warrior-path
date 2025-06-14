@@ -14,20 +14,18 @@ body {
   /* Dark background gives a sleek gym vibe */
   color: #f0f0f0;
   /* Light gray text for contrast */
-  padding: 2rem;
-  /* Added top padding to body so content isn't hidden behind fixed navbar */
-  padding-top: 70px;
+  padding: 2rem 2rem 2rem 2rem;
+  padding-top: 70px; /* Added top padding so content isn't hidden behind fixed navbar */
   line-height: 1.6;
   /* More readable line spacing */
 }
 
-
-
-/* Headings: using Macondo font for something more stylish/unique */
-h1,
-h2,
-h3 {
+/* Typography: headings use Macondo for stylish look */
+h1, h2, h3, h4, h5 {
   font-family: 'Macondo', cursive;
+}
+
+h1, h2, h3 {
   color: #ff6600;
   /* Bright orange for energy and branding, not too aggressive */
   margin-bottom: 0.5rem;
@@ -36,21 +34,20 @@ h3 {
 /* Navigation bar styles */
 nav {
   display: flex;
-  /* Puts title and links side by side */
+  flex-wrap: wrap;
   justify-content: space-between;
-  /* Space between title and nav links */
   align-items: center;
+  gap: 1rem;
   background-color: #1c1c1c;
   /* Slightly lighter than body bg */
   padding: 1rem;
-  border-radius: 10px;
-  margin-bottom: 2rem;
+  border-radius: 0 0 10px 10px; /* Rounded bottom corners only for better fixed navbar look */
   position: fixed; /* Makes the navbar stay fixed at the top, even when scrolling */
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  background-color: #1c1c1c;
+  margin-bottom: 0; /* margin-bottom doesn't affect fixed elements */
 }
 
 nav h1 {
@@ -73,76 +70,30 @@ nav a {
   transition: color 0.2s ease;
 }
 
-/* Highlight the active nav link */
 nav a.active-link {
   color: #ffa040;
   border-bottom: 2px solid #ffa040;
 }
 
-nav a:hover {
+nav a:hover,
+nav a:focus {
   color: #ffa040;
-  /* Softer orange on hover */
 }
 
 nav a:focus {
-  color: #ffa040;
   text-decoration: underline;
 }
 
-/* Reusable hero section for attention-grabbing stuff */
-.hero {
-  background-color: #1a1a1a;
-  padding: 2rem;
-  border-radius: 12px;
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-/* CTA = Call To Action button */
-.cta {
-  display: inline-block;
-  margin-top: 1rem;
-  padding: 0.7rem 1.5rem;
-  background-color: #ff6600;
-  color: #111;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-
-.cta:hover {
-  background-color: #ffa040;
-  color: #111;
-}
-
-.cta:focus {
-  background-color: #ffa040;
-  color: #111;
-}
-
-/* About section + other info containers */
-.about {
-  background-color: #1a1a1a;
-  padding: 1.5rem;
-  border-radius: 10px;
-  margin-bottom: 2rem;
-}
-
-/* Footer at the bottom of the page */
-footer {
-  text-align: center;
-  font-size: 0.9rem;
-  color: #aaa;
-}
-
-/* Intro section at the top of homepage */
+/* Hero, About, Intro sections share similar styling */
+.hero,
+.about,
 .intro {
   background-color: #1a1a1a;
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
   color: #f0f0f0;
+  text-align: center;
 }
 
 .intro p {
@@ -161,6 +112,26 @@ footer {
   text-decoration: underline;
 }
 
+/* Call To Action button */
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #ff6600;
+  color: #111;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.cta:hover,
+.cta:focus {
+  background-color: #ffa040;
+  color: #111;
+}
+
 /* Social media links */
 .social-links {
   margin-top: 0.5rem;
@@ -177,14 +148,13 @@ footer {
   text-decoration: underline;
 }
 
-/* Label styling */
+/* Form styling */
 .form-label {
   display: block;
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
 
-/* Input and textarea shared styles */
 .text-input,
 .text-area {
   width: 100%;
@@ -196,12 +166,10 @@ footer {
   box-sizing: border-box;
 }
 
-/* Grouping inputs with spacing */
 .form-group {
   margin-bottom: 2rem;
 }
 
-/* Submit button style */
 .submit-button {
   padding: 0.75rem 1.5rem;
   background-color: #b30000;
@@ -210,132 +178,36 @@ footer {
   border-radius: 4px;
   font-size: 1rem;
   cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 .submit-button:hover {
   background-color: #900000;
 }
 
-/* Responsive Design for tablets and phones (screen width 768px and below) */
-@media (max-width: 768px) {
-
-  /* Make nav stack vertically instead of side-by-side */
-  nav {
-    flex-direction: column;
-    align-items: flex-start;
-    /* Align nav links to the left for a cleaner stacked look */
-  }
-
-  /* Stack nav links and reduce spacing between them */
-  nav ul {
-    flex-direction: column;
-    gap: 0.5rem;
-    /* Less gap for vertical layout */
-    width: 100%;
-    /* Full width so links don’t get squashed */
-  }
-
-  /* Make main sections (hero, about, intro) tighter for small screens */
-  .hero,
-  .about,
-  .intro {
-    padding: 1rem;
-    /* Less padding to save space */
-    text-align: left;
-    /* Align text left for easier mobile reading */
-  }
-
-  /* Make CTA button stretch across the screen */
-  .cta {
-    width: 100%;
-    /* Full width button on mobile */
-    text-align: center;
-    /* Keep text centered inside the button */
-  }
-
-  /* Add a bit of breathing room to the footer */
-  footer {
-    padding: 1rem 0;
-  }
+.submit-button:focus {
+  outline: 2px solid #ffa040; /* Same bright orange outline */
+  outline-offset: 2px;
 }
 
-/* Mobile Styling */
-/* Apply styles only when screen width is 768px or less */
-@media (max-width: 768px) {
-
-  /* Add some padding around the whole page for small screens */
-  body {
-    padding: 10px;
-  }
-
-  /* Make the navigation stack vertically instead of horizontal */
-  nav {
-    flex-direction: column;
-    /* stack links top to bottom */
-    align-items: flex-start;
-    /* align links to left */
-    gap: 10px;
-    /* space between each nav item */
-  }
-
-  /* Stack hero section content vertically and center it */
-  .hero {
-    flex-direction: column;
-    /* column layout for image and text */
-    align-items: center;
-    /* center horizontally */
-    text-align: center;
-    /* center text */
-  }
-
-  /* Make hero image scale down but keep aspect ratio */
-  .hero img {
-    max-width: 90%;
-    /* never go wider than 90% of container */
-    height: auto;
-    /* auto height to keep proportions */
-  }
-
-  /* Make hero heading smaller and easier to read on small screens */
-  .hero-text h1 {
-    font-size: 1.8rem;
-    /* reduce font size */
-  }
-
-  /* Adjust paragraph font size for readability */
-  .hero-text p {
-    font-size: 1rem;
-  }
-
-  /* Footer font smaller and centered for better mobile look */
-  footer {
-    font-size: 0.9rem;
-    text-align: center;
-  }
-
-  /* Make all buttons take full width of their container for easier tapping on mobile */
-  button {
-    width: 100%;
-    /* stretch button to fill available horizontal space */
-    font-size: 1rem;
-    /* ensure text is readable and not too small */
-  }
-
-  /* Make all form input fields and textareas take full width */
-  form input,
-  form textarea {
-    width: 100%;
-    /* inputs and textareas stretch to container width for better usability */
-  }
+/* Card styling */
+.card-body {
+  padding: 2rem;
 }
 
-/* Flex layout for nav bar spacing */
-nav {
-  flex-wrap: wrap;
-  gap: 1rem;
+.card-text {
+  font-style: italic;
 }
 
-/* Form container is centered and padded */
+/* Footer styling */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #aaa;
+  padding: 1rem 0;
+}
+
+/* Form container */
 .signup-form {
   max-width: 600px;
   margin: 0 auto;
@@ -344,24 +216,7 @@ nav {
   border-radius: 10px;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-  .signup-form {
-    padding: 1rem;
-  }
-
-  nav ul {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  nav a {
-    width: 100%;
-  }
-}
-
-/* Accessibility: show visible outline when using keyboard */
+/* Accessibility: focus outlines for links, buttons, inputs, textareas */
 a:focus,
 button:focus,
 input:focus,
@@ -370,22 +225,75 @@ textarea:focus {
   outline-offset: 2px;        /* Slight gap from the element edge */
 }
 
-/* Use fancy heading font for titles */
-h1, h2, h3, h4, h5 {
-  font-family: 'Macondo', cursive;
-}
+/* Responsive Design for tablets and phones (screen width 768px and below) */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+    padding-top: 70px; /* Keep same top padding for fixed navbar */
+  }
 
-/* Make card bodies breathe more */
-.card-body {
-  padding: 2rem;
-}
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 
-/* Quote style for testimonials */
-.card-text {
-  font-style: italic;
-}
+  nav ul {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    align-items: flex-start;
+  }
 
-.submit-button:focus {
-  outline: 2px solid #ffa040; /* Same bright orange outline */
-  outline-offset: 2px;
+  nav a {
+    width: 100%;
+  }
+
+  .hero,
+  .about,
+  .intro {
+    padding: 1rem;
+    text-align: left;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+
+  .cta {
+    width: 100%;
+    text-align: center;
+  }
+
+  footer {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  button,
+  form input,
+  form textarea {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .signup-form {
+    padding: 1rem;
+  }
 }
