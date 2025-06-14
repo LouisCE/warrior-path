@@ -45,6 +45,12 @@ nav {
   padding: 1rem;
   border-radius: 10px;
   margin-bottom: 2rem;
+  position: fixed; /* Makes the navbar stay fixed at the top, even when scrolling */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #1c1c1c;
 }
 
 nav h1 {
