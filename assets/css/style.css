@@ -118,6 +118,47 @@ nav a:focus {
   font-size: 0.9rem;
 }
 
+/* Info Columns Section */
+#info-columns {
+  background-color: #1a1a1a; /* Match other sections like .intro and .about */
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+
+#info-columns img {
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 2px solid #333;
+  box-shadow: 0 4px 8px rgba(255, 102, 0, 0.1); /* subtle orange glow */
+}
+
+#info-columns h3 {
+  font-family: 'Macondo', cursive;
+  color: #ff6600;
+  margin-bottom: 0.5rem;
+}
+
+#info-columns ul,
+#info-columns blockquote {
+  color: #f0f0f0;
+}
+
+#info-columns blockquote {
+  font-style: italic;
+  margin-bottom: 1rem;
+  background-color: #222;
+  padding: 1rem;
+  border-left: 4px solid #ff6600;
+  border-radius: 6px;
+}
+
+#info-columns .blockquote-footer {
+  color: #999;
+  font-size: 0.85rem;
+}
+
 /* Call To Action button */
 .cta {
   display: inline-block;
