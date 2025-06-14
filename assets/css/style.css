@@ -378,3 +378,8 @@ h1, h2, h3, h4, h5 {
 .card-text {
   font-style: italic;
 }
+
+.submit-button:focus {
+  outline: 2px solid #ffa040; /* Same bright orange outline */
+  outline-offset: 2px;
+}
