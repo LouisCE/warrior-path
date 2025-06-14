@@ -210,7 +210,6 @@ footer {
 /* Form container */
 
 .signup-form {
-  position: relative; /* so I can layer overlay if needed */ 
   max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
