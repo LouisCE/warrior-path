@@ -345,3 +345,14 @@ textarea:focus {
     padding: 1rem;
   }
 }
+
+#info-columns > .row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+#info-columns > .row > div {
+  flex: 1 1 33.3333% !important;
+  max-width: 33.3333% !important;
+  box-sizing: border-box;
+}
