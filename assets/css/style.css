@@ -124,6 +124,14 @@ nav a:focus {
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; /* spacing between columns */
+}
+
+#info-columns > * {
+  flex: 1 1 33.333%; /* for three columns per row */
+  box-sizing: border-box;
 }
 
 #info-columns img {
