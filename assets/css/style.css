@@ -356,3 +356,24 @@ textarea:focus {
   max-width: 33.3333% !important;
   box-sizing: border-box;
 }
+
+#info-columns .col-12.col-md-4 {
+  padding: 1rem; /* adds space inside each column */
+}
+
+#info-columns ul {
+  padding-left: 1.2rem; /* proper bullet indentation */
+  margin-bottom: 1rem;  /* space below lists */
+}
+
+#info-columns blockquote {
+  margin: 1rem 0;        /* vertical spacing */
+  padding-left: 1rem;    /* spacing consistent with border-left */
+}
+
+#info-columns img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 1rem auto; /* center images and add bottom margin */
+}
