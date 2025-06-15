@@ -88,6 +88,16 @@
             <a class="text-white mx-2" href="mailto:info@warriorpath.com">Email Us</a>
         </div>
     </footer>
+
+    <script>
+        // When the form is submitted, stop the page from refreshing and show a message
+        document.getElementById("signup-form").addEventListener("submit", function (e) {
+            e.preventDefault(); // stops the default form submit (which reloads the page)
+
+            // Show the confirmation message
+            document.getElementById("confirmation").style.display = "block";
+        });
+    </script>
 </body>
 
 </html>
