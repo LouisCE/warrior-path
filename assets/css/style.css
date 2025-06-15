@@ -15,7 +15,7 @@ body {
   color: #f0f0f0;
   /* Light gray text for contrast */
   padding: 2rem 2rem 2rem 2rem;
-  padding-top: 70px; /* Added top padding so content isn't hidden behind fixed navbar */
+  padding-top: 100px; /* Adjusted to ensure content isn't hidden by navbar */
   line-height: 1.6; /* More readable line spacing */
   overflow-x: hidden; /* Prevents horizontal scroll */
 }
