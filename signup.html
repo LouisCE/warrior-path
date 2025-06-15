@@ -43,7 +43,7 @@
         <p>Fill out the form below and we’ll get in touch to arrange your free trial.</p>
 
         <!-- Added an ID so I can target the form with JavaScript later -->
-<form class="signup-form" id="signup-form">
+        <form class="signup-form" id="signup-form">
             <!-- Full Name field -->
             <div class="form-group">
                 <label for="name" class="form-label">Full Name:</label>
@@ -68,19 +68,25 @@
             <!-- Submit -->
             <button type="submit" class="submit-button">Submit</button>
         </form>
+        <!-- This message will only show after the form is submitted -->
+        <p id="confirmation" style="display: none; color: green; font-weight: bold;">
+            Thanks for signing up! We'll be in touch soon.
+        </p>
     </section>
 
     <!-- Footer (copied from index.html for brand consistency) -->
     <footer>
         <p>&copy; 2025 Warrior Path. All rights reserved.</p>
-        <div class="social-links"> 
-  <!-- External links open in new tab securely -->
-  <a class="text-white mx-2" href="https://www.facebook.com/warriorpath" target="_blank" rel="noopener">Facebook</a>
-  <a class="text-white mx-2" href="https://www.instagram.com/warriorpath" target="_blank" rel="noopener">Instagram</a>
-  <a class="text-white mx-2" href="https://twitter.com/warriorpath" target="_blank" rel="noopener">Twitter</a>
-  <a class="text-white mx-2" href="https://youtube.com/warriorpath" target="_blank" rel="noopener">YouTube</a>
-  <a class="text-white mx-2" href="mailto:info@warriorpath.com">Email Us</a>
-</div>
+        <div class="social-links">
+            <!-- External links open in new tab securely -->
+            <a class="text-white mx-2" href="https://www.facebook.com/warriorpath" target="_blank"
+                rel="noopener">Facebook</a>
+            <a class="text-white mx-2" href="https://www.instagram.com/warriorpath" target="_blank"
+                rel="noopener">Instagram</a>
+            <a class="text-white mx-2" href="https://twitter.com/warriorpath" target="_blank" rel="noopener">Twitter</a>
+            <a class="text-white mx-2" href="https://youtube.com/warriorpath" target="_blank" rel="noopener">YouTube</a>
+            <a class="text-white mx-2" href="mailto:info@warriorpath.com">Email Us</a>
+        </div>
     </footer>
 </body>
 
