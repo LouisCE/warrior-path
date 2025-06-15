@@ -24,35 +24,26 @@
 
 <body>
     <!-- Header / Navigation bar -->
-        <!-- Added ARIA role and label so screen readers know this is the main site navigation -->
-        <!-- Fixed the navbar to the top so it stays visible when scrolling -->
-        <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top px-3" role="navigation" aria-label="Main navigation">
-      <div class="container-fluid">
-        <h1 class="navbar-brand mb-0">
-          <a href="index.html" class="text-decoration-none text-white">Warrior Path Martial Arts</a>
-        </h1>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<header>
+    <!-- Main site navigation using semantic <nav> for accessibility -->
+    <nav role="navigation" aria-label="Main navigation">
+        <!-- Website heading / brand name -->
+        <h1>Welcome to Warrior Path Martial Arts</h1>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
-            <li class="nav-item"><a class="nav-link" href="trainers.html">Trainers</a></li>
-            <li class="nav-item"><a class="nav-link" href="signup.html">Join Us</a></li>
-          </ul>
-        </div>
-      </div>
+        <!-- Navigation links -->
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="trainers.html">Trainers</a></li>
+            <li><a href="signup.html">Join Us</a></li>
+        </ul>
     </nav>
-  </header>
+</header>
 
     <!-- Hero section with full-width group photo -->
-<section class="hero-image">
-  <img src="assets/images/gym-group-photo.jpg" alt="Group of Warrior Path gym members posing together">
-</section>
+    <section class="hero-image">
+        <img src="assets/images/gym-group-photo.jpg" alt="Group of Warrior Path gym members posing together">
+    </section>
 
     <!-- About section -->
     <!-- Brief intro about the gym, who it's for, and the vibe -->
@@ -85,47 +76,48 @@
     </section>
 
     <!-- Info Columns Section -->
-<section class="container my-5" id="info-columns">
-  <div class="row text-center">
+    <section class="container my-5" id="info-columns">
+        <div class="row text-center">
 
-    <!-- Opening Hours -->
-    <div class="col-12 col-md-4 mb-4">
-      <img src="assets/images/opening-hours.jpg" alt="Gym schedule image" class="img-fluid rounded mb-3">
-      <h3>Opening Hours</h3>
-      <ul class="list-unstyled">
-        <li><strong>Mon-Fri:</strong> 4pm - 9pm</li>
-        <li><strong>Saturday:</strong> 10am - 2pm</li>
-        <li><strong>Sunday:</strong> Closed</li>
-      </ul>
-    </div>
+            <!-- Opening Hours -->
+            <div class="col-12 col-md-4 mb-4">
+                <img src="assets/images/opening-hours.jpg" alt="Gym schedule image" class="img-fluid rounded mb-3">
+                <h3>Opening Hours</h3>
+                <ul class="list-unstyled">
+                    <li><strong>Mon-Fri:</strong> 4pm - 9pm</li>
+                    <li><strong>Saturday:</strong> 10am - 2pm</li>
+                    <li><strong>Sunday:</strong> Closed</li>
+                </ul>
+            </div>
 
-     <!-- Testimonials Preview -->
-    <div class="col-12 col-md-4 mb-4">
-      <img src="assets/images/testimonials.jpg" alt="Happy student testimonial image" class="img-fluid rounded mb-3">
-      <h3>Testimonials</h3>
-      <blockquote class="blockquote">
-        <p>"Warrior Path gave my son confidence and discipline."</p>
-        <footer class="blockquote-footer">Parent of Junior Member</footer>
-      </blockquote>
-      <blockquote class="blockquote">
-        <p>"I've never felt stronger or more prepared."</p>
-        <footer class="blockquote-footer">Adult Member</footer>
-      </blockquote>
-    </div>
+            <!-- Testimonials Preview -->
+            <div class="col-12 col-md-4 mb-4">
+                <img src="assets/images/testimonials.jpg" alt="Happy student testimonial image"
+                    class="img-fluid rounded mb-3">
+                <h3>Testimonials</h3>
+                <blockquote class="blockquote">
+                    <p>"Warrior Path gave my son confidence and discipline."</p>
+                    <footer class="blockquote-footer">Parent of Junior Member</footer>
+                </blockquote>
+                <blockquote class="blockquote">
+                    <p>"I've never felt stronger or more prepared."</p>
+                    <footer class="blockquote-footer">Adult Member</footer>
+                </blockquote>
+            </div>
 
-    <!-- Pricing Summary -->
-    <div class="col-12 col-md-4 mb-4">
-      <img src="assets/images/pricing.jpg" alt="Membership pricing image" class="img-fluid rounded mb-3">
-      <h3>Pricing</h3>
-      <ul class="list-unstyled">
-        <li><strong>Junior (U12):</strong> £25/month</li>
-        <li><strong>Senior (12+):</strong> £35/month</li>
-        <li><strong>Drop-in:</strong> £10/session</li>
-        <li><strong>Free trial available</strong></li>
-      </ul>
-    </div>
-  </div>
-</section>
+            <!-- Pricing Summary -->
+            <div class="col-12 col-md-4 mb-4">
+                <img src="assets/images/pricing.jpg" alt="Membership pricing image" class="img-fluid rounded mb-3">
+                <h3>Pricing</h3>
+                <ul class="list-unstyled">
+                    <li><strong>Junior (U12):</strong> £25/month</li>
+                    <li><strong>Senior (12+):</strong> £35/month</li>
+                    <li><strong>Drop-in:</strong> £10/session</li>
+                    <li><strong>Free trial available</strong></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
     <!-- Pricing & Membership Section -->
     <section class="container my-5" id="pricing">
