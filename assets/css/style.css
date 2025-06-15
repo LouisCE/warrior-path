@@ -315,6 +315,20 @@ textarea:focus {
     height: auto;
   }
 
+  .hero-image {
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  max-height: 90vh;
+}
+
   .hero-text h1 {
     font-size: 1.8rem;
   }
