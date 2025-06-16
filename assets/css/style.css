@@ -6,6 +6,10 @@
   /* This makes padding and borders stay inside width/height */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Base styles for the whole page */
 body {
   font-family: 'Inter', sans-serif;
