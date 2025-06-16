@@ -160,6 +160,15 @@ The primary audience includes:
 
 The design and layout reflect a balance of professionalism, accessibility, and approachability to cater to all of these groups.
 
+## User Goals and Site Goals
+
+| User Goals                                 | Site Goals                                  |
+|--------------------------------------------|---------------------------------------------|
+| Learn about available classes              | Present offerings clearly and concisely     |
+| Understand trainer qualifications          | Build trust through professional profiles   |
+| Register for a class easily                | Provide a seamless, error-free sign-up form |
+| Browse the site on any device              | Ensure full responsiveness and accessibility|
+
 ## Design Decisions
 
 - **Orange highlights**: Used for focus and hover states to guide user interaction.
