@@ -34,6 +34,15 @@ This project simulates the development of a professional front-end website for a
 
 The website helps users understand what the school offers, who the instructors are, and how to sign up. It also gives them an impression of the school's tone and style. Clear navigation and responsive design make it easy to use on any device. Users can quickly find detailed class information, learn about the expertise of trainers, and easily join the gym through an intuitive sign-up form. The website's responsive design ensures seamless usability across devices, while accessibility makes it inclusive for users with visual impairments.
 
+## UX Design Approach
+
+This project followed key UX design principles, such as:
+
+- **User Research:** I considered the expectations of gym members, parents, and martial artists. Common goals include finding schedules, reading about instructors, looking at prices.
+- **Wireframing:** Before coding, I sketched rough layouts to visualise navigation flow and content hierarchy. (will add wireframe screenshot later)
+- **Visual Hierarchy:** Used font sizes, spacing, and color contrast to guide user attention. Primary CTAs are positioned prominently.
+- **Accessibility First:** ARIA labels, alt text, tab order, and contrast were used from the outset, not added after. (will add more ARIA later)
+- **Feedback Loops:** Peer review and user feedback from mentors and alumni helped identify areas to improve clarity and layout.
 
 ## Key Features
 
