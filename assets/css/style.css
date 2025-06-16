@@ -177,13 +177,6 @@ nav a:focus {
   box-sizing: border-box;
 }
 
-@media (min-width: 768px) {
-  .info-card {
-    flex: 1 1 33.3333%;
-    max-width: 33.3333%;
-  }
-}
-
 /* Call To Action button */
 .cta {
   display: inline-block;
@@ -358,17 +351,6 @@ textarea:focus {
     padding: 1rem;
   }
 
-/* Responsive Design for tablets and phones (screen width 768px and below) */
-@media (max-width: 768px) {
-
-  body {
-    padding-top: 70px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-  }
-}
-
 .row {
   display: flex;
   flex-wrap: wrap;
@@ -390,16 +372,6 @@ textarea:focus {
   width: 100%;
 }
 
-@media (min-width: 768px) {
-  .col-6 {
-    width: 50%;
-  }
-
-  .col-4 {
-    width: 33.3333%;
-  }
-}
-
 #info-columns .col-12.col-md-4 {
   padding: 1rem; /* adds space inside each column */
 }
@@ -419,4 +391,29 @@ textarea:focus {
   height: auto;
   display: block;
   margin: 0 auto 1rem auto; /* center images and add bottom margin */
+}
+
+/* Media queries */
+/* Small screens (phones) */
+@media (max-width: 768px) {
+  body {
+    padding-top: 70px;
+    padding: 10px;
+  }
+}
+
+/* Medium screens (tablet and up) */
+@media (min-width: 768px) {
+  .info-card {
+    flex: 1 1 33.3333%;
+    max-width: 33.3333%;
+  }
+
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-4 {
+    width: 33.3333%;
+  }
 }
