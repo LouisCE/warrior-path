@@ -163,6 +163,27 @@ nav a:focus {
   font-size: 0.85rem;
 }
 
+#info-columns .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.info-card {
+  flex: 1 1 100%;
+  max-width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .info-card {
+    flex: 1 1 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
 /* Call To Action button */
 .cta {
   display: inline-block;
