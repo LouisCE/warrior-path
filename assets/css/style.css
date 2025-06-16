@@ -348,15 +348,35 @@ textarea:focus {
   }
 }
 
-#info-columns > .row {
-  display: flex !important;
-  flex-wrap: wrap !important;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+  margin-right: -1rem;
 }
 
-#info-columns > .row > div {
-  flex: 1 1 33.3333% !important;
-  max-width: 33.3333% !important;
+.col {
+  padding: 1rem;
   box-sizing: border-box;
+  width: 100%;
+}
+
+.col-6 {
+  width: 100%;
+}
+
+.col-4 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .col-6 {
+    width: 50%;
+  }
+
+  .col-4 {
+    width: 33.3333%;
+  }
 }
 
 #info-columns .col-12.col-md-4 {
