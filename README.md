@@ -63,6 +63,15 @@ The website is deployed using GitHub Pages and is accessible at:
 - Bootstrap 5 (via CDN)
 - Git and GitHub for version control and deployment
 
+## Responsive Design Strategy
+
+The website was built mobile-first, ensuring usability across a wide range of devices. I used Bootstrap 5’s responsive grid system in combination with custom CSS media queries to handle layout adjustments. The navigation bar becomes a collapsible menu on small screens, and content sections stack vertically to prioritize readability.
+
+Testing across device emulators and real devices helped ensure layouts didn't break at key breakpoints (576px, 768px, 992px, 1200px). Particular care was taken to ensure:
+- Text remains legible without zooming.
+- Tap targets are large and well-spaced.
+- Visual hierarchy remains clear across screen sizes.
+
 ## Screenshots
 
 _Screenshots of each page and key feature will be included here._
