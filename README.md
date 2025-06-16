@@ -1,23 +1,25 @@
 # Warrior Path
 
-Warrior Path is a fictional martial arts gym website developed as part of a front-end development project.
+Warrior Path is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project demonstrates skills in responsive design, accessibility, and front-end best practices using HTML, CSS and Bootstrap.
 
 ## Purpose
 
-Warrior Path is a fictional martial arts school website designed to simulate a real-world front-end project. It provides information about martial arts classes, trainer profiles, and membership options. The goal is to create a clean, accessible, and responsive website that follows modern UX principles while showcasing practical HTML and CSS skills.
+This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
+
 
 ## Value to Users
 
-The website helps users understand what the school offers, who the instructors are, and how to sign up. It also gives them an impression of the school's tone and style. Clear navigation and responsive design make it easy to use on any device.
+The website helps users understand what the school offers, who the instructors are, and how to sign up. It also gives them an impression of the school's tone and style. Clear navigation and responsive design make it easy to use on any device. Users can quickly find detailed class information, learn about the expertise of trainers, and easily join the gym through an intuitive sign-up form. The website's responsive design ensures seamless usability across devices, while accessibility makes it inclusive for users with visual impairments.
+
 
 ## Key Features
 
-- Responsive layout using Bootstrap 5  
-- Fully functioning navigation bar with clear active states  
-- Consistent styling and layout across all pages  
-- Custom form elements for the "Join Us" page  
-- HTML and CSS written to modern standards  
-- Accessibility and usability considered in design decisions
+- **Responsive Layout:** Utilizes Bootstrap 5’s grid system and media queries to ensure the site adapts elegantly to all screen sizes.
+- **Navigation:** Fully functional, sticky navigation bar with clear active states provides easy and consistent site navigation.
+- **Consistent Styling:** Harmonised color palette and typography maintain a professional and approachable brand image. A dark theme was chosen for the background to create a sleek, professional appearance. Red was considered too aggressive for a martial arts website, so orange was chosen instead to add vibrancy and pop against the dark background.
+- **Custom Forms:** Accessible and user-friendly sign-up form with validation prompts to facilitate membership registration.
+- **Standards Compliant:** HTML and CSS validated with zero errors, ensuring cross-browser compatibility and clean code.
+- **Accessibility:** Designed with keyboard navigation and ARIA attributes to support users with disabilities.
 
 ## Pages Included
 
@@ -37,22 +39,6 @@ The website is deployed using GitHub Pages and is accessible at:
 - CSS3
 - Bootstrap 5 (via CDN)
 - Git and GitHub for version control and deployment
-
-## File Structure
-
-warrior-path/
-│
-├── assets/
-│ ├── css/
-│ │ └── styles.css
-│ └── images/
-│ └── (image files)
-│
-├── index.html
-├── classes.html
-├── trainers.html
-├── signup.html
-└── README.md
 
 ## Screenshots
 
