@@ -69,7 +69,8 @@ _Screenshots of each page and key feature will be included here._
 
 ## Attribution
 
-- Bootstrap provided via official CDN: https://getbootstrap.com/
+- Bootstrap 5 provided via official CDN: https://getbootstrap.com/
+- - Fonts used: [e.g. Google Fonts - Open Sans](https://fonts.google.com/specimen/Open+Sans)
 
 ## Accessibility
 
@@ -137,6 +138,7 @@ The design and layout reflect a balance of professionalism, accessibility, and a
 
 ## Future Improvements
 
-- Fix footer overlap issue on very small screens (<320px)
-- Add confirmation message after successful form submission
-- Expand the site with a blog/news page
+- Fix footer overlap issue on very small mobile devices (<320px).
+- Add a blog or news section to keep members updated.
+- Improve SEO by adding meta descriptions and structured data.
+- Enhance accessibility by adding ARIA roles and landmarks.
