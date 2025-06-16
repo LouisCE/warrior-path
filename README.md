@@ -202,3 +202,14 @@ The design and layout reflect a balance of professionalism, accessibility, and a
 - I learned why it's important to design for accessibility from the beginning, rather than fitting it at the end.
 - Balancing visual design with semantic HTML taught me how to build with both users and machines (screen readers and search engines) in mind.
 - Using GitHub Pages for deployment reinforced the importance of version control and remote collaboration tools.
+
+## Credits
+
+### Acknowledgments
+
+- Code Institute's Learning Management System (LMS) taught me HTML and CSS, as well as showing me detailed walkthroughs on the work that goes into web design, reinforcing page structure and strategising
+- Peer review and feedback from Slack provided valuable insights.
+- Credit is due to my mentor, Simen who hosted video calls reviewing my progress. We did an inception call, a midpoint call and a project review. Thank you, Simen.
+- I'd also like to thank my facilitator, Kay for providing valuable information and answering questions about the grading criteria and course material.
+- Cam is one of the alumni at Code Institute and he was also a massive help, especially in the early stages when I was having trouble deploying my live website.
+- Images came from Google Images.
