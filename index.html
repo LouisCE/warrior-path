@@ -245,6 +245,43 @@
     <p>Wrestling coach with a deep focus on fundamentals and injury prevention for beginners and veterans alike.</p>
   </section>
 
+  <!-- Sign Up Form Section -->
+    <section class="signup-form">
+        <h2>Book Your Free First Session</h2>
+        <p>Fill out the form below and we’ll get in touch to arrange your free trial.</p>
+
+        <!-- Added an ID so I can target the form with JavaScript later -->
+        <form class="signup-form" id="signup-form">
+            <!-- Full Name field -->
+            <div class="form-group">
+                <label for="name" class="form-label">Full Name:</label>
+                <input type="text" id="name" name="name" class="text-input" required aria-label="Full Name"
+                    placeholder="e.g. Full Name">
+            </div>
+
+            <!-- Email field -->
+            <div class="form-group">
+                <label for="email" class="form-label">Email Address:</label>
+                <input type="email" id="email" name="email" class="text-input" required aria-label="Email Address"
+                    placeholder="e.g. example@email.com">
+            </div>
+
+            <!-- Goal textarea -->
+            <div class="form-group">
+                <label for="goal" class="form-label">What are you hoping to achieve?</label>
+                <textarea id="goal" name="goal" class="text-area" rows="4"
+                    placeholder="e.g. Confidence, fitness, self-defence..." aria-label="Training Goals"></textarea>
+            </div>
+
+            <!-- Submit -->
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+        <!-- This message will only show after the form is submitted -->
+        <p id="confirmation" style="display: none; color: green; font-weight: bold;">
+            Thanks for signing up! We'll be in touch soon.
+        </p>
+    </section>
+
         <!-- Footer styled with dark background and spacing -->
         <footer class="bg-dark text-white text-center py-4 mt-5">
             <p class="mb-2">&copy; 2025 Warrior Path. All rights reserved.</p>
