@@ -2,6 +2,29 @@
 
 Warrior Path is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project demonstrates skills in responsive design, accessibility, and front-end best practices using HTML, CSS and Bootstrap.
 
+## Table of Contents
+
+- [Purpose](#purpose)
+- [Value to Users](#value-to-users)
+- [Key Features](#key-features)
+- [Pages Included](#pages-included)
+- [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+- [Screenshots](#screenshots)
+- [Attribution](#attribution)
+- [Accessibility](#accessibility)
+  - [Accessibility Testing](#accessibility-testing)
+- [How to Run/Preview the Project](#how-to-runpreview-the-project)
+- [Bug & Testing Log](#bug--testing-log)
+- [Features in Detail](#features-in-detail)
+  - [Home Page](#home-page)
+  - [Classes Page](#classes-page)
+  - [Trainers Page](#trainers-page)
+  - [Join Us Page](#join-us-page)
+- [Target Audience](#target-audience)
+- [Design Decisions](#design-decisions)
+- [Future Improvements](#future-improvements)
+
 ## Purpose
 
 This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
