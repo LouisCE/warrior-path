@@ -192,3 +192,13 @@ The design and layout reflect a balance of professionalism, accessibility, and a
 - Add a blog or news section to keep members updated.
 - Improve SEO by adding meta descriptions and structured data.
 - Enhance accessibility by adding ARIA roles and landmarks.
+
+## Lessons Learned
+
+- I learned how VS Code and GitHub work together to deploy live websites.
+- I deepended and consolidated my understanding of HTML and CSS.
+- I learned how to troubleshoot and find bugs more efficiently.
+- I deepened my understanding of responsive layout with Bootstrap's grid system.
+- I learned why it's important to design for accessibility from the beginning, rather than fitting it at the end.
+- Balancing visual design with semantic HTML taught me how to build with both users and machines (screen readers and search engines) in mind.
+- Using GitHub Pages for deployment reinforced the importance of version control and remote collaboration tools.
