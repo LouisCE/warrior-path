@@ -44,7 +44,24 @@ The website is deployed using GitHub Pages and is accessible at:
 
 _Screenshots of each page and key feature will be included here._
 
-## Screenshots
+### Home Page
+
+![Home Page Screenshot](assets/images/screenshot-home.png)
+
+### Classes Page
+
+![Classes Page Screenshot](assets/images/screenshot-classes.png)
+
+### Trainers Page
+
+![Trainers Page Screenshot](assets/images/screenshot-trainers.png)
+
+### Sign Up Page
+
+![Signup Page Screenshot](assets/images/screenshot-signup.png)
+![Signup Page Screenshot](assets/images/test-screenshot-2.png)
+![Signup Page Screenshot](assets/images/test-screenshot-3.png)
+![Signup Page Screenshot](assets/images/test-screenshot-4.png)
 
 ### Signup Page (Test Screenshot)
 
