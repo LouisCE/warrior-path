@@ -397,6 +397,14 @@ textarea:focus {
   margin: 0 auto 1rem auto; /* center images and add bottom margin */
 }
 
+.col-6,
+.col-4,
+.info-card {
+  width: 100%;
+  max-width: 100%;
+  flex: 1 1 100%;
+}
+
 /* Media queries */
 
 /* Small devices (large phones) */
@@ -409,7 +417,7 @@ textarea:focus {
 /* Medium devices (tablets) */
 @media (max-width: 768px) {
   body {
-    padding-top: 70px;
+    padding-top: 200px;
     padding: 10px;
   }
 
@@ -437,4 +445,29 @@ textarea:focus {
     flex: 1 1 33.3333%;
     max-width: 33.3333%;
   }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-text p {
+    font-size: 1.25rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* Critical: disables horizontal scroll */
 }
