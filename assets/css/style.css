@@ -24,6 +24,10 @@ body {
   overflow-x: hidden; /* Prevents horizontal scroll */
 }
 
+.navbar {
+  font-family: 'Macondo', cursive;
+}
+
 /* Typography: headings use Macondo for stylish look */
 h1, h2, h3, h4, h5 {
   font-family: 'Macondo', cursive;
