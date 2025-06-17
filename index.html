@@ -31,34 +31,33 @@
 <body>
     <!-- Header / Navigation bar -->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#">Warrior Path</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#classes">Classes</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#trainers">Trainers</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#signup">Join Us</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+    <!-- Main site navigation using semantic <nav> for accessibility -->
+    <nav role="navigation" aria-label="Main navigation">
+        <!-- Website heading / brand name -->
+        <h1>Warrior Path Martial Arts</h1>
+
+        <!-- Navigation links -->
+        <ul>
+            <li><a href="#index">Home</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#trainers">Trainers</a></li>
+            <li><a href="#signup">Join Us</a></li>
+        </ul>
+    </nav>
+</header>
 
     <!-- Hero section with full-width group photo -->
     <section class="hero-image">
         <img src="assets/images/gym-group-photo.jpg" alt="Group of Warrior Path gym members posing together">
     </section>
 
+<section id="home">
+
     <!-- About section -->
     <!-- Brief intro about the gym, who it's for, and the vibe -->
     <!-- Merged intro into About section for clearer flow -->
     <section class="about container my-5">
-        <h3 class="text-center mb-4">About Warrior Path</h3>
+        <h2 class="text-center mb-4">About Warrior Path</h3>
         <!-- Added container and margin to match other sections -->
         <p class="lead text-center mb-4">
             At Warrior Path, we're more than just a martial arts club. We're a community.

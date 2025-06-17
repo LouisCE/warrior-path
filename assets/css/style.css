@@ -412,6 +412,15 @@ textarea:focus {
   .col-sm {
     width: 100%;
   }
+  .info-card,
+.col-4,
+.col-6 {
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;         /* space inside each card */
+  margin-bottom: 1.5rem; /* space between stacked blocks */
+  box-sizing: border-box;
+}
 }
 
 /* Medium devices (tablets) */
@@ -421,35 +430,27 @@ textarea:focus {
     padding: 10px;
   }
 
-  .info-card {
-    flex: 1 1 33.3333%;
-    max-width: 33.3333%;
-  }
-
-  .col-6 {
-    width: 50%;
-  }
-
-  .col-4 {
-    width: 33.3333%;
-  }
+  .info-card,
+.col-4,
+.col-6 {
+  width: 100%;
+  max-width: 100%;
+}
 }
 
 /* Large devices (laptops, desktops) */
 @media (min-width: 992px) {
-  .col-4 {
-    width: 33.3333%;
-  }
-
-  .info-card {
-    flex: 1 1 33.3333%;
-    max-width: 33.3333%;
-  }
+  .info-card,
+.col-4,
+.col-6 {
+  width: 100%;
+  max-width: 100%;
+}
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 100%;
     margin: 0 auto;
   }
 
