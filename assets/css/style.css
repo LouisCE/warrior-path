@@ -426,3 +426,15 @@ textarea:focus {
     width: 33.3333%;
   }
 }
+
+/* Large devices (laptops, desktops) */
+@media (min-width: 992px) {
+  .col-4 {
+    width: 33.3333%;
+  }
+
+  .info-card {
+    flex: 1 1 33.3333%;
+    max-width: 33.3333%;
+  }
+}
