@@ -19,7 +19,7 @@ body {
   color: #f0f0f0;
   /* Light gray text for contrast */
   padding: 2rem 2rem 2rem 2rem;
-  padding-top: 100px; /* Adjusted to ensure content isn't hidden by navbar */
+  padding-top: 120px; /* Adjusted to ensure content isn't hidden by navbar */
   line-height: 1.6; /* More readable line spacing */
   overflow-x: hidden; /* Prevents horizontal scroll */
 }
@@ -398,16 +398,21 @@ textarea:focus {
 }
 
 /* Media queries */
-/* Small screens (phones) */
+
+/* Small devices (large phones) */
+@media (min-width: 576px) {
+  .col-sm {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets) */
 @media (max-width: 768px) {
   body {
     padding-top: 70px;
     padding: 10px;
   }
-}
 
-/* Medium screens (tablet and up) */
-@media (min-width: 768px) {
   .info-card {
     flex: 1 1 33.3333%;
     max-width: 33.3333%;
