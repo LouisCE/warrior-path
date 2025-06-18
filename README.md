@@ -245,6 +245,22 @@ A custom 404 error page has been implemented to handle broken or mistyped URLs g
 - Includes a **5-second redirect** to the homepage.
 - Also features a **home icon** for immediate manual return.
 
+[Back to top](#contents)
+
+## Future Enhancements
+
+- **Class Booking Integration:** Add calendar-based booking functionality where users can reserve a free trial or regular class session.
+- **Online Payment System:** Integrate payment functionality for memberships or merchandise.
+- **Member Portal:** Allow registered users to log in, track attendance, view schedules, and manage their training plans.
+- **Live Timetable:** Implement a dynamic, filterable timetable that updates in real time.
+- **Coach Video Introductions:** Embed short video bios or class previews for each coach.
+- **Student Testimonials:** Enable users to submit reviews via the site, to be featured dynamically.
+- **Dark Mode Toggle:** Introduce theme options to improve UX for users training in the evening.
+- **Accessibility Enhancements:** Further improve keyboard navigation and screen reader compatibility.
+
+[Back to top](#contents)
+
+
 
 
 ## Purpose
