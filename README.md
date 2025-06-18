@@ -68,6 +68,15 @@ Whether you’re a curious beginner, a parent looking for the right class for yo
 - Ensure high accessibility through readable fonts, strong color contrast, and focus indicators.
 - Improve visibility through mobile-first design, semantic HTML, and SEO-friendly structure.
 
+## Target Audience
+
+- Adults seeking self-improvement through martial arts.
+- Parents looking for a disciplined but friendly junior program.
+- Teens interested in competitive or recreational combat sports.
+- Fitness-focused individuals looking for striking or grappling-based alternatives to gyms.
+- Curious beginners who want a low-pressure way to explore martial arts.
+- Returning martial artists seeking a new place to train.
+
 ## Purpose
 
 This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
@@ -130,22 +139,22 @@ _Screenshots of each page and key feature will be included here._
 
 ### Home Page
 
-![Home Page Screenshot](assets/images/screenshot-home.png)
+![Home Page Screenshot](docs/screenshot-home.png)
 
 ### Classes Page
 
-![Classes Page Screenshot](assets/images/screenshot-classes.png)
+![Classes Page Screenshot](docs/screenshot-classes.png)
 
 ### Trainers Page
 
-![Trainers Page Screenshot](assets/images/screenshot-trainers.png)
+![Trainers Page Screenshot](docs/screenshot-trainers.png)
 
 ### Sign Up Page
 
-![Signup Page Screenshot](assets/images/screenshot-signup.png)
-![Signup Page Screenshot](assets/images/test-screenshot-2.png)
-![Signup Page Screenshot](assets/images/test-screenshot-3.png)
-![Signup Page Screenshot](assets/images/test-screenshot-4.png)
+![Signup Page Screenshot](docs/screenshot-signup.png)
+![Signup Page Screenshot](docs/screenshot-signup-2.png)
+![Signup Page Screenshot](docs/screenshot-signup-3.png)
+![Signup Page Screenshot](docs/test-screenshot-4.png)
 
 ### Signup Page (Test Screenshot)
 
