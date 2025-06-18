@@ -196,6 +196,22 @@ The site follows a single-page application layout to maintain fast performance, 
 
 All interactions are mobile-optimized. Buttons are styled consistently across the page with high-contrast color and accessible sizing. Layout adapts naturally for smaller screens.
 
+[Back to top](#contents)
+
+## Class Overview Sections
+
+The class descriptions are divided by age group and discipline, making it easier for users to identify relevant training options:
+
+- **Juniors vs Adults:** Clear headings and age-appropriate imagery  
+- **Striking vs Grappling:** Distinct sections that introduce the techniques and training formats  
+
+Each section is accompanied by supportive visuals and concise descriptions to help new visitors understand the benefits of different martial arts.
+
+
+
+
+
+
 ## Purpose
 
 This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
