@@ -237,7 +237,13 @@ The footer is designed with simplicity and elegance to align with the site’s c
 - **Icons are spaced** for touch accessibility.
 - Styled with **hover effects** in keeping with the rest of the UI.
 
+## 404 Page
 
+A custom 404 error page has been implemented to handle broken or mistyped URLs gracefully.
+
+- Displays a **clear error message**.
+- Includes a **5-second redirect** to the homepage.
+- Also features a **home icon** for immediate manual return.
 
 
 
