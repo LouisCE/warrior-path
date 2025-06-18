@@ -77,6 +77,21 @@ Whether you’re a curious beginner, a parent looking for the right class for yo
 - Curious beginners who want a low-pressure way to explore martial arts.
 - Returning martial artists seeking a new place to train.
 
+[Back to top](#contents)
+
+## Wireframes
+
+Wireframes were hand-sketched during the planning stage and later refined through iterative layout changes directly in code. Following best practices, a mobile-first design approach was used. All content was structured to display clearly on phones before adapting to tablets and desktops.
+
+Several elements evolved beyond the initial sketches during development:
+
+- The info section was adjusted into a simplistic vertical scroll for clarity and simplicity.  
+- Class types were visually split into junior and adult categories.  
+- Images were refined to better reflect grappling and striking styles.  
+- The layout was condensed into a single scrollable Instagram-like page to reduce navigation friction and improve mobile UX.  
+
+[Back to top](#contents)
+
 ## Purpose
 
 This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
