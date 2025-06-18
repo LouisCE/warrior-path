@@ -141,6 +141,18 @@ The site features a simplified custom navbar that maintains consistency across s
 - **On desktop:** full links are displayed inline for ease of access.
 - The minimalist styling and contrast ensure high visibility and accessibility.
 
+### Hero Section
+
+The hero banner displays a large, full-width image accompanied by a bold heading ("Unlock Your Potential") and a primary call-to-action button ("Sign Up Today").
+
+- Image scales cleanly across devices.
+- Typography is centered and resized based on screen width.
+
+This section creates immediate visual impact and sets the tone for the rest of the page.
+
+
+
+
 ## Purpose
 
 This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
