@@ -92,6 +92,18 @@ Several elements evolved beyond the initial sketches during development:
 
 [Back to top](#contents)
 
+## Images
+
+The site uses a curated collection of imagery designed to reflect the spirit of martial arts. Images were chosen to represent:
+
+- **Juniors and Seniors** training in a focused, welcoming environment.
+- **Striking arts** like Muay Thai and Boxing, with photos showing pad work and form.
+- **Grappling arts** like Brazilian Jiu-Jitsu and Wrestling, displaying movement and control.
+
+All images were resized and compressed for performance. Where appropriate, Bootstrap’s responsive classes and custom CSS ensured that visuals scale naturally across devices without causing layout issues or horizontal scrolling.
+
+Images complement the tone of each section and provide immediate visual context for the training styles available.
+
 ## Purpose
 
 This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
