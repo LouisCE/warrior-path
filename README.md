@@ -47,6 +47,27 @@ Whether you’re a curious beginner, a parent looking for the right class for yo
 - A simple, accessible way to sign up or ask questions.  
 - A motivating, energetic aesthetic without clutter.
 
+## User Stories
+
+- As a first-time visitor, I want to quickly understand what kinds of martial arts are taught here.  
+- As a parent, I want to know if there are junior classes suitable for my child’s age.  
+- As a returning user, I want to find coach profiles easily.  
+- As a prospective student, I want to see clear pricing and know what to expect before joining.  
+- As a user on mobile, I want everything to be scrollable and legible without pinching or zooming.  
+- As someone unfamiliar with martial arts, I want the tone to feel welcoming and non-intimidating.  
+- As an accessibility-conscious user, I want keyboard focus indicators and readable font contrast.  
+- As a motivated learner, I want to sign up or express interest directly from the page.
+
+## Website Goals and Objectives
+
+- Clearly communicate the types of martial arts offered (striking and grappling styles).
+- Appeal to a wide range of users, including adults, teens, and parents of young children.
+- Highlight the professionalism of the coaching team and training environment.
+- Make joining easy with a clean, accessible sign-up form and call-to-action sections.
+- Build trust and interest through testimonials and coach bios.
+- Ensure high accessibility through readable fonts, strong color contrast, and focus indicators.
+- Improve visibility through mobile-first design, semantic HTML, and SEO-friendly structure.
+
 ## Purpose
 
 This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
