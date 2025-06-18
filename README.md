@@ -150,7 +150,15 @@ The hero banner displays a large, full-width image accompanied by a bold heading
 
 This section creates immediate visual impact and sets the tone for the rest of the page.
 
+### Info Columns
 
+Below the hero, three main content columns communicate:
+
+- **Timetable and Opening Hours**  
+- **Testimonials from Students**  
+- **Pricing Structure**  
+
+These are stacked on mobile for ease of reading and display in columns on larger screens. Icons and images enhance visual separation and aid scannability.
 
 
 ## Purpose
