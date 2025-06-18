@@ -186,6 +186,16 @@ All fields are required. A thank-you message confirms submission.
 
 [Back to top](#contents)
 
+## Landing View
+
+The site follows a single-page application layout to maintain fast performance, a smooth Instagram-like scroll experience, and intuitive structure. The landing section includes:
+
+- **Hero headline** encouraging users to start their journey.
+- **Sign Up Today** button with hover animation.
+- **Branding** that introduces the ethos of Warrior Path Martial Arts.
+
+All interactions are mobile-optimized. Buttons are styled consistently across the page with high-contrast color and accessible sizing. Layout adapts naturally for smaller screens.
+
 ## Purpose
 
 This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
