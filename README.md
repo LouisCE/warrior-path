@@ -154,12 +154,21 @@ This section creates immediate visual impact and sets the tone for the rest of t
 
 Below the hero, three main content columns communicate:
 
-- **Timetable and Opening Hours**  
-- **Testimonials from Students**  
-- **Pricing Structure**  
+- **Timetable and Opening Hours**
+- **Testimonials from Students**
+- **Pricing Structure**
 
 These are stacked on mobile for ease of reading and display in columns on larger screens. Icons and images enhance visual separation and aid scannability.
 
+### Class Descriptions
+
+Class sections are divided by age group and discipline:
+
+- **Juniors:** safe, structured programs for kids.
+- **Adults:** competitive or fitness-based training options.
+- **Striking vs Grappling:** users can visually identify the martial arts discipline via imagery and layout.
+
+This separation helps potential students or parents quickly find relevant info.
 
 ## Purpose
 
