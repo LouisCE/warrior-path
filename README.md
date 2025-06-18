@@ -1,6 +1,18 @@
 # Warrior Path
 
-Warrior Path is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project demonstrates skills in responsive design, accessibility, and front-end best practices using HTML, CSS and Bootstrap.
+**Warrior Path** is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project demonstrates skills in responsive design, accessibility, and front-end best practices using HTML, CSS and Bootstrap.
+
+Warrior Path Martial Arts is a responsive, one-page website designed to promote a dynamic and inclusive martial arts school. It provides key information about classes, coaching, and sign-up opportunities for both adults and juniors. With a clean layout, smooth scroll-friendly Instagram-like navigation, and carefully chosen visuals, the site delivers an engaging experience across all devices.
+
+Whether you’re a curious beginner, a parent looking for the right class for your child, or a seasoned martial artist seeking expert coaching, Warrior Path makes the journey clear, accessible, and inspiring.
+
+### Key Features
+
+- Mobile-first responsive design using Bootstrap.
+- Informative sections on coaches, classes, pricing, and testimonials.
+- A visually engaging layout that balances energy with readability.
+- A user-friendly sign-up form and call-to-action areas.
+- Accessibility-focused features like keyboard navigation and focus indicators.
 
 ## Table of Contents
 
@@ -24,6 +36,16 @@ Warrior Path is a fictional martial arts gym website developed as part of a fron
 - [Target Audience](#target-audience)
 - [Design Decisions](#design-decisions)
 - [Future Improvements](#future-improvements)
+
+## User Goals
+
+- Fast and clear access to class information.
+- Easy navigation across devices. 
+- Modern, mobile-friendly layout.
+- Confidence in the instructors through testimonials and coach bios.
+- Transparent pricing and schedule overview.
+- A simple, accessible way to sign up or ask questions.  
+- A motivating, energetic aesthetic without clutter.
 
 ## Purpose
 
