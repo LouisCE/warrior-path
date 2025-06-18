@@ -260,7 +260,33 @@ A custom 404 error page has been implemented to handle broken or mistyped URLs g
 
 [Back to top](#contents)
 
+## Technologies Used
 
+### Languages
+
+- HTML
+- CSS
+- JavaScript
+
+### Frameworks & Libraries
+
+- Bootstrap 5
+- Font Awesome
+- Google Fonts
+
+### Tools & Platforms
+
+- GitHub
+- GitPod
+- VS Code
+- Balsamiq
+- W3C HTML Validator
+- W3C CSS Validator
+- Color Contrast Checker
+- Am I Responsive
+- Responsive Design Checker
+
+[Back to top](#contents)
 
 
 ## Purpose
