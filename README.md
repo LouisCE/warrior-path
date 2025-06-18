@@ -113,6 +113,24 @@ A mobile-first approach was used throughout the build. Responsive layout changes
 - `992px`: Laptops
 - `1200px+`: Desktops
 
+Each section — from the hero header to the info columns and call-to-action — adapts layout and spacing across devices to maintain readability and flow. Flexbox and utility classes helped ensure clean stacking on mobile while preserving side-by-side content on larger screens.
+
+[Back to top](#contents)
+
+## Features
+
+The website layout is clean, focused, and built for clarity. Visitors can scroll through all content in a single-page layout, mimicking a modern landing-page structure. Section transitions are smooth, content is clearly separated, and visual hierarchy ensures no part overwhelms the user.
+
+### Key interactive features include:
+
+- A **"Sign Up Today"** call-to-action near the top and again near the footer.
+- Informative sections on **opening hours**, **pricing**, and **student testimonials**.
+- Clear explanations of **junior** and **adult** classes.
+- Embedded form for **sign-ups and enquiries**.
+- Strong mobile layout with intuitive flow from intro to action.
+
+The design encourages exploration without distraction, suitable for both first-time visitors and returning students.
+
 ## Purpose
 
 This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
