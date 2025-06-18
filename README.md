@@ -131,6 +131,16 @@ The website layout is clean, focused, and built for clarity. Visitors can scroll
 
 The design encourages exploration without distraction, suitable for both first-time visitors and returning students.
 
+## Existing Features
+
+### Header
+
+The site features a simplified custom navbar that maintains consistency across screen sizes. It includes a Macondo font for a tough, yet elegant aesthetic and a menu with multiple options (i.e. Home, Classes, Trainers, Join Us).
+
+- **On mobile:** the menu condenses for vertical space efficiency.
+- **On desktop:** full links are displayed inline for ease of access.
+- The minimalist styling and contrast ensure high visibility and accessibility.
+
 ## Purpose
 
 This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
