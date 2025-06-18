@@ -219,7 +219,15 @@ This builds credibility and trust with site visitors, especially parents conside
 
 [Back to top](#contents)
 
+## Sign-Up Form
 
+The sign-up form serves as the call-to-action section of the page. It includes required fields:
+
+- **Name**
+- **Email**
+- **What are you hoping to achieve?**
+
+Users are encouraged to register their interest or request more information. Form fields are validated to avoid incomplete submissions. A confirmation message assures the user that their query was received.
 
 
 
