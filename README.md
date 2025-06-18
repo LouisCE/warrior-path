@@ -229,6 +229,15 @@ The sign-up form serves as the call-to-action section of the page. It includes r
 
 Users are encouraged to register their interest or request more information. Form fields are validated to avoid incomplete submissions. A confirmation message assures the user that their query was received.
 
+## Footer
+
+The footer is designed with simplicity and elegance to align with the site’s clean, minimal aesthetic.
+
+- Contains links to the studio’s **social media**. 
+- **Icons are spaced** for touch accessibility.
+- Styled with **hover effects** in keeping with the rest of the UI.
+
+
 
 
 
