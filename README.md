@@ -207,6 +207,18 @@ The class descriptions are divided by age group and discipline, making it easier
 
 Each section is accompanied by supportive visuals and concise descriptions to help new visitors understand the benefits of different martial arts.
 
+## Coach Profiles
+
+The trainer section provides a human touch, with:
+
+- **Photographs** of each instructor.
+- **Name and role** clearly labeled.
+- **Consistent formatting** and alignment across screen sizes.
+
+This builds credibility and trust with site visitors, especially parents considering classes for children.
+
+[Back to top](#contents)
+
 
 
 
