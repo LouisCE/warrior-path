@@ -48,7 +48,7 @@
 
     <!-- Hero section with full-width group photo -->
     <section class="hero-image">
-        <img src="assets/images/gym-group-photo.jpg" alt="Group of Warrior Path gym members posing together">
+        <img src="assets/images/home.jpg" alt="Group of Warrior Path gym members posing together">
     </section>
 
 <section id="home">
@@ -328,12 +328,12 @@
                     </div>
 
                     <!-- Goal textarea -->
-                    <div class="form-group">
-                        <label for="goal" class="form-label">What are you hoping to achieve?</label>
-                        <textarea id="goal" name="goal" class="text-area" rows="4"
-                            placeholder="e.g. Confidence, fitness, self-defence..."
-                            aria-label="Training Goals"></textarea>
-                    </div>
+<div class="form-group">
+    <label for="goal" class="form-label">What are you hoping to achieve?</label>
+    <textarea id="goal" name="goal" class="text-area" rows="4"
+        placeholder="e.g. Confidence, fitness, self-defence..."
+        aria-label="Training Goals" required></textarea>
+</div>
 
                     <!-- Submit -->
                     <button type="submit" class="submit-button">Submit</button>
@@ -367,14 +367,12 @@
             </footer>
 
             <script>
-                // When the form is submitted, stop the page from refreshing and show a message
-                document.getElementById("signup-form").addEventListener("submit", function (e) {
-                    e.preventDefault(); // stops the default form submit (which reloads the page)
-
-                    // Show the confirmation message
-                    document.getElementById("confirmation").style.display = "block";
-                });
-            </script>
+  // When the form is submitted, redirect to a success page
+  document.getElementById("signup-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      window.location.href = "success.html";
+  });
+</script>
 
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-HoA9Iie67M8qkF+8Gu9H1zMe7J1X7CzhKPCoP5iAZjA1Q1pbKfJpJ4+fwh44r9U5"
