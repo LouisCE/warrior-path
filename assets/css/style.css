@@ -462,6 +462,15 @@ textarea:focus {
 }
 }
 
+/* Medium devices (tablets only) — fix 3rd info-card layout */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .center-on-md {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
+
 /* Large devices (laptops, desktops) */
 @media (min-width: 992px) {
   .info-card,
@@ -486,6 +495,8 @@ textarea:focus {
     font-size: 1.25rem;
   }
 }
+
+
 
 * {
   box-sizing: border-box;
