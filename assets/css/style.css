@@ -191,6 +191,13 @@ nav a:focus {
   box-sizing: border-box;
 }
 
+.info-block {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+}
+
 /* Call To Action button */
 .cta {
   display: inline-block;
