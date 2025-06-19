@@ -503,3 +503,16 @@ html, body {
   width: 100%;
   max-width: 100%;
 }
+
+.section-block {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  color: #f0f0f0;
+}
+
+.coach-profile img {
+  margin: 0 auto 1rem auto;
+  display: block;
+}
