@@ -1,26 +1,20 @@
-/* Reset default browser styles for consistency */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* This makes padding and borders stay inside width/height */
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-/* Base styles for the whole page */
 body {
   font-family: 'Inter', sans-serif;
-  /* Clean, modern font for readability */
   background-color: #111;
-  /* Dark background gives a sleek gym vibe */
   color: #f0f0f0;
-  /* Light gray text for contrast */
   padding: 2rem 2rem 2rem 2rem;
-  padding-top: 50px; /* Adjusted to ensure content isn't hidden by navbar */
-  line-height: 1.6; /* More readable line spacing */
+  padding-top: 50px;
+  line-height: 1.6;
 }
 
 /* Universal image rule – ensures images never overflow */
@@ -34,18 +28,15 @@ img {
   font-family: 'Macondo', cursive;
 }
 
-/* Typography: headings use Macondo for stylish look */
 h1, h2, h3, h4, h5 {
   font-family: 'Macondo', cursive;
 }
 
 h1, h2, h3 {
   color: #ff6600;
-  /* Bright orange for energy and branding, not too aggressive */
   margin-bottom: 0.5rem;
 }
 
-/* Navigation bar styles */
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -53,15 +44,14 @@ nav {
   align-items: center;
   gap: 1rem;
   background-color: #1c1c1c;
-  /* Slightly lighter than body bg */
   padding: 1rem;
-  border-radius: 0 0 10px 10px; /* Rounded bottom corners only for better fixed navbar look */
-  position: fixed; /* Makes the navbar stay fixed at the top, even when scrolling */
+  border-radius: 0 0 10px 10px;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 1000;
-  margin-bottom: 0; /* margin-bottom doesn't affect fixed elements */
+  margin-bottom: 0;
 }
 
 nav h1 {
@@ -71,10 +61,8 @@ nav h1 {
 
 nav ul {
   list-style: none;
-  /* Remove bullet points */
   display: flex;
   gap: 1.5rem;
-  /* Space between nav items */
 }
 
 nav a {
@@ -298,17 +286,16 @@ footer {
   max-width: 600px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: rgba(26, 26, 26, 0.85); /* slightly transparent dark bg for contrast */
+  background-color: rgba(26, 26, 26, 0.85);
   border-radius: 10px;
 }
 
-/* Accessibility: focus outlines for links, buttons, inputs, textareas */
 a:focus,
 button:focus,
 input:focus,
 textarea:focus {
-  outline: 2px solid #ffa040; /* Bright orange for visibility */
-  outline-offset: 2px;        /* Slight gap from the element edge */
+  outline: 2px solid #ffa040;
+  outline-offset: 2px;
 }
 
   .hero {
@@ -384,17 +371,17 @@ textarea:focus {
 }
 
 #info-columns .col-12.col-md-4 {
-  padding: 1rem; /* adds space inside each column */
+  padding: 1rem;
 }
 
 #info-columns ul {
-  padding-left: 1.2rem; /* proper bullet indentation */
-  margin-bottom: 1rem;  /* space below lists */
+  padding-left: 1.2rem;
+  margin-bottom: 1rem;
 }
 
 #info-columns blockquote {
-  margin: 1rem 0;        /* vertical spacing */
-  padding-left: 1rem;    /* spacing consistent with border-left */
+  margin: 1rem 0;
+  padding-left: 1rem;
 }
 
 .col-6,
@@ -404,8 +391,6 @@ textarea:focus {
   max-width: 100%;
   flex: 1 1 100%;
 }
-
-/* Override Bootstrap navbar colors */
 
 .navbar-brand {
   color: #ff6600 !important;
@@ -441,8 +426,8 @@ textarea:focus {
 .col-6 {
   width: 100%;
   max-width: 100%;
-  padding: 1rem;         /* space inside each card */
-  margin-bottom: 1.5rem; /* space between stacked blocks */
+  padding: 1rem;
+  margin-bottom: 1.5rem;
   box-sizing: border-box;
 }
 }
@@ -462,7 +447,7 @@ textarea:focus {
 }
 }
 
-/* Medium devices (tablets only) — fix 3rd info-card layout */
+/* Medium devices (tablets only) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   .center-on-md {
     margin-left: auto;
@@ -495,7 +480,6 @@ textarea:focus {
     font-size: 1.25rem;
   }
 }
-
 
 
 * {

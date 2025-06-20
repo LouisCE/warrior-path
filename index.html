@@ -2,29 +2,14 @@
 <html lang="en">
 
 <head>
-    <!-- Set character encoding for proper text rendering -->
     <meta charset="UTF-8" />
-
-    <!-- Make sure it looks good on mobile devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Browser tab title -->
     <title>Warrior Path</title>
-
-    <!-- Favicon -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-    <!-- Using Bootstrap (v5.3.7) for responsive layout help -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
-
-    <!-- Link to my custom CSS styles -->
     <link rel="stylesheet" href="assets/css/style.css" />
-
-    <!-- Fonts for style: 'Inter' for body text, 'Macondo' for headings -->
     <link href="https://fonts.googleapis.com/css2?family=Inter&family=Macondo&display=swap" rel="stylesheet">
 </head>
 
@@ -61,12 +46,9 @@
     <section id="home">
 
         <!-- About section -->
-        <!-- Brief intro about the gym, who it's for, and the vibe -->
-        <!-- Merged intro into About section for clearer flow -->
         <section class="about container my-5 text-center" id="home">
   <img src="assets/images/home.jpg" alt="Group of Warrior Path gym members posing together" class="img-fluid rounded mb-4 hero-top-img">
             <h2 class="text-center mb-4">About Warrior Path</h3>
-                <!-- Added container and margin to match other sections -->
                 <p class="lead text-center mb-4">
                     At Warrior Path, we're more than just a martial arts club. We're a community.
                     Whether you're brand new to martial arts, looking to sharpen your skills,
@@ -80,7 +62,7 @@
                 </p>
         </section>
 
-        <!-- Combined Info Blocks: Opening Hours, Testimonials, Pricing -->
+        <!-- Info Blocks -->
 <section class="container my-5">
   <div class="row g-4">
     <!-- Opening Hours -->
@@ -134,7 +116,7 @@
             </div>
         </section>
 
-        <section id="classes"></section>
+        
 
         <section class="hero">
             <h2>Unlock Your Potential</h2>
@@ -142,6 +124,8 @@
             <a class="cta" href="#signup">Sign Up Today</a>
         </section>
 
+        <section id="classes"></section>
+        
         <!-- Hero Section -->
         <section class="hero text-center py-5" id="our-classes">
   <h2>Our Classes</h2>
@@ -276,8 +260,7 @@
         </section>
     </section>
 
-    <!-- Hero section: call to action -->
-    <!-- Final CTA now appears below testimonials, when trust is built -->
+    <!-- Final Call to Action -->
     <section class="hero">
         <h2>Unlock Your Potential</h2>
         <p>Book your free first lesson and become your best self with Warrior Path.</p>
@@ -295,7 +278,7 @@
             <div class="row text-center">
                 <!-- Coach Alex -->
                 <div class="col-md-4 mb-4">
-                    <img src="assets/images/coach-alex.png" alt="Coach Alex" class="img-fluid rounded-circle mb-3"
+                    <img src="assets/images/coach-alex.png" alt="Coach Alex" class="img-fluid rounded-circle mb-3 mx-auto"
                         style="max-height: 200px;">
                     <h3>Coach Alex</h3>
                     <p>Muay Thai specialist and former national champion, Coach Alex is known for high-energy
@@ -305,7 +288,7 @@
 
                 <!-- Coach Maya -->
                 <div class="col-md-4 mb-4">
-                    <img src="assets/images/coach-maya.jpg" alt="Coach Maya" class="img-fluid rounded-circle mb-3"
+                    <img src="assets/images/coach-maya.jpg" alt="Coach Maya" class="img-fluid rounded-circle mb-3 mx-auto"
                         style="max-height: 200px;">
                     <h3>Coach Maya</h3>
                     <p>With a black belt in Brazilian Jiu-Jitsu and over a decade of coaching experience, Coach Maya
@@ -315,7 +298,7 @@
 
                 <!-- Coach James -->
                 <div class="col-md-4 mb-4">
-                    <img src="assets/images/coach-james.jpg" alt="Coach James" class="img-fluid rounded-circle mb-3"
+                    <img src="assets/images/coach-james.jpg" alt="Coach James" class="img-fluid rounded-circle mb-3 mx-auto"
                         style="max-height: 200px;">
                     <h3>Coach James</h3>
                     <p>Coach James is a wrestling coach who emphasizes strong fundamentals, safety, and steady
@@ -330,7 +313,6 @@
             <h2>Book Your Free First Session</h2>
             <p>Fill out the form below and we’ll get in touch to arrange your free trial.</p>
 
-            <!-- Added an ID so I can target the form with JavaScript later -->
             <form class="signup-form" id="signup-form">
                 <!-- Full Name field -->
                 <div class="form-group">
@@ -363,24 +345,24 @@
             </p>
         </section>
 
-        <!-- Footer styled with dark background, Font Awesome, colour code and spacing -->
+        <!-- Footer -->
         <footer class="bg-dark text-white text-center py-4 mt-5">
             <p class="mb-2">&copy; 2025 Warrior Path. All rights reserved.</p>
             <div class="social-links">
                 <a href="https://facebook.com/warriorpath" target="_blank" rel="noopener" class="text-white mx-2">
-                    <i class="fab fa-facebook fa-2x" style="color: #ff6600;"></i>
+                    <i class="fa-brands fa-facebook fa-2x" style="color: #ff6600;"></i>
                 </a>
                 <a href="https://instagram.com/warriorpath" target="_blank" rel="noopener" class="text-white mx-2">
-                    <i class="fab fa-instagram fa-2x" style="color: #ff6600;"></i>
+                    <i class="fa-brands fa-instagram fa-2x" style="color: #ff6600;"></i>
                 </a>
                 <a href="https://twitter.com/warriorpath" target="_blank" rel="noopener" class="text-white mx-2">
-                    <i class="fab fa-twitter fa-2x" style="color: #ff6600;"></i>
+                    <i class="fa-brands fa-twitter fa-2x" style="color: #ff6600;"></i>
                 </a>
                 <a href="https://youtube.com/warriorpath" target="_blank" rel="noopener" class="text-white mx-2">
-                    <i class="fab fa-youtube fa-2x" style="color: #ff6600;"></i>
+                    <i class="fa-brands fa-youtube fa-2x" style="color: #ff6600;"></i>
                 </a>
                 <a href="mailto:info@warriorpath.com" class="text-white mx-2">
-                    <i class="fas fa-envelope fa-2x" style="color: #ff6600;"></i>
+                    <i class="fa-brands fa-envelope fa-2x" style="color: #ff6600;"></i>
                 </a>
             </div>
         </footer>
