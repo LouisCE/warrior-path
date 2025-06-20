@@ -1,4 +1,10 @@
-# Warrior Path
+# Warrior Path Martial Arts
+
+![Am I Responsive design screenshot](assets/images/amiresponsive.png)
+
+A responsive martial arts gym website that adapts beautifully to desktop, tablet, and mobile screens.
+
+This image shows how the Warrior Path Martial Arts website displays seamlessly across a range of devices, including desktop, laptop, tablet, and mobile. The design uses a mobile-first approach with Bootstrap 5.3.7, ensuring all content is readable, cleanly laid out, and user-friendly no matter the screen size. Every section, from the call-to-action and class info to coach profiles and pricing, is stacked and spaced appropriately to deliver an excellent user experience.
 
 **Warrior Path** is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project demonstrates skills in responsive design, accessibility, and front-end best practices using HTML, CSS and Bootstrap.
 
@@ -120,6 +126,36 @@ Each section — from the hero header to the info columns and call-to-action —
 ## Features
 
 The website layout is clean, focused, and built for clarity. Visitors can scroll through all content in a single-page layout, mimicking a modern landing-page structure. Section transitions are smooth, content is clearly separated, and visual hierarchy ensures no part overwhelms the user.
+
+### Hero Section
+The homepage features a bold hero image with a motivational call to action and a clear signup prompt. This instantly tells users what the site is about and how to get started.
+
+![Hero section screenshot](assets/images/screenshot-hero.png)
+
+### About Section
+Provides a warm, community-focused introduction to the gym’s mission, values, and atmosphere. Perfect for new visitors trying to understand the vibe.
+
+![About section screenshot](assets/images/screenshot-about.png)
+
+### Our Classes
+Breaks down martial arts disciplines into striking and grappling, clearly explaining what each involves without being overwhelming. Alternating layouts with images help keep the page dynamic and scannable.
+
+![Classes section screenshot](assets/images/screenshot-classes.png)
+
+### Pricing & Testimonials
+These blocks use card layouts for easy scanning. Testimonials help build trust, while pricing is clear and friendly. Cards are fully responsive and stack beautifully on mobile.
+
+![Pricing and testimonials screenshot](assets/images/screenshot-pricing.png)
+
+### Meet the Coaches
+Shows coach photos and bios in circular format for a friendly, personal feel. All sections are vertically stacked on small screens and aligned in columns on desktops.
+
+![Coaches section screenshot](assets/images/screenshot-coaches.png)
+
+### Signup Form
+Includes a working contact form to book a free first lesson. Fields are clearly labeled and spaced, with a confirmation message after submission.
+
+![Signup form screenshot](assets/images/screenshot-signup.png)
 
 ### Key interactive features include:
 
