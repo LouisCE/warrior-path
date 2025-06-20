@@ -444,6 +444,18 @@ _Screenshots of each page and key feature will be included here._
 
 ## Accessibility
 
+Accessibility was a key priority in the design and development of Warrior Path Martial Arts. The following measures were implemented to support inclusive use:
+
+- **Responsive layout** using Bootstrap 5.3.7 ensures readability across all devices, from mobile phones to large desktops.
+- **Semantic HTML5 tags** such as `<header>`, `<nav>`, `<section>`, and `<footer>` are used to help screen readers and assistive technology interpret the content structure correctly.
+- **ARIA labels** have been included where necessary (for example, with form inputs) to provide extra context and improve form accessibility for screen readers.
+- **High-contrast colors** between text and background elements aid readability.
+- **Alt text** has been added for all images, making visual content accessible to visually impaired users.
+- **Keyboard navigability** is preserved through standard HTML elements and logical layout.
+- **Form validation** and `required` attributes ensure users receive feedback when submitting forms incorrectly.
+
+These practices ensure the site is inclusive, usable, and compliant with basic WCAG 2.1 accessibility standards.
+
 This website supports keyboard navigation to enhance accessibility. Interactive elements such as navigation links and call-to-action (CTA) buttons have visible `:focus` styles, allowing users who navigate using the Tab key to clearly see which element is currently selected. The focus styles use a high-contrast orange (#ffa040) consistent with the hover styles for visual continuity. Additionally, form inputs and buttons highlight on focus to assist users relying on keyboard interaction.
 
 ### Accessibility Testing
