@@ -363,7 +363,36 @@ This project followed key UX design principles, such as:
 ## Deployment
 
 The website is deployed using GitHub Pages and is accessible at:  
-[https://louisce.github.io/warrior-path/](https://louisce.github.io/warrior-path/)
+[Warrior Path Martial Arts](https://louisce.github.io/warrior-path/)
+
+To deploy the site using GitHub Pages:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project: [LouisCE/warrior-path](https://github.com/LouisCE/warrior-path).
+3. Click the **Settings** tab.
+4. In the left-hand sidebar, click on **Pages**.
+5. Under **Source**, select `main` branch and click **Save**.
+6. GitHub Pages will build and deploy the site. You may need to wait a minute for the changes to go live.
+
+## Local Development
+
+### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the project repo: [LouisCE/warrior-path](https://github.com/LouisCE/warrior-path).
+3. Click the **Fork** button in the top right.
+
+### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Open the project repository.
+3. Click the **Code** button and copy the link (HTTPS recommended).
+4. Open your terminal and navigate to where you'd like the repo to live.
+5. Type: `git clone <paste-url-here>` and hit Enter.
 
 ## Technologies Used
 

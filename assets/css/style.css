@@ -451,7 +451,7 @@ textarea:focus {
 @media (max-width: 768px) {
   body {
     padding: 10px;
-    padding-top: 80px;
+    padding-top: 50px;
   }
 
   .info-card,
@@ -463,12 +463,11 @@ textarea:focus {
 }
 
 /* Medium devices (tablets only) — fix 3rd info-card layout */
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   .center-on-md {
     margin-left: auto;
     margin-right: auto;
     float: none;
-    padding-top: 80px;
   }
 }
 
