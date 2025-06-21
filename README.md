@@ -108,7 +108,14 @@ Several elements evolved beyond the initial sketches during development:
 
 ### Typography
 
+The primary font families chosen for Warrior Path Martial Arts are [Inter](https://fonts.google.com/specimen/Inter "Inter") and [Macondo](https://fonts.google.com/specimen/Macondo "Macondo").  
+- **Inter** is a modern, highly legible sans-serif typeface that ensures clarity for all body text across devices.  
+- **Macondo** is a decorative, handwritten-style font used for headings to reflect the spirited, traditional identity of martial arts.  
+This combination creates a balance between readability and stylistic flair that aligns with the ethos of Warrior Path — discipline and fun.
+
 ### Colour Scheme
+
+
 
 ### Images
 
