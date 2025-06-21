@@ -6,22 +6,20 @@ A responsive martial arts gym website that adapts beautifully to desktop, tablet
 
 This image shows how the Warrior Path Martial Arts website displays seamlessly across a range of devices, including desktop, laptop, tablet, and mobile. The design uses a mobile-first approach with Bootstrap 5.3.7, ensuring all content is readable, cleanly laid out, and user-friendly no matter the screen size. Every section, from the call-to-action and class info to coach profiles and pricing, is stacked and spaced appropriately to deliver an excellent user experience.
 
-**Warrior Path** is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project demonstrates skills in responsive design, accessibility, and front-end best practices using HTML, CSS and Bootstrap.
+**Warrior Path Martial Arts** is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project demonstrates skills in responsive design, accessibility, and front-end best practices using HTML, CSS and Bootstrap.
 
 Warrior Path Martial Arts is a responsive, one-page website designed to promote a dynamic and inclusive martial arts school. It provides key information about classes, coaching, and sign-up opportunities for both adults and juniors. With a clean layout, smooth scroll-friendly Instagram-like navigation, and carefully chosen visuals, the site delivers an engaging experience across all devices.
 
 Whether you’re a curious beginner, a parent looking for the right class for your child, or a seasoned martial artist seeking expert coaching, Warrior Path makes the journey clear, accessible, and inspiring.
 
-### Key Features
-
-- Mobile-first responsive design using Bootstrap.
-- Informative sections on coaches, classes, pricing, and testimonials.
-- A visually engaging layout that balances energy with readability.
-- A user-friendly sign-up form and call-to-action areas.
-- Accessibility-focused features like keyboard navigation and focus indicators.
-
 ## Table of Contents
 
+- [Key Features](#key-features)
+- [User Goals](#user-goals)
+- [User Stories](#user-stories)
+- [Website Goals and Objectives](#website-goals-and-objectives)
+- [Target Audience](#target-audience)
+- [Wireframes](#wireframes)
 - [Purpose](#purpose)
 - [Value to Users](#value-to-users)
 - [Key Features](#key-features)
@@ -42,6 +40,14 @@ Whether you’re a curious beginner, a parent looking for the right class for yo
 - [Target Audience](#target-audience)
 - [Design Decisions](#design-decisions)
 - [Future Improvements](#future-improvements)
+
+### Key Features
+
+- Mobile-first responsive design using Bootstrap.
+- Informative sections on coaches, classes, pricing, and testimonials.
+- A visually engaging layout that balances energy with readability.
+- A user-friendly sign-up form and call-to-action areas.
+- Accessibility-focused features like keyboard navigation and focus indicators.
 
 ## User Goals
 
@@ -98,7 +104,13 @@ Several elements evolved beyond the initial sketches during development:
 
 [Back to top](#contents)
 
-## Images
+## Design Choices
+
+### Typography
+
+### Colour Scheme
+
+### Images
 
 The site uses a curated collection of imagery designed to reflect the spirit of martial arts. Images were chosen to represent:
 
@@ -110,7 +122,7 @@ All images were resized and compressed for performance. Where appropriate, Boots
 
 Images complement the tone of each section and provide immediate visual context for the training styles available.
 
-## Responsiveness
+### Responsiveness
 
 A mobile-first approach was used throughout the build. Responsive layout changes were managed using Bootstrap’s built-in grid system and custom media queries. Key breakpoints were:
 
@@ -123,7 +135,7 @@ Each section — from the hero header to the info columns and call-to-action —
 
 [Back to top](#contents)
 
-## Features
+# Features
 
 The website layout is clean, focused, and built for clarity. Visitors can scroll through all content in a single-page layout, mimicking a modern landing-page structure. Section transitions are smooth, content is clearly separated, and visual hierarchy ensures no part overwhelms the user.
 
