@@ -362,6 +362,10 @@ A custom 404 error page has been implemented to handle broken or mistyped URLs g
 
 [Back to top](#contents)
 
+## Testing
+
+
+
 
 ## Purpose
 
@@ -403,7 +407,9 @@ This project followed key UX design principles, such as:
 The website is deployed using GitHub Pages and is accessible at:  
 [Warrior Path Martial Arts](https://louisce.github.io/warrior-path/)
 
-To deploy the site using GitHub Pages:
+## To deploy the project:
+
+Use GitHub Pages.
 
 1. Log in (or sign up) to GitHub.
 2. Go to the repository for this project: [LouisCE/warrior-path](https://github.com/LouisCE/warrior-path).
@@ -412,9 +418,8 @@ To deploy the site using GitHub Pages:
 5. Under **Source**, select `main` branch and click **Save**.
 6. GitHub Pages will build and deploy the site. You may need to wait a minute for the changes to go live.
 
-## Local Development
 
-### How to Fork
+### To fork the project
 
 To fork the repository:
 
@@ -422,7 +427,7 @@ To fork the repository:
 2. Go to the project repo: [LouisCE/warrior-path](https://github.com/LouisCE/warrior-path).
 3. Click the **Fork** button in the top right.
 
-### How to Clone
+### To clone the project
 
 To clone the repository:
 
@@ -431,6 +436,25 @@ To clone the repository:
 3. Click the **Code** button and copy the link (HTTPS recommended).
 4. Open your terminal and navigate to where you'd like the repo to live.
 5. Type: `git clone <paste-url-here>` and hit Enter.
+
+# Credits
+
+## Credits
+
+### Acknowledgments
+
+- Code Institute's Learning Management System (LMS) taught me HTML and CSS, as well as showing me detailed walkthroughs on the work that goes into web design, reinforcing page structure and strategising
+- Peer review and feedback from Slack provided valuable insights.
+- Credit is due to my mentor, Simen who hosted video calls reviewing my progress. We did an inception call, a midpoint call and a project review. Thank you, Simen.
+- I'd also like to thank my facilitator, Kay for providing valuable information and answering questions about the grading criteria and course material.
+- Cam is one of the alumni at Code Institute and he was also a massive help, especially in the early stages when I was having trouble deploying my live website.
+- Images came from Google Images.
+
+
+
+
+
+
 
 ## Technologies Used
 
@@ -581,14 +605,3 @@ The design and layout reflect a balance of professionalism, accessibility, and a
 - I learned why it's important to design for accessibility from the beginning, rather than fitting it at the end.
 - Balancing visual design with semantic HTML taught me how to build with both users and machines (screen readers and search engines) in mind.
 - Using GitHub Pages for deployment reinforced the importance of version control and remote collaboration tools.
-
-## Credits
-
-### Acknowledgments
-
-- Code Institute's Learning Management System (LMS) taught me HTML and CSS, as well as showing me detailed walkthroughs on the work that goes into web design, reinforcing page structure and strategising
-- Peer review and feedback from Slack provided valuable insights.
-- Credit is due to my mentor, Simen who hosted video calls reviewing my progress. We did an inception call, a midpoint call and a project review. Thank you, Simen.
-- I'd also like to thank my facilitator, Kay for providing valuable information and answering questions about the grading criteria and course material.
-- Cam is one of the alumni at Code Institute and he was also a massive help, especially in the early stages when I was having trouble deploying my live website.
-- Images came from Google Images.
