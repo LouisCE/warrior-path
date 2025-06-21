@@ -362,9 +362,13 @@ A custom 404 error page has been implemented to handle broken or mistyped URLs g
 
 [Back to top](#contents)
 
-## Testing
+# Testing
 
+## Bugs
 
+## Responsiveness Tests
+
+## Code Validation
 
 
 ## Purpose
@@ -439,9 +443,7 @@ To clone the repository:
 
 # Credits
 
-## Credits
-
-### Acknowledgments
+## Acknowledgments
 
 - Code Institute's Learning Management System (LMS) taught me HTML and CSS, as well as showing me detailed walkthroughs on the work that goes into web design, reinforcing page structure and strategising
 - Peer review and feedback from Slack provided valuable insights.
