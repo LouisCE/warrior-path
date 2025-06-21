@@ -211,13 +211,28 @@ nav a:focus {
 }
 
 .social-links a {
-  color: #ff6600;
   text-decoration: none;
   margin: 0 0.5rem;
 }
 
-.social-links a:hover {
-  text-decoration: underline;
+.social-links a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.social-links a i {
+  color: #ff6600;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a:hover i {
+  color: #ffa040;
+  transform: scale(1.1);
+}
+
+.social-links a:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 /* Form styling */
