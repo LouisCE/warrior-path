@@ -77,7 +77,7 @@ Whether you’re a curious beginner, a parent looking for the right class for yo
 - Highlight the professionalism of the coaching team and training environment.
 - Make joining easy with a clean, accessible sign-up form and call-to-action sections.
 - Build trust and interest through testimonials and coach bios.
-- Ensure high accessibility through readable fonts, strong color contrast, and focus indicators.
+- Ensure high accessibility through readable fonts, strong colour contrast, and focus indicators.
 - Improve visibility through mobile-first design, semantic HTML, and SEO-friendly structure.
 
 ## Target Audience
@@ -115,7 +115,15 @@ This combination creates a balance between readability and stylistic flair that 
 
 ### Colour Scheme
 
+The Warrior Path website uses a bold, bright orange colour palette to reflect energy, confidence, and focus:
+- **Primary Accent:** `#ff6600` – a vibrant orange, symbolising strength, action, and urgency.
+- **Hover Accent:** `#ffa040` – a softer orange tone used for hover states and calls to action.
+- **Base Theme:** `#1a1a1a` dark grey/black background to enhance contrast and create a striking visual hierarchy.
+- **Text Colour:** White and light greys for high legibility against the dark theme.
 
+All colours were chosen with accessibility and visual impact in mind. The palette is consistent with martial arts branding and helps create a sense of professionalism and energy. The dark background provides a sleek, professional appearance while the bright orange pops against the black for high visibility. Red was considered in place of orange but it was considered to be too aggressive and intimidating for a martial arts website.
+
+![Warrior Path Colour Scheme](docs/color-scheme.png)
 
 ### Images
 
@@ -138,53 +146,13 @@ A mobile-first approach was used throughout the build. Responsive layout changes
 - `992px`: Laptops
 - `1200px+`: Desktops
 
-Each section — from the hero header to the info columns and call-to-action — adapts layout and spacing across devices to maintain readability and flow. Flexbox and utility classes helped ensure clean stacking on mobile while preserving side-by-side content on larger screens.
+Each section, from the hero header to the info columns and call-to-action, adapts layout and spacing across devices to maintain readability and flow. Flexbox and utility classes helped ensure clean stacking on mobile while preserving side-by-side content on larger screens.
 
 [Back to top](#contents)
 
 # Features
 
-The website layout is clean, focused, and built for clarity. Visitors can scroll through all content in a single-page layout, mimicking a modern landing-page structure. Section transitions are smooth, content is clearly separated, and visual hierarchy ensures no part overwhelms the user.
-
-### Hero Section
-The homepage features a bold hero image with a motivational call to action and a clear signup prompt. This instantly tells users what the site is about and how to get started.
-
-![Hero section screenshot](assets/images/screenshot-hero.png)
-
-### About Section
-Provides a warm, community-focused introduction to the gym’s mission, values, and atmosphere. Perfect for new visitors trying to understand the vibe.
-
-![About section screenshot](assets/images/screenshot-about.png)
-
-### Our Classes
-Breaks down martial arts disciplines into striking and grappling, clearly explaining what each involves without being overwhelming. Alternating layouts with images help keep the page dynamic and scannable.
-
-![Classes section screenshot](assets/images/screenshot-classes.png)
-
-### Pricing & Testimonials
-These blocks use card layouts for easy scanning. Testimonials help build trust, while pricing is clear and friendly. Cards are fully responsive and stack beautifully on mobile.
-
-![Pricing and testimonials screenshot](assets/images/screenshot-pricing.png)
-
-### Meet the Coaches
-Shows coach photos and bios in circular format for a friendly, personal feel. All sections are vertically stacked on small screens and aligned in columns on desktops.
-
-![Coaches section screenshot](assets/images/screenshot-coaches.png)
-
-### Signup Form
-Includes a working contact form to book a free first lesson. Fields are clearly labeled and spaced, with a confirmation message after submission.
-
-![Signup form screenshot](assets/images/screenshot-signup.png)
-
-### Key interactive features include:
-
-- A **"Sign Up Today"** call-to-action near the top and again near the footer.
-- Informative sections on **opening hours**, **pricing**, and **student testimonials**.
-- Clear explanations of **junior** and **adult** classes.
-- Embedded form for **sign-ups and enquiries**.
-- Strong mobile layout with intuitive flow from intro to action.
-
-The design encourages exploration without distraction, suitable for both first-time visitors and returning students.
+The website layout is clean, focused, and built for clarity. Visitors can scroll through all content in a single-page layout, mimicking a modern one-page structure like Instagram, Facebook and LinkedIn. Section transitions are smooth, content is clearly separated, and visual hierarchy ensures no part overwhelms the user.
 
 ## Existing Features
 
@@ -197,6 +165,7 @@ The site features a simplified custom navbar that maintains consistency across s
 - The minimalist styling and contrast ensure high visibility and accessibility.
 
 ### Hero Section
+The homepage opens with a bold hero banner that immediately communicates the purpose of the site, to inspire and motivate users to begin their martial arts journey.
 
 The hero banner displays a large, full-width image accompanied by a bold heading ("Unlock Your Potential") and a primary call-to-action button ("Sign Up Today").
 
@@ -205,31 +174,63 @@ The hero banner displays a large, full-width image accompanied by a bold heading
 
 This section creates immediate visual impact and sets the tone for the rest of the page.
 
+![Hero section screenshot](assets/images/screenshot-hero.png)
+
+### About Section
+Provides a warm, community-focused introduction to the gym’s mission, values, and atmosphere. Perfect for new visitors trying to understand the vibe.
+
+![About section screenshot](assets/images/screenshot-about.png)
+
 ### Info Columns
 
 Below the hero, three main content columns communicate:
 
 - **Timetable and Opening Hours**
-- **Testimonials from Students**
+- **Testimonials from Students and Parents**
 - **Pricing Structure**
 
 These are stacked on mobile for ease of reading and display in columns on larger screens. Icons and images enhance visual separation and aid scannability.
 
-### Class Descriptions
+### Pricing & Testimonials
+These blocks use card layouts for easy scanning. Testimonials help build trust, while pricing is clear and friendly. Cards are fully responsive and stack beautifully on mobile.
+
+![Pricing and testimonials screenshot](assets/images/screenshot-pricing.png)
+
+### Our Classes
 
 Class sections are divided by age group and discipline:
 
 - **Juniors:** safe, structured programs for kids.
-- **Adults:** competitive or fitness-based training options.
-- **Striking vs Grappling:** users can visually identify the martial arts discipline via imagery and layout.
+- **Adults:** more intensive classes for adults.
+- **Striking & Grappling:** users can visually identify the martial arts discipline via imagery and layout.
 
 This separation helps potential students or parents quickly find relevant info.
 
-### Coaches Section
+### Mixed Martial Arts Breakdown
 
-Instructor bios are accompanied by photographs, names, and short role descriptions. This personal touch builds trust and showcases professionalism.
+Breaks down martial arts disciplines into striking and grappling, clearly explaining the four disciplines that Warrior Path teaches without being overwhelming. 
 
-### Sign-Up Form
+Among the striking arts are:
+
+- **Boxing**
+- **Muay Thai**
+
+Among the grappling arts are:
+
+- **Wrestling**
+- **Brazilian Jiu Jitsu**
+
+Alternating layouts with images help keep the page dynamic and readable.
+
+![Classes section screenshot](assets/images/screenshot-classes.png)
+
+### Meet the Coaches
+
+Instructor bios are accompanied by photographs in circular format, names and short role descriptions. All sections are vertically stacked on small screens and aligned in columns on desktops.
+
+![Coaches section screenshot](assets/images/screenshot-coaches.png)
+
+### Signup Form
 
 At the bottom of the page is a call-to-action form that includes:
 
@@ -237,9 +238,27 @@ At the bottom of the page is a call-to-action form that includes:
 - Email address  
 - What are you hoping to achieve? 
 
-All fields are required. A thank-you message confirms submission.
+ Includes a working contact form to book a free first lesson. Fields are clearly labeled and spaced. All fields are required. A thank you message confirms submission.
+
+![Signup form screenshot](assets/images/screenshot-signup.png)
 
 [Back to top](#contents)
+
+### Key interactive features include:
+
+- A **"Sign Up Today"** call-to-action near the top and again near the footer.
+- Informative sections on **opening hours**, **pricing**, and **student testimonials**.
+- Clear explanations of **junior** and **adult** classes.
+- Embedded form for **sign-ups and enquiries**.
+- Strong mobile layout with intuitive flow from intro to action.
+
+The design encourages exploration without distraction, suitable for both first-time visitors and returning students.
+
+
+
+
+
+
 
 ## Landing View
 
@@ -249,7 +268,7 @@ The site follows a single-page application layout to maintain fast performance, 
 - **Sign Up Today** button with hover animation.
 - **Branding** that introduces the ethos of Warrior Path Martial Arts.
 
-All interactions are mobile-optimized. Buttons are styled consistently across the page with high-contrast color and accessible sizing. Layout adapts naturally for smaller screens.
+All interactions are mobile-optimized. Buttons are styled consistently across the page with high-contrast colour and accessible sizing. Layout adapts naturally for smaller screens.
 
 [Back to top](#contents)
 
@@ -359,7 +378,7 @@ This project followed key UX design principles, such as:
 
 - **User Research:** I considered the expectations of gym members, parents, and martial artists. Common goals include finding schedules, reading about instructors, looking at prices.
 - **Wireframing:** Before coding, I sketched rough layouts to visualise navigation flow and content hierarchy. (will add wireframe screenshot later)
-- **Visual Hierarchy:** Used font sizes, spacing, and color contrast to guide user attention. Primary CTAs are positioned prominently.
+- **Visual Hierarchy:** Used font sizes, spacing, and colour contrast to guide user attention. Primary CTAs are positioned prominently.
 - **Accessibility First:** ARIA labels, alt text, tab order, and contrast were used from the outset, not added after. (will add more ARIA later)
 - **Feedback Loops:** Peer review and user feedback from mentors and alumni helped identify areas to improve clarity and layout.
 
@@ -367,7 +386,7 @@ This project followed key UX design principles, such as:
 
 - **Responsive Layout:** Utilizes Bootstrap 5’s grid system and media queries to ensure the site adapts elegantly to all screen sizes.
 - **Navigation:** Fully functional, sticky navigation bar with clear active states provides easy and consistent site navigation.
-- **Consistent Styling:** Harmonised color palette and typography maintain a professional and approachable brand image. A dark theme was chosen for the background to create a sleek, professional appearance. Red was considered too aggressive for a martial arts website, so orange was chosen instead to add vibrancy and pop against the dark background.
+- **Consistent Styling:** Harmonised colour palette and typography maintain a professional and approachable brand image. A dark theme was chosen for the background to create a sleek, professional appearance. Red was considered too aggressive for a martial arts website, so orange was chosen instead to add vibrancy and pop against the dark background.
 - **Custom Forms:** Accessible and user-friendly sign-up form with validation prompts to facilitate membership registration.
 - **Standards Compliant:** HTML and CSS validated with zero errors, ensuring cross-browser compatibility and clean code.
 - **Accessibility:** Designed with keyboard navigation and ARIA attributes to support users with disabilities.
@@ -468,7 +487,7 @@ Accessibility was a key priority in the design and development of Warrior Path M
 - **Responsive layout** using Bootstrap 5.3.7 ensures readability across all devices, from mobile phones to large desktops.
 - **Semantic HTML5 tags** such as `<header>`, `<nav>`, `<section>`, and `<footer>` are used to help screen readers and assistive technology interpret the content structure correctly.
 - **ARIA labels** have been included where necessary (for example, with form inputs) to provide extra context and improve form accessibility for screen readers.
-- **High-contrast colors** between text and background elements aid readability.
+- **High-contrast colours** between text and background elements aid readability.
 - **Alt text** has been added for all images, making visual content accessible to visually impaired users.
 - **Keyboard navigability** is preserved through standard HTML elements and logical layout.
 - **Form validation** and `required` attributes ensure users receive feedback when submitting forms incorrectly.
