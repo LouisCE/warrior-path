@@ -368,7 +368,10 @@ A custom 404 error page has been implemented to handle broken or mistyped URLs g
 
 ## Responsiveness Tests
 
-## Code Validation
+# Code Validation
+
+### HTML
+
 
 
 ## Purpose
