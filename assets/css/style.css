@@ -6,6 +6,8 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  max-width: 100%;
 }
 
 body {
@@ -15,6 +17,8 @@ body {
   padding: 2rem 2rem 2rem 2rem;
   padding-top: 50px;
   line-height: 1.6;
+  width: 100%;
+  max-width: 100%;
 }
 
 /* Universal image rule – ensures images never overflow */
@@ -174,7 +178,6 @@ nav a:focus {
   flex: 1 1 100%;
   max-width: 100%;
   padding: 1rem;
-  box-sizing: border-box;
 }
 
 .info-block {
@@ -245,7 +248,6 @@ nav a:focus {
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-bottom: 1.5rem;
-  box-sizing: border-box;
 }
 
 .form-group {
@@ -368,7 +370,6 @@ textarea:focus {
 
 .col {
   padding: 1rem;
-  box-sizing: border-box;
   width: 100%;
 }
 
@@ -443,7 +444,6 @@ textarea:focus {
 .col-6 {
   padding: 1rem;
   margin-bottom: 1.5rem;
-  box-sizing: border-box;
 }
 }
 
@@ -464,11 +464,6 @@ textarea:focus {
   }
 }
 
-/* Large devices (laptops, desktops) */
-@media (min-width: 992px) {
-  
-}
-
 @media (min-width: 1200px) {
   .container {
     max-width: 100%;
@@ -482,11 +477,6 @@ textarea:focus {
   .hero-text p {
     font-size: 1.25rem;
   }
-}
-
-html, body {
-  width: 100%;
-  max-width: 100%;
 }
 
 .section-block {
