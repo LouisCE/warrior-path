@@ -215,11 +215,6 @@ nav a:focus {
   margin: 0 0.5rem;
 }
 
-.social-links a {
-  text-decoration: none;
-  margin: 0 0.5rem;
-}
-
 .social-links a i {
   color: #ff6600;
   transition: color 0.3s ease, transform 0.3s ease;
@@ -429,6 +424,13 @@ textarea:focus {
   border-bottom: 2px solid #ffa040;
 }
 
+.info-card,
+.col-4,
+.col-6 {
+  width: 100%;
+  max-width: 100%;
+}
+
 /* Media queries */
 
 /* Small devices (large phones) */
@@ -439,8 +441,6 @@ textarea:focus {
   .info-card,
 .col-4,
 .col-6 {
-  width: 100%;
-  max-width: 100%;
   padding: 1rem;
   margin-bottom: 1.5rem;
   box-sizing: border-box;
@@ -453,13 +453,6 @@ textarea:focus {
     padding: 10px;
     padding-top: 50px;
   }
-
-  .info-card,
-.col-4,
-.col-6 {
-  width: 100%;
-  max-width: 100%;
-}
 }
 
 /* Medium devices (tablets only) */
@@ -473,12 +466,7 @@ textarea:focus {
 
 /* Large devices (laptops, desktops) */
 @media (min-width: 992px) {
-  .info-card,
-.col-4,
-.col-6 {
-  width: 100%;
-  max-width: 100%;
-}
+  
 }
 
 @media (min-width: 1200px) {
@@ -494,11 +482,6 @@ textarea:focus {
   .hero-text p {
     font-size: 1.25rem;
   }
-}
-
-
-* {
-  box-sizing: border-box;
 }
 
 html, body {
