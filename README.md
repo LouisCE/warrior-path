@@ -372,7 +372,7 @@ A custom 404 error page has been implemented to handle broken or mistyped URLs g
 
 ### HTML
 
-
+### CSS
 
 ## Purpose
 

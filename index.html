@@ -281,7 +281,7 @@
                 <!-- Coach Alex -->
                 <div class="col-md-4 mb-4">
                     <img src="assets/images/coach-alex.png" alt="Coach Alex"
-                        class="img-fluid rounded-circle mb-3 mx-auto" style="max-height: 200px;">
+                        class="img-fluid rounded-circle mb-3 mx-auto coach-img">
                     <h3>Coach Alex</h3>
                     <p>Muay Thai specialist and former national champion, Coach Alex is known for high-energy
                         classes that build discipline, strength, and confidence, all while keeping training fun and
@@ -291,7 +291,7 @@
                 <!-- Coach Maya -->
                 <div class="col-md-4 mb-4">
                     <img src="assets/images/coach-maya.jpg" alt="Coach Maya"
-                        class="img-fluid rounded-circle mb-3 mx-auto" style="max-height: 200px;">
+                        class="img-fluid rounded-circle mb-3 mx-auto coach-img">
                     <h3>Coach Maya</h3>
                     <p>With a black belt in Brazilian Jiu-Jitsu and over a decade of coaching experience, Coach Maya
                         brings technical precision, patience, and competitive insight to every grappling session.
@@ -301,7 +301,7 @@
                 <!-- Coach James -->
                 <div class="col-md-4 mb-4">
                     <img src="assets/images/coach-james.jpg" alt="Coach James"
-                        class="img-fluid rounded-circle mb-3 mx-auto" style="max-height: 200px;">
+                        class="img-fluid rounded-circle mb-3 mx-auto coach-img">
                     <h3>Coach James</h3>
                     <p>Coach James is a wrestling coach who emphasizes strong fundamentals, safety, and steady
                         progress. Whether you're a complete beginner or a seasoned grappler, he helps build skill
@@ -341,8 +341,7 @@
                 <!-- Submit -->
                 <button type="submit" class="submit-button">Submit</button>
             </form>
-            <!-- This message will only show after the form is submitted -->
-            <p id="confirmation" style="display: none; color: green; font-weight: bold;">
+<p id="confirmation" class="confirmation-message">
                 Thanks for signing up! We'll be in touch soon.
             </p>
         </section>
@@ -370,7 +369,6 @@
         </footer>
 
         <script>
-            // When the form is submitted, redirect to a success page
             document.getElementById("signup-form").addEventListener("submit", function (e) {
                 e.preventDefault();
                 window.location.href = "success.html";
@@ -390,7 +388,6 @@
                     event.target);
                 const isNavbarOpen = navbarCollapse.classList.contains("show");
 
-                // If user clicked outside the navbar and it's open, it closes
                 if (!isClickInsideNavbar && isNavbarOpen) {
                     navbarToggler.click();
                 }

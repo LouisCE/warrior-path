@@ -251,6 +251,16 @@ nav a:focus {
   display: block;
 }
 
+.coach-img {
+  max-height: 200px;
+}
+
+.confirmation-message {
+  display: none;
+  color: #ff6600;
+  font-weight: bold;
+}
+
 /* Call to action */
 .cta {
   display: inline-block;
