@@ -383,6 +383,10 @@ footer {
   padding: 1rem 0;
 }
 
+#home {
+    margin-top: 80px;
+  }
+
 /* Media queries */
 @media (min-width: 576px) {
   .col-sm {
@@ -402,6 +406,15 @@ footer {
     margin-left: auto;
     margin-right: auto;
     float: none;
+  }
+  #home {
+    margin-top: 40px; /* less space on tablets */
+  }
+}
+
+@media (min-width: 992px) {
+  #home {
+    margin-top: 40px;
   }
 }
 
