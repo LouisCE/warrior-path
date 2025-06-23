@@ -127,7 +127,7 @@ All colours were chosen with accessibility and visual impact in mind. The palett
 
 ### Images
 
-The site uses a curated collection of imagery designed to reflect the spirit of martial arts. Images were chosen to represent:
+The site uses a curated collection of imagery designed to reflect the spirit of martial arts. Images were chosen from Google Images to represent:
 
 - **Juniors and Seniors** training in a focused, welcoming environment.
 - **Striking arts** like Muay Thai and Boxing, with photos showing pad work and form.
@@ -371,6 +371,20 @@ A custom 404 error page has been implemented to handle broken or mistyped URLs g
 # Code Validation
 
 ### HTML
+
+[W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML") was used to validate my index.html, success.html and 404.html. All three came back without errors.
+
+**Main page**
+
+![W3C HTML Validator](docs/html-validation.png)
+
+**Form submitted page**
+
+![W3C HTML Validator](docs/success-validation.png)
+
+**404 error page***
+
+![W3C HTML Validator](docs/404-validation.png)
 
 ### CSS
 
