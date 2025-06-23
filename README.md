@@ -125,11 +125,11 @@ For example, in the live version:
 
 The final site remains a one-page layout to support logical flow, quick scanning, and fast navigation for users on any device.
 
-[Mobile Wireframes](docs/mobile-wireframes.pdf "Mobile Wireframes")
+[Mobile Wireframes](docs/wireframes-mobile.png "Mobile Wireframes")
 
-[Tablet Wireframes](docs/tablet-wireframes.pdf "Tablet Wireframes")
+[Tablet Wireframes](docs/wireframes-tablet.png "Tablet Wireframes")
 
-[Desktop Wireframes](docs/desktop-wireframes.pdf "Desktop Wireframes")
+[Desktop Wireframes](docs/wireframes-computer.png "Desktop Wireframes")
 
 [Back to top](#contents)
 
