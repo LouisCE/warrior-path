@@ -240,7 +240,7 @@ These are stacked on mobile for ease of reading and display in columns on larger
 ### Pricing & Testimonials
 These blocks use card layouts for easy scanning. Testimonials help build trust, while pricing is clear and friendly. Cards are fully responsive and stack beautifully on mobile.
 
-![Pricing and testimonials screenshot](assets/images/screenshot-pricing.png)
+![Pricing and testimonials screenshot](assets/images/screenshot-info.png)
 
 ### Our Classes
 
@@ -273,7 +273,7 @@ Among the grappling arts are:
 
 Alternating layouts with images help keep the page dynamic and readable.
 
-![Classes section screenshot](docs/screenshot-classes.png)
+![Classes section screenshot](docs/screenshot-classes-2.png)
 
 ### Meet the Coaches
 
