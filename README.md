@@ -1,7 +1,5 @@
 # Warrior Path Martial Arts
 
-![Am I Responsive design screenshot](assets/images/amiresponsive.png)
-
 A responsive martial arts gym website that adapts beautifully to desktop, tablet, and mobile screens.
 
 This image shows how the Warrior Path Martial Arts website displays seamlessly across a range of devices, including desktop, laptop, tablet, and mobile. The design uses a mobile-first approach with Bootstrap 5.3.7, ensuring all content is readable, cleanly laid out, and user-friendly no matter the screen size. Every section, from the call-to-action and class info to coach profiles and pricing, is stacked and spaced appropriately to deliver an excellent user experience.
@@ -11,6 +9,8 @@ This image shows how the Warrior Path Martial Arts website displays seamlessly a
 Warrior Path Martial Arts is a responsive, one-page website designed to promote a dynamic and inclusive martial arts school. It provides key information about classes, coaching, and sign-up opportunities for both adults and juniors. With a clean layout, smooth scroll-friendly Instagram-like navigation, and carefully chosen visuals, the site delivers an engaging experience across all devices.
 
 Whether you’re a curious beginner, a parent looking for the right class for your child, or a seasoned martial artist seeking expert coaching, Warrior Path makes the journey clear, accessible, and inspiring.
+
+![Am I Responsive design screenshot](assets/images/am-i-responsive.png)
 
 ## Table of Contents
 
