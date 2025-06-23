@@ -4,42 +4,13 @@ A responsive martial arts gym website that adapts beautifully to desktop, tablet
 
 This image shows how the Warrior Path Martial Arts website displays seamlessly across a range of devices, including desktop, laptop, tablet, and mobile. The design uses a mobile-first approach with Bootstrap 5.3.7, ensuring all content is readable, cleanly laid out, and user-friendly no matter the screen size. Every section, from the call-to-action and class info to coach profiles and pricing, is stacked and spaced appropriately to deliver an excellent user experience.
 
-**Warrior Path Martial Arts** is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project demonstrates skills in responsive design, accessibility, and front-end best practices using HTML, CSS and Bootstrap.
+Warrior Path Martial Arts is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project demonstrates skills in responsive design, accessibility, and front-end best practices using HTML, CSS and Bootstrap.
 
 Warrior Path Martial Arts is a responsive, one-page website designed to promote a dynamic and inclusive martial arts school. It provides key information about classes, coaching, and sign-up opportunities for both adults and juniors. With a clean layout, smooth scroll-friendly Instagram-like navigation, and carefully chosen visuals, the site delivers an engaging experience across all devices.
 
 Whether you’re a curious beginner, a parent looking for the right class for your child, or a seasoned martial artist seeking expert coaching, Warrior Path makes the journey clear, accessible, and inspiring.
 
 ![Am I Responsive design screenshot](docs/am-i-responsive.png)
-
-## Table of Contents
-
-- [Key Features](#key-features)
-- [User Goals](#user-goals)
-- [User Stories](#user-stories)
-- [Website Goals and Objectives](#website-goals-and-objectives)
-- [Target Audience](#target-audience)
-- [Wireframes](#wireframes)
-- [Purpose](#purpose)
-- [Value to Users](#value-to-users)
-- [Key Features](#key-features)
-- [Pages Included](#pages-included)
-- [Deployment](#deployment)
-- [Technologies Used](#technologies-used)
-- [Screenshots](#screenshots)
-- [Attribution](#attribution)
-- [Accessibility](#accessibility)
-  - [Accessibility Testing](#accessibility-testing)
-- [How to Run/Preview the Project](#how-to-runpreview-the-project)
-- [Bug & Testing Log](#bug--testing-log)
-- [Features in Detail](#features-in-detail)
-  - [Home Page](#home-page)
-  - [Classes Page](#classes-page)
-  - [Trainers Page](#trainers-page)
-  - [Join Us Page](#join-us-page)
-- [Target Audience](#target-audience)
-- [Design Decisions](#design-decisions)
-- [Future Improvements](#future-improvements)
 
 ## Purpose
 
@@ -50,8 +21,25 @@ This project simulates the development of a professional front-end website for a
 - Mobile-first responsive design using Bootstrap.
 - Informative sections on coaches, classes, pricing, and testimonials.
 - A visually engaging layout that balances energy with readability.
-- A user-friendly sign-up form and call-to-action areas.
-- Accessibility-focused features like keyboard navigation and focus indicators.
+
+
+- **Responsive Layout:** Utilizes Bootstrap 5’s grid system and media queries to ensure the site adapts elegantly to all screen sizes.
+- **Navigation:** Fully functional, sticky navigation bar with clear active states provides easy and consistent site navigation.
+- **Consistent Styling:** Harmonised colour palette and typography maintain a professional and approachable brand image. A dark theme was chosen for the background to create a sleek, professional appearance. Red was considered too aggressive for a martial arts website, so orange was chosen instead to add vibrancy and pop against the dark background.
+- **Custom Forms:** Accessible and user-friendly sign-up form with validation prompts to facilitate membership registration.
+- **Standards Compliant:** HTML and CSS validated with zero errors, ensuring cross-browser compatibility and clean code.
+- **User-friendly** Sign-up form and call-to-action areas.
+- **Accessibility:** Designed with keyboard navigation, focus indicators and ARIA attributes to support users with disabilities.
+
+#### Key interactive features include:
+
+- A **"Sign Up Today"** call-to-action near the top and again near the footer.
+- Informative sections on **opening hours**, **pricing**, and **student testimonials**.
+- Clear explanations of **junior** and **adult** classes.
+- Embedded form for **sign-ups and enquiries**.
+- Mobile layout with flow from intro to action.
+
+The design encourages exploration without distraction, suitable for both first-time visitors and returning students.
 
 ## User Goals
 
@@ -83,6 +71,10 @@ This project simulates the development of a professional front-end website for a
 - As an accessibility-conscious user, I want keyboard focus indicators and readable font contrast.  
 - As a motivated learner, I want to sign up or express interest directly from the page.
 
+## Value to Users
+
+The website helps users understand what the school offers, who the instructors are, and how to sign up. It also gives them an impression of the school's tone and style. Clear navigation and responsive design make it easy to use on any device. Users can quickly find detailed class information, learn about the expertise of trainers, and easily join the gym through an intuitive sign-up form. The website's responsive design ensures seamless usability across devices, while accessibility makes it inclusive for users with visual impairments.
+
 ## Website Goals and Objectives
 
 - Clearly communicate the types of martial arts offered (striking and grappling styles).
@@ -111,7 +103,7 @@ The design and layout reflect balances accessibility and approachability which c
 
 ## Wireframes
 
-Wireframes were hand-sketched during the planning stage and later refined through iterative layout changes directly in code. Following best practices, a mobile-first design approach was used. All content was structured to display clearly on phones before adapting to tablets and desktops.
+All content was structured to display clearly on phones before adapting to tablets and desktops.
 
 Several elements evolved beyond the initial sketches during development:
 
@@ -122,7 +114,7 @@ Several elements evolved beyond the initial sketches during development:
 
 ## Wireframes
 
-The initial wireframes for Warrior Path were created using the Balsamiq tool. I followed a mobile-first approach, beginning with layouts designed for small screens, then expanding and refining them for tablet and desktop views.
+The wireframes for Warrior Path were created using the Balsamiq tool. In line with best practices, I followed a mobile-first approach, beginning with layouts designed for small screens, then expanding and refining them for tablet and desktop views.
 
 While the final live site closely follows the original wireframes in terms of structure and content flow, there were a few adjustments made during development to improve responsiveness, clarity, and accessibility.
 
@@ -140,6 +132,16 @@ The final site remains a one-page layout to support logical flow, quick scanning
 [Desktop Wireframes](docs/desktop-wireframes.pdf "Desktop Wireframes")
 
 [Back to top](#contents)
+
+## UX Design Approach
+
+This project followed key UX design principles, such as:
+
+- **User Research:** I considered the expectations of gym members, parents, and martial artists. Common goals include finding schedules, reading about instructors, looking at prices.
+- **Wireframing:** BI sketched rough layouts to visualise navigation flow and content hierarchy.
+- **Visual Hierarchy:** Used font sizes, spacing, and colour contrast to guide user attention. Primary CTAs are positioned prominently.
+- **Accessibility First:** ARIA labels, alt text, tab order, and contrast were used from the outset, not added after. (will add more ARIA later)
+- **Feedback Loops:** Peer review and user feedback from mentors and alumni helped identify areas to improve clarity and layout.
 
 ## Design Choices
 
@@ -182,12 +184,13 @@ Images complement the tone of each section and provide immediate visual context 
 
 ### Responsiveness
 
-A mobile-first approach was used throughout the build. Responsive layout changes were managed using Bootstrap’s built-in grid system and custom media queries. Key breakpoints were:
+The website was built mobile-first, ensuring usability across a wide range of devices. I used Bootstrap 5’s responsive grid system in combination with custom CSS media queries to handle layout adjustments. The navigation bar becomes a collapsible menu on small screens, and content sections stack vertically to prioritise readability.
 
-- `576px`: Large mobile
-- `768px`: Tablets
-- `992px`: Laptops
-- `1200px+`: Desktops
+Testing across device emulators and real devices helped ensure layouts didn't break at key breakpoints (576px, 768px, 992px, 1200px). Particular care was taken to ensure:
+
+- Text remains legible without zooming.
+- Tap targets are large and well-spaced.
+- Visual hierarchy remains clear across screen sizes.
 
 Each section, from the hero header to the info columns and call-to-action, adapts layout and spacing across devices to maintain readability and flow. Flexbox and utility classes helped ensure clean stacking on mobile while preserving side-by-side content on larger screens.
 
@@ -199,6 +202,11 @@ The website layout is clean, focused, and built for clarity. Visitors can scroll
 
 ## Existing Features
 
+- Home (`index.html`)
+- Classes (`classes.html`)
+- Trainers (`trainers.html`)
+- Join Us (`signup.html`)
+
 ### Header
 
 The site features a simplified custom navbar that maintains consistency across screen sizes. It includes a Macondo font for a tough, yet elegant aesthetic and a menu with multiple options (i.e. Home, Classes, Trainers, Join Us).
@@ -207,8 +215,15 @@ The site features a simplified custom navbar that maintains consistency across s
 - **On desktop:** full links are displayed inline for ease of access.
 - The minimalist styling and contrast ensure high visibility and accessibility.
 
+![Home Page Screenshot](docs/screenshot-header.png)
+
+
 ### Hero Section
 The homepage opens with a bold hero banner that immediately communicates the purpose of the site, to inspire and motivate users to begin their martial arts journey.
+
+- Eye-catching banner introduces the brand
+- Clear navigation to other pages
+- Welcoming call to action
 
 The hero banner displays a large, full-width image accompanied by a bold heading ("Unlock Your Potential") and a primary call-to-action button ("Sign Up Today").
 
@@ -249,6 +264,11 @@ Class sections are divided by age group and discipline:
 
 This separation helps potential students or parents quickly find relevant info.
 
+- Grid layout displaying available classes
+- Descriptions help users choose the right program
+
+![Classes Page Screenshot](docs/screenshot-classes.png)
+
 ### Mixed Martial Arts Breakdown
 
 Breaks down martial arts disciplines into striking and grappling, clearly explaining the four disciplines that Warrior Path teaches without being overwhelming. 
@@ -271,7 +291,10 @@ Alternating layouts with images help keep the page dynamic and readable.
 
 Instructor bios are accompanied by photographs in circular format, names and short role descriptions. All sections are vertically stacked on small screens and aligned in columns on desktops.
 
-![Coaches section screenshot](assets/images/screenshot-coaches.png)
+- Profile cards for each instructor
+- Bio and specialties provided for each trainer
+
+![Trainers Page Screenshot](docs/screenshot-trainers.png)
 
 ### Signup Form
 
@@ -280,20 +303,17 @@ At the bottom of the page is a call-to-action form that includes:
 - Full name  
 - Email address  
 - What are you hoping to achieve? 
+- Designed for easy user interaction
 
  Includes a working contact form to book a free first lesson. Fields are clearly labeled and spaced. All fields are required. A thank you message confirms submission.
 
-![Signup form screenshot](assets/images/screenshot-signup.png)
+![Signup Page Screenshot](docs/screenshot-signup.png)
+![Signup Page Screenshot](docs/screenshot-signup-2.png)
+![Signup Page Screenshot](docs/screenshot-signup-3.png)
+![Signup Page Screenshot](docs/screenshot-signup-4.png)
+![Signup Page Screenshot](docs/screenshot-signup-5.png)
 
 [Back to top](#contents)
-
-
-
-
-
-
-
-
 
 ## Landing View
 
@@ -382,8 +402,8 @@ I added a custom 404 error page to handle broken or mistyped URLs.
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ### Frameworks & Libraries
@@ -568,121 +588,8 @@ To clone the repository:
 
 - Code Institute's Learning Management System (LMS) taught me HTML and CSS, as well as showing me detailed walkthroughs on the work that goes into web design, reinforcing page structure and strategising
 - Peer review and feedback from Slack provided valuable insights.
-- Credit is due to my mentor, Simen who hosted video calls reviewing my progress. We did an inception call, a midpoint call and a project review. Thank you, Simen.
+- Simen is my mentor. He hosted video calls reviewing my progress. We did an inception call, a midpoint call and a project review. He gave valuable advice on how to think like a developer that helped me to complete my project. Thank you, Simen.
+- Credit is also due to Tim who looked at my progress and provided me with a checklist of things that I should cover.
 - I'd also like to thank my facilitator, Kay for providing valuable information and answering questions about the grading criteria and course material.
-- Cam is one of the alumni at Code Institute and he was also a massive help, especially in the early stages when I was having trouble deploying my live website.
+- Cam is one of the alumni at Code Institute and he was also a massive help, especially in the early stages when I was having trouble deploying my live website and later on when he pointed out specific things I need to fix or add.
 - Images came from Google Images.
-
-
-
-
-## Value to Users
-
-The website helps users understand what the school offers, who the instructors are, and how to sign up. It also gives them an impression of the school's tone and style. Clear navigation and responsive design make it easy to use on any device. Users can quickly find detailed class information, learn about the expertise of trainers, and easily join the gym through an intuitive sign-up form. The website's responsive design ensures seamless usability across devices, while accessibility makes it inclusive for users with visual impairments.
-
-## UX Design Approach
-
-This project followed key UX design principles, such as:
-
-- **User Research:** I considered the expectations of gym members, parents, and martial artists. Common goals include finding schedules, reading about instructors, looking at prices.
-- **Wireframing:** BI sketched rough layouts to visualise navigation flow and content hierarchy.
-- **Visual Hierarchy:** Used font sizes, spacing, and colour contrast to guide user attention. Primary CTAs are positioned prominently.
-- **Accessibility First:** ARIA labels, alt text, tab order, and contrast were used from the outset, not added after. (will add more ARIA later)
-- **Feedback Loops:** Peer review and user feedback from mentors and alumni helped identify areas to improve clarity and layout.
-
-## Key Features
-
-- **Responsive Layout:** Utilizes Bootstrap 5’s grid system and media queries to ensure the site adapts elegantly to all screen sizes.
-- **Navigation:** Fully functional, sticky navigation bar with clear active states provides easy and consistent site navigation.
-- **Consistent Styling:** Harmonised colour palette and typography maintain a professional and approachable brand image. A dark theme was chosen for the background to create a sleek, professional appearance. Red was considered too aggressive for a martial arts website, so orange was chosen instead to add vibrancy and pop against the dark background.
-- **Custom Forms:** Accessible and user-friendly sign-up form with validation prompts to facilitate membership registration.
-- **Standards Compliant:** HTML and CSS validated with zero errors, ensuring cross-browser compatibility and clean code.
-- **Accessibility:** Designed with keyboard navigation and ARIA attributes to support users with disabilities.
-
-### Key interactive features include:
-
-- A **"Sign Up Today"** call-to-action near the top and again near the footer.
-- Informative sections on **opening hours**, **pricing**, and **student testimonials**.
-- Clear explanations of **junior** and **adult** classes.
-- Embedded form for **sign-ups and enquiries**.
-- Mobile layout with flow from intro to action.
-
-The design encourages exploration without distraction, suitable for both first-time visitors and returning students.
-
-## Pages Included
-
-- Home (`index.html`)
-- Classes (`classes.html`)
-- Trainers (`trainers.html`)
-- Join Us (`signup.html`)
-
-
-
-
-
-
-
-
-
-
-
-## Responsive Design Strategy
-
-The website was built mobile-first, ensuring usability across a wide range of devices. I used Bootstrap 5’s responsive grid system in combination with custom CSS media queries to handle layout adjustments. The navigation bar becomes a collapsible menu on small screens, and content sections stack vertically to prioritize readability.
-
-Testing across device emulators and real devices helped ensure layouts didn't break at key breakpoints (576px, 768px, 992px, 1200px). Particular care was taken to ensure:
-- Text remains legible without zooming.
-- Tap targets are large and well-spaced.
-- Visual hierarchy remains clear across screen sizes.
-
-## Screenshots
-
-_Screenshots of each page and key feature will be included here._
-
-### Home Page
-
-![Home Page Screenshot](docs/screenshot-home.png)
-
-### Classes Page
-
-![Classes Page Screenshot](docs/screenshot-classes.png)
-
-### Trainers Page
-
-![Trainers Page Screenshot](docs/screenshot-trainers.png)
-
-### Sign Up Page
-
-![Signup Page Screenshot](docs/screenshot-signup.png)
-![Signup Page Screenshot](docs/screenshot-signup-2.png)
-![Signup Page Screenshot](docs/screenshot-signup-3.png)
-![Signup Page Screenshot](docs/test-screenshot-4.png)
-
-### Signup Page (Test Screenshot)
-
-![Signup Page Screenshot](assets/images/test-screenshot.png)
-
-## Attribution
-
-- Bootstrap 5 provided via official CDN: https://getbootstrap.com/
-- - Fonts used: [e.g. Google Fonts - Open Sans](https://fonts.google.com/specimen/Open+Sans)
-
-
-## Features in Detail
-
-### Home Page
-- Eye-catching banner introduces the brand
-- Clear navigation to other pages
-- Welcoming call to action
-
-### Classes Page
-- Grid layout displaying available classes
-- Descriptions help users choose the right program
-
-### Trainers Page
-- Profile cards for each instructor
-- Bio and specialties provided for each trainer
-
-### Join Us Page
-- Sign-up form with name, email, class choice, and comments
-- Designed for easy user interaction
