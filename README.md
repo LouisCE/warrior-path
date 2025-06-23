@@ -225,7 +225,7 @@ This section creates immediate visual impact and sets the tone for the rest of t
 ### About Section
 Provides a warm, community-focused introduction to the gym’s mission, values, and atmosphere. Perfect for new visitors trying to understand the vibe.
 
-![About section screenshot](assets/images/screenshot-about.png)
+![About section screenshot](docs/screenshot-about.png)
 
 ### Info Columns
 
@@ -240,7 +240,7 @@ These are stacked on mobile for ease of reading and display in columns on larger
 ### Pricing & Testimonials
 These blocks use card layouts for easy scanning. Testimonials help build trust, while pricing is clear and friendly. Cards are fully responsive and stack beautifully on mobile.
 
-![Pricing and testimonials screenshot](assets/images/screenshot-info.png)
+![Pricing and testimonials screenshot](docs/screenshot-info.png)
 
 ### Our Classes
 
@@ -454,16 +454,16 @@ I used [JSHint](https://jshint.com/ "JSHint") to validate my JavaScript. Again, 
 
 ## User Story Testing
 
-| User Story                                                                                       | How It Was Addressed                                                                                          | Pass | Screenshot                                                   |
-|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|------|--------------------------------------------------------------|
-| As a first-time visitor, I want to quickly understand what kinds of martial arts are taught here. | Clear class descriptions for striking (Boxing, Muay Thai) and grappling (Wrestling, Jiu Jitsu) are shown.    | Yes  | ![Martial Arts Section](docs/user-story1.png)               |
-| As a parent, I want to know if there are junior classes suitable for my child’s age.             | Juniors section explains age groups and class types in accessible language.                                   | Yes  | ![Juniors Section](docs/user-story2.png)                    |
-| As a returning user, I want to find coach profiles easily.                                       | Coaches section is clearly labeled in the navbar and includes profile images and bios.                        | Yes  | ![Coaches Section](docs/user-story3.png)                    |
-| As a prospective student, I want to see clear pricing and know what to expect before joining.    | Pricing block is simple, scrollable and visible near the top of the page.                                     | Yes  | ![Pricing Block](docs/user-story4.png)                      |
-| As a user on mobile, I want everything to be scrollable and legible without pinching or zooming. | Fully responsive layout with Bootstrap grid and media queries; tested on real phone and DevTools.             | Yes  | ![Mobile Screenshot](docs/user-story5.png)                  |
-| As someone unfamiliar with martial arts, I want the tone to feel welcoming and non-intimidating. | Friendly copywriting, beginner-friendly descriptions, and call-to-actions with encouragement.                 | Yes  | ![About Section](docs/user-story6.png)                      |
-| As an accessibility-conscious user, I want keyboard focus indicators and readable font contrast. | Focus outlines, large readable fonts, and high colour contrast were manually and programmatically tested.      | Yes  | See [Accessibility Testing](#accessibility-testing)         |
-| As a motivated learner, I want to sign up or express interest directly from the page.            | Call-to-action form at the bottom allows users to enter their details; success message and redirect included. | Yes  | ![Signup Form](docs/user-story7.png)                        |
+| User Story                                                                                     | How It Was Addressed                                                                                                                             | Pass |
+| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ---- |
+| As a first-time visitor, I want to quickly understand what kinds of martial arts are taught here. | Clear class descriptions for striking (Boxing, Muay Thai) and grappling (Wrestling, Jiu Jitsu) are shown.                                         | Yes  |
+| As a parent, I want to know if there are junior classes suitable for my child’s age.            | Juniors section explains age groups and class types in accessible language.                                                                       | Yes  |
+| As a returning user, I want to find coach profiles easily.                                      | Coaches section is clearly labeled in the navbar and includes profile images and bios.                                                            | Yes  |
+| As a prospective student, I want to see clear pricing and know what to expect before joining.  | Pricing block is simple, scrollable, and visible near the top of the page.                                                                         | Yes  |
+| As a user on mobile, I want everything to be scrollable and legible without pinching or zooming.| Fully responsive layout with Bootstrap grid and media queries; tested on real phone and DevTools.                                                 | Yes  |
+| As someone unfamiliar with martial arts, I want the tone to feel welcoming and non-intimidating.| Friendly copywriting, beginner-friendly descriptions, and call-to-actions with encouragement.                                                     | Yes  |
+| As an accessibility-conscious user, I want keyboard focus indicators and readable font contrast.| Focus outlines, large readable fonts, and high colour contrast were manually and programmatically tested.                                         | Yes  |
+| As a motivated learner, I want to sign up or express interest directly from the page.           | Call-to-action form at the bottom allows users to enter their details; success message and redirect included.                                     | Yes  |
 
 ## Feature Testing
 
