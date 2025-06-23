@@ -10,7 +10,7 @@ Warrior Path Martial Arts is a responsive, one-page website designed to promote 
 
 Whether you’re a curious beginner, a parent looking for the right class for your child, or a seasoned martial artist seeking expert coaching, Warrior Path makes the journey clear, accessible, and inspiring.
 
-![Am I Responsive design screenshot](assets/images/am-i-responsive.png)
+![Am I Responsive design screenshot](docs/am-i-responsive.png)
 
 ## Table of Contents
 
@@ -391,6 +391,28 @@ A custom 404 error page has been implemented to handle broken or mistyped URLs g
 https://jigsaw.w3.org/css-validator/ was used to validate my style.css. Similar to my html files, no errors came back related to my style.css, which is shown below.
 
 ![W3C CSS Validator](docs/css-validation.png)
+
+### JavaScript
+
+I used [JSHint](https://jshint.com/ "JSHint") to validate my JavaScript. Again, no errors detected.
+
+![JS Validation Image](docs/js-validation.png)
+
+## User Story Testing
+
+| User Story                                                                                       | How It Was Addressed                                                                                          | Pass | Screenshot                                                   |
+|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|------|--------------------------------------------------------------|
+| As a first-time visitor, I want to quickly understand what kinds of martial arts are taught here. | Clear class descriptions for striking (Boxing, Muay Thai) and grappling (Wrestling, Jiu Jitsu) are shown.    | Yes  | ![Martial Arts Section](docs/user-story1.png)               |
+| As a parent, I want to know if there are junior classes suitable for my child’s age.             | Juniors section explains age groups and class types in accessible language.                                   | Yes  | ![Juniors Section](docs/user-story2.png)                    |
+| As a returning user, I want to find coach profiles easily.                                       | Coaches section is clearly labeled in the navbar and includes profile images and bios.                        | Yes  | ![Coaches Section](docs/user-story3.png)                    |
+| As a prospective student, I want to see clear pricing and know what to expect before joining.    | Pricing block is simple, scrollable and visible near the top of the page.                                     | Yes  | ![Pricing Block](docs/user-story4.png)                      |
+| As a user on mobile, I want everything to be scrollable and legible without pinching or zooming. | Fully responsive layout with Bootstrap grid and media queries; tested on real phone and DevTools.             | Yes  | ![Mobile Screenshot](docs/user-story5.png)                  |
+| As someone unfamiliar with martial arts, I want the tone to feel welcoming and non-intimidating. | Friendly copywriting, beginner-friendly descriptions, and call-to-actions with encouragement.                 | Yes  | ![About Section](docs/user-story6.png)                      |
+| As an accessibility-conscious user, I want keyboard focus indicators and readable font contrast. | Focus outlines, large readable fonts, and high color contrast were manually and programmatically tested.      | Yes  | See [Accessibility Testing](#accessibility-testing)         |
+| As a motivated learner, I want to sign up or express interest directly from the page.            | Call-to-action form at the bottom allows users to enter their details; success message and redirect included. | Yes  | ![Signup Form](docs/user-story7.png)                        |
+
+[Back to top](#contents)
+
 
 ## Purpose
 
