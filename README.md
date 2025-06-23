@@ -372,7 +372,7 @@ A custom 404 error page has been implemented to handle broken or mistyped URLs g
 
 ### HTML
 
-[W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML") was used to validate my index.html, success.html and 404.html. All three came back without errors.
+[W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML") was used to validate my index.html, success.html and 404.html. All three came back without errors. This can be seen below.
 
 **Main page**
 
@@ -387,6 +387,10 @@ A custom 404 error page has been implemented to handle broken or mistyped URLs g
 ![W3C HTML Validator](docs/404-validation.png)
 
 ### CSS
+
+https://jigsaw.w3.org/css-validator/ was used to validate my style.css. Similar to my html files, no errors came back related to my style.css, which is shown below.
+
+![W3C CSS Validator](docs/css-validation.png)
 
 ## Purpose
 

@@ -371,46 +371,11 @@
             </div>
         </footer>
 
-        <script>
-            document.getElementById("signup-form").addEventListener("submit", function (e) {
-                e.preventDefault();
-                window.location.href = "success.html";
-            });
-        </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+  crossorigin="anonymous"></script>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous">
-        </script>
-
-        <script>
-            document.addEventListener("click", function (event) {
-                const navbarToggler = document.getElementById("navbarToggle");
-                const navbarCollapse = document.getElementById("navbarNav");
-
-                const isClickInsideNavbar = navbarCollapse.contains(event.target) || navbarToggler.contains(
-                    event.target);
-                const isNavbarOpen = navbarCollapse.classList.contains("show");
-
-                if (!isClickInsideNavbar && isNavbarOpen) {
-                    navbarToggler.click();
-                }
-            });
-        </script>
-
-        <script>
-            const navLinks = document.querySelectorAll('.nav-link');
-            const navbarToggler = document.getElementById('navbarToggle');
-
-            navLinks.forEach(link => {
-                link.addEventListener('click', () => {
-                    const navbarCollapse = document.getElementById('navbarNav');
-                    if (navbarCollapse.classList.contains('show')) {
-                        navbarToggler.click();
-                    }
-                });
-            });
-        </script>
-
+<script src="assets/js/script.js"></script>
+        
 </body>
-
 </html>
