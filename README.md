@@ -99,8 +99,6 @@ The main audience includes:
 
 The design and layout reflect balances accessibility and approachability which caters to all of these groups.
 
-[Back to top](#contents)
-
 ## Wireframes
 
 Wireframes were created using Balsamiq, following a mobile-first approach in line with best practices. I started by sketching layouts for mobile screens and then expanded them for tablet and desktop to make sure the structure worked at all breakpoints.
@@ -120,8 +118,6 @@ The final site remains a single scrollable page, designed to reduce navigation f
 ![Mobile Wireframes](docs/wireframes-mobile.png)
 ![Tablet Wireframes](docs/wireframes-tablet.png)
 ![Desktop Wireframes](docs/wireframes-computer.png)
-
-[Back to top](#contents)
 
 ## UX Design Approach
 
@@ -183,8 +179,6 @@ Testing across device emulators and real devices helped ensure layouts didn't br
 - Visual hierarchy remains clear across screen sizes.
 
 Each section, from the hero header to the info columns and call-to-action, adapts layout and spacing across devices to maintain readability and flow. Flexbox and utility classes helped ensure clean stacking on mobile while preserving side-by-side content on larger screens.
-
-[Back to top](#contents)
 
 # Features
 
@@ -303,8 +297,6 @@ At the bottom of the page is a call-to-action form that includes:
 ![Signup Page Screenshot](docs/screenshot-signup-4.png)
 ![Signup Page Screenshot](docs/screenshot-signup-5.png)
 
-[Back to top](#contents)
-
 ## Landing View
 
 The site follows a single-page application layout to maintain fast performance, a smooth Instagram-like scroll experience, and intuitive structure. The landing section includes:
@@ -314,8 +306,6 @@ The site follows a single-page application layout to maintain fast performance, 
 - **Branding** that introduces the ethos of Warrior Path Martial Arts.
 
 All interactions are mobile-optimized. Buttons are styled consistently across the page with high-contrast colour and accessible sizing. Layout adapts naturally for smaller screens.
-
-[Back to top](#contents)
 
 ## Class Overview Sections
 
@@ -335,8 +325,6 @@ The trainer section provides a human touch, with:
 - **Consistent formatting** and alignment across screen sizes.
 
 This builds credibility and trust with site visitors, especially parents considering classes for children.
-
-[Back to top](#contents)
 
 ## Sign-Up Form
 
@@ -372,8 +360,6 @@ I added a custom 404 error page to handle broken or mistyped URLs.
 
 ![404 Page](docs/404.png)
 
-[Back to top](#contents)
-
 ## Future Enhancements
 
 - **Class Booking Integration:** Add calendar-based booking functionality where users can reserve a free trial or regular class session.
@@ -385,10 +371,6 @@ I added a custom 404 error page to handle broken or mistyped URLs.
 - **Accessibility Enhancements:** Further improve keyboard navigation and screen reader compatibility. Also, add ARIA roles and landmarks.
 - **Blog/News section:** To keep members updated.
 - **Improve SEO:** By adding meta descriptions and structured data.
-
-[Back to top](#contents)
-
-## Technologies Used
 
 ## Technologies Used
 
@@ -413,8 +395,6 @@ I added a custom 404 error page to handle broken or mistyped URLs.
 - Color Contrast Checker
 - Am I Responsive
 - Responsive Design Checker
-
-[Back to top](#contents)
 
 # Testing
 
@@ -481,8 +461,6 @@ I used [JSHint](https://jshint.com/ "JSHint") to validate my JavaScript. Again, 
 | As an accessibility-conscious user, I want keyboard focus indicators and readable font contrast. | Focus outlines, large readable fonts, and high color contrast were manually and programmatically tested.      | Yes  | See [Accessibility Testing](#accessibility-testing)         |
 | As a motivated learner, I want to sign up or express interest directly from the page.            | Call-to-action form at the bottom allows users to enter their details; success message and redirect included. | Yes  | ![Signup Form](docs/user-story7.png)                        |
 
-[Back to top](#contents)
-
 ## Feature Testing
 
 I manually tested every feature of the Warrior Path website using Chrome and DevTools. This includes buttons, forms, navigation links, interactive JavaScript features and mobile responsiveness.
@@ -499,8 +477,6 @@ All core features were tested against expected behaviors, including:
 Testing was done throughout development and final checks were made once the content and layout were complete.
 
 [Feature Testing Results](docs/feature-test-results.pdf "Feature Testing Results")
-
-[Back to top](#contents)
 
 ## Accessibility Testing
 
