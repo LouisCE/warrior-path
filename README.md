@@ -41,6 +41,10 @@ Whether you’re a curious beginner, a parent looking for the right class for yo
 - [Design Decisions](#design-decisions)
 - [Future Improvements](#future-improvements)
 
+## Purpose
+
+This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
+
 ### Key Features
 
 - Mobile-first responsive design using Bootstrap.
@@ -58,6 +62,15 @@ Whether you’re a curious beginner, a parent looking for the right class for yo
 - Transparent pricing and schedule overview.
 - A simple, accessible way to sign up or ask questions.  
 - A motivating, energetic aesthetic without clutter.
+
+
+
+| User Goals                                 | Site Goals                                  |
+|--------------------------------------------|---------------------------------------------|
+| Learn about available classes              | Present offerings clearly and concisely     |
+| Understand trainer qualifications          | Build trust through professional profiles   |
+| Register for a class easily                | Provide a seamless, error-free sign-up form |
+| Browse the site on any device              | Ensure full responsiveness and accessibility|
 
 ## User Stories
 
@@ -82,12 +95,17 @@ Whether you’re a curious beginner, a parent looking for the right class for yo
 
 ## Target Audience
 
+The main audience includes:
+
+- Beginners interested in joining a martial arts class for the first time.
 - Adults seeking self-improvement through martial arts.
-- Parents looking for a disciplined but friendly junior program.
+- Parents looking for safe, structured activities for children.
 - Teens interested in competitive or recreational combat sports.
 - Fitness-focused individuals looking for striking or grappling-based alternatives to gyms.
-- Curious beginners who want a low-pressure way to explore martial arts.
 - Returning martial artists seeking a new place to train.
+- Experienced martial artists seeking new instructors or facilities
+
+The design and layout reflect balances accessibility and approachability which caters to all of these groups.
 
 [Back to top](#contents)
 
@@ -124,6 +142,12 @@ The final site remains a one-page layout to support logical flow, quick scanning
 [Back to top](#contents)
 
 ## Design Choices
+
+- **Orange highlights**: Used for focus and hover states to guide user interaction.
+- **Responsive design**: Ensures usability on phones, tablets, and desktops.
+- **Bootstrap 5**: Chosen for its ease of use and mobile-first approach.
+- **Image consistency**: All images follow a clean and modern visual style.
+- **Alt attributes**: Support screen readers and visually impaired users.
 
 ### Typography
 
@@ -356,10 +380,10 @@ I added a custom 404 error page to handle broken or mistyped URLs.
 
 ## Technologies Used
 
-### Languages
+## Technologies Used
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript
 
 ### Frameworks & Libraries
@@ -371,11 +395,11 @@ I added a custom 404 error page to handle broken or mistyped URLs.
 ### Tools & Platforms
 
 - GitHub
-- GitPod
 - VS Code
 - Balsamiq
 - W3C HTML Validator
 - W3C CSS Validator
+- JSHint
 - Color Contrast Checker
 - Am I Responsive
 - Responsive Design Checker
@@ -470,6 +494,24 @@ Testing was done throughout development and final checks were made once the cont
 
 ## Accessibility Testing
 
+Accessibility was a key priority in the design and development of Warrior Path Martial Arts. I implemented the following measures to support inclusive use:
+
+- **Responsive layout** using Bootstrap 5.3.7 ensures readability across all devices, from mobile phones to large desktops.
+- **Semantic HTML5 tags** such as `<header>`, `<nav>`, `<section>`, and `<footer>` are used to help screen readers and assistive technology interpret the content structure correctly.
+- **ARIA labels** have been included where necessary (for example, with form inputs) to provide extra context and improve form accessibility for screen readers.
+- **High-contrast colours** between text and background elements aid readability.
+- **Alt text** has been added for all images, making visual content accessible to visually impaired users.
+- **Keyboard navigability** is preserved through standard HTML elements and logical layout.
+- **Form validation** and `required` attributes ensure users receive feedback when submitting forms incorrectly.
+
+These practices ensure the site is inclusive, usable, and compliant with basic WCAG 2.1 accessibility standards.
+
+This website supports keyboard navigation to enhance accessibility. Interactive elements such as navigation links and call-to-action (CTA) buttons have visible `:focus` styles, allowing users who navigate using the Tab key to clearly see which element is currently selected. The focus styles use a high-contrast orange (#ffa040) consistent with the hover styles for visual continuity. Additionally, form inputs and buttons highlight on focus to assist users relying on keyboard interaction.
+
+**Keyboard Navigation Test:**  
+Pressing the Tab key cycles through all interactive elements (links, buttons, form fields). Each focused element is clearly highlighted with a bright orange outline or underline. No elements are skipped, and focus order is logical.
+**Result:** Pass
+
 ## Lighthouse Testing
 
 ## Browser Testing
@@ -509,6 +551,17 @@ To clone the repository:
 4. Open your terminal and navigate to where you'd like the repo to live.
 5. Type: `git clone <paste-url-here>` and hit Enter.
 
+## Lessons Learned
+
+- I learned how VS Code and GitHub work together to deploy live websites.
+- I deepended and consolidated my understanding of HTML and CSS.
+- I gained a basic understanding of JavaScript.
+- I learned how to troubleshoot and find bugs more efficiently.
+- I deepened my understanding of responsive layout with Bootstrap's grid system.
+- I learned why it's important to design for accessibility from the beginning, rather than fitting it at the end.
+- Balancing visual design with semantic HTML taught me how to build with both users and machines (screen readers and search engines) in mind.
+- Using GitHub Pages for deployment reinforced the importance of version control and remote collaboration tools.
+
 # Credits
 
 ## Acknowledgments
@@ -522,10 +575,6 @@ To clone the repository:
 
 
 
-## Purpose
-
-This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
-
 
 ## Value to Users
 
@@ -536,7 +585,7 @@ The website helps users understand what the school offers, who the instructors a
 This project followed key UX design principles, such as:
 
 - **User Research:** I considered the expectations of gym members, parents, and martial artists. Common goals include finding schedules, reading about instructors, looking at prices.
-- **Wireframing:** Before coding, I sketched rough layouts to visualise navigation flow and content hierarchy. (will add wireframe screenshot later)
+- **Wireframing:** BI sketched rough layouts to visualise navigation flow and content hierarchy.
 - **Visual Hierarchy:** Used font sizes, spacing, and colour contrast to guide user attention. Primary CTAs are positioned prominently.
 - **Accessibility First:** ARIA labels, alt text, tab order, and contrast were used from the outset, not added after. (will add more ARIA later)
 - **Feedback Loops:** Peer review and user feedback from mentors and alumni helped identify areas to improve clarity and layout.
@@ -575,12 +624,7 @@ The design encourages exploration without distraction, suitable for both first-t
 
 
 
-## Technologies Used
 
-- HTML5
-- CSS3
-- Bootstrap 5 (via CDN)
-- Git and GitHub for version control and deployment
 
 ## Responsive Design Strategy
 
@@ -623,34 +667,6 @@ _Screenshots of each page and key feature will be included here._
 - Bootstrap 5 provided via official CDN: https://getbootstrap.com/
 - - Fonts used: [e.g. Google Fonts - Open Sans](https://fonts.google.com/specimen/Open+Sans)
 
-## Accessibility
-
-Accessibility was a key priority in the design and development of Warrior Path Martial Arts. The following measures were implemented to support inclusive use:
-
-- **Responsive layout** using Bootstrap 5.3.7 ensures readability across all devices, from mobile phones to large desktops.
-- **Semantic HTML5 tags** such as `<header>`, `<nav>`, `<section>`, and `<footer>` are used to help screen readers and assistive technology interpret the content structure correctly.
-- **ARIA labels** have been included where necessary (for example, with form inputs) to provide extra context and improve form accessibility for screen readers.
-- **High-contrast colours** between text and background elements aid readability.
-- **Alt text** has been added for all images, making visual content accessible to visually impaired users.
-- **Keyboard navigability** is preserved through standard HTML elements and logical layout.
-- **Form validation** and `required` attributes ensure users receive feedback when submitting forms incorrectly.
-
-These practices ensure the site is inclusive, usable, and compliant with basic WCAG 2.1 accessibility standards.
-
-This website supports keyboard navigation to enhance accessibility. Interactive elements such as navigation links and call-to-action (CTA) buttons have visible `:focus` styles, allowing users who navigate using the Tab key to clearly see which element is currently selected. The focus styles use a high-contrast orange (#ffa040) consistent with the hover styles for visual continuity. Additionally, form inputs and buttons highlight on focus to assist users relying on keyboard interaction.
-
-### Accessibility Testing
-
-**Keyboard Navigation Test:**  
-Pressing the Tab key cycles through all interactive elements (links, buttons, form fields). Each focused element is clearly highlighted with a bright orange outline or underline. No elements are skipped, and focus order is logical.
-**Result:** Pass
-
-## How to Run/Preview the Project
-
-You can preview the website locally by opening the HTML files directly in your web browser. No additional setup is required.
-
-Alternatively, view the live site hosted on GitHub Pages at:  
-[https://louisce.github.io/warrior-path/](https://louisce.github.io/warrior-path/)
 
 ## Features in Detail
 
@@ -670,39 +686,3 @@ Alternatively, view the live site hosted on GitHub Pages at:
 ### Join Us Page
 - Sign-up form with name, email, class choice, and comments
 - Designed for easy user interaction
-
-## Target Audience
-
-The primary audience includes:
-- Beginners interested in martial arts classes
-- Parents looking for safe, structured activities for children
-- Experienced martial artists seeking new instructors or facilities
-
-The design and layout reflect a balance of professionalism, accessibility, and approachability to cater to all of these groups.
-
-## User Goals and Site Goals
-
-| User Goals                                 | Site Goals                                  |
-|--------------------------------------------|---------------------------------------------|
-| Learn about available classes              | Present offerings clearly and concisely     |
-| Understand trainer qualifications          | Build trust through professional profiles   |
-| Register for a class easily                | Provide a seamless, error-free sign-up form |
-| Browse the site on any device              | Ensure full responsiveness and accessibility|
-
-## Design Decisions
-
-- **Orange highlights**: Used for focus and hover states to guide user interaction.
-- **Responsive design**: Ensures usability on phones, tablets, and desktops.
-- **Bootstrap 5**: Chosen for its ease of use and mobile-first approach.
-- **Image consistency**: All images follow a clean and modern visual style.
-- **Alt attributes**: Support screen readers and visually impaired users.
-
-## Lessons Learned
-
-- I learned how VS Code and GitHub work together to deploy live websites.
-- I deepended and consolidated my understanding of HTML and CSS.
-- I learned how to troubleshoot and find bugs more efficiently.
-- I deepened my understanding of responsive layout with Bootstrap's grid system.
-- I learned why it's important to design for accessibility from the beginning, rather than fitting it at the end.
-- Balancing visual design with semantic HTML taught me how to build with both users and machines (screen readers and search engines) in mind.
-- Using GitHub Pages for deployment reinforced the importance of version control and remote collaboration tools.
