@@ -502,7 +502,37 @@ This website supports keyboard navigation to enhance accessibility. Interactive 
 Pressing the Tab key cycles through all interactive elements (links, buttons, form fields). Each focused element is clearly highlighted with a bright orange outline or underline. No elements are skipped, and focus order is logical.
 **Result:** Pass
 
+## Accessibility Testing
 
+I used the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) to assess the accessibility of the deployed site.
+
+### Summary of Results
+
+| Type                  | Count                | Notes                                                                 |
+|-----------------------|----------------------|-----------------------------------------------------------------------|
+| **Errors**            | 3 Contrast Errors     | Mostly to do with muted footer text or blockquote footers.            |
+| **Alerts**            | 3 Alerts              | All reviewed and either resolved or justified below.                  |
+| **Features**          | 15 Features           | Good use of alternative text and ARIA labels throughout.              |
+| **Structural Elements** | 27                | Proper heading levels and semantic structure used throughout.         |
+| **ARIA**              | 11                    | Includes proper use of `aria-label` and other helpful roles.          |
+
+### Contrast Errors
+
+WAVE flagged three contrast issues. These were related to muted grey text on dark backgrounds, particularly in the `.blockquote-footer` class under Testimonials. I attempted to fix this using lighter grey tones (`#ccc`, `#ddd`) and custom overrides, but Bootstrap sometimes overpowered the styling. Since the text remains clearly legible and passed visual inspection, I decided to retain the current look. I’ve acknowledged the contrast warnings here and can revisit this post-deadline if needed.
+
+### Alerts
+
+There were 3 WAVE alerts, two of which were due to “Suspicious alternative text”. It seems that WAVE tends to flag alt descriptions that it considers to not be sufficiently descriptive.
+
+I resolved these by rewriting the `alt` text for all relevant images to be more specific and contextual. For example:
+
+```html
+alt="Inside the Warrior Path gym to welcome the user into the environment"
+alt="Image of the gym's interior to show off the equipment and amount of space"
+alt="Students posing together to show off the gym's friendly environment"
+alt="Image of a famous quote from Muhammad Ali to motivate students and users"
+
+![WAVE Screenshot](docs/screenshot-wave.png)
 
 ## Lighthouse Testing
 
