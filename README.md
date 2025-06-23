@@ -220,7 +220,7 @@ The hero banner displays a large, full-width image accompanied by a bold heading
 
 This section creates immediate visual impact and sets the tone for the rest of the page.
 
-![Hero section screenshot](assets/images/screenshot-hero.png)
+![Hero section screenshot](docs/screenshot-home.png)
 
 ### About Section
 Provides a warm, community-focused introduction to the gym’s mission, values, and atmosphere. Perfect for new visitors trying to understand the vibe.
@@ -273,7 +273,7 @@ Among the grappling arts are:
 
 Alternating layouts with images help keep the page dynamic and readable.
 
-![Classes section screenshot](assets/images/screenshot-classes.png)
+![Classes section screenshot](docs/screenshot-classes.png)
 
 ### Meet the Coaches
 
