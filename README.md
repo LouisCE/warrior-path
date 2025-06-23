@@ -103,33 +103,23 @@ The design and layout reflect balances accessibility and approachability which c
 
 ## Wireframes
 
-All content was structured to display clearly on phones before adapting to tablets and desktops.
+Wireframes were created using Balsamiq, following a mobile-first approach in line with best practices. I started by sketching layouts for mobile screens and then expanded them for tablet and desktop to make sure the structure worked at all breakpoints.
 
-Several elements evolved beyond the initial sketches during development:
+The final live site follows the overall structure of the wireframes but a few adjustments were made during development to improve flow, responsiveness, and accessibility:
 
-- The info section was adjusted into a simplistic vertical scroll for clarity and simplicity.  
-- Class types were visually split into junior and adult categories.  
-- Images were refined to better reflect grappling and striking styles.  
-- The layout was condensed into a single scrollable Instagram-like page to reduce navigation friction and improve mobile UX.
+- The info section was simplified into a vertical scroll layout for mobile readability.
+- Class types were clearly split into Junior and Adult categories to help users find what they need.
+- Images were updated to better reflect striking and grappling martial arts.
+- Some sections were reordered slightly to improve reading experience on mobile.
+- Bootstrap’s grid system was used to restructure a few blocks for better responsiveness.
 
-## Wireframes
+The final site remains a single scrollable page, designed to reduce navigation friction and support smooth exploration across all devices.
 
-The wireframes for Warrior Path were created using the Balsamiq tool. In line with best practices, I followed a mobile-first approach, beginning with layouts designed for small screens, then expanding and refining them for tablet and desktop views.
+**Wireframe links:**
 
-While the final live site closely follows the original wireframes in terms of structure and content flow, there were a few adjustments made during development to improve responsiveness, clarity, and accessibility.
-
-For example, in the live version:
-- Some sections are reordered slightly to improve the reading experience on mobile.
-- Certain content blocks were expanded or visually restructured to make better use of Bootstrap’s grid system.
-- Layouts were simplified to maintain consistency across breakpoints and avoid crowding on smaller screens.
-
-The final site remains a one-page layout to support logical flow, quick scanning, and fast navigation for users on any device.
-
-[Mobile Wireframes](docs/wireframes-mobile.png "Mobile Wireframes")
-
-[Tablet Wireframes](docs/wireframes-tablet.png "Tablet Wireframes")
-
-[Desktop Wireframes](docs/wireframes-computer.png "Desktop Wireframes")
+![Mobile Wireframes](docs/wireframes-mobile.png)
+![Tablet Wireframes](docs/wireframes-tablet.png)
+![Desktop Wireframes](docs/wireframes-computer.png)
 
 [Back to top](#contents)
 
