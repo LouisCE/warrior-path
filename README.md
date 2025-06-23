@@ -550,6 +550,10 @@ All categories recieved a score above 90, which can be seen below. Performance i
 ![Lighthouse Results Screenshot](docs/screenshot-lighthouse.png)
 ![Lighthouse Results Screenshot](docs/screenshot-lighthouse-2.png)
 
+## Conclusion
+
+All critical accessibility issues were addressed. Minor alerts and contrast warnings are documented and do not hinder usability. The final Lighthouse audit confirmed a strong Accessibility score of 95/100, and the WAVE tool shows no major issues remaining.
+
 ## Browser Testing
 
 ## Deployment
