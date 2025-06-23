@@ -515,7 +515,7 @@ I tested the website using [Google Lighthouse](https://developers.google.com/web
 | Best Practices  | 100   |
 | SEO             | 91    |
 
-All categories recieved a score above 90. Performance improved significantly after running in Incognito mode, with images optimised and layout tested across devices. Accessibility adjustments included ARIA labels, valid `alt` text, contrast improvements, and structural heading order.
+All categories recieved a score above 90, which can be seen below. Performance improved significantly after running in Incognito mode, with images optimised and layout tested across devices. Accessibility adjustments included ARIA labels, valid `alt` text, contrast improvements, and structural heading order.
 
 ![Lighthouse Results Screenshot](docs/screenshot-lighthouse.png)
 ![Lighthouse Results Screenshot](docs/screenshot-lighthouse-2.png)
