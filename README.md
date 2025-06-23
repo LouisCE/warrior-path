@@ -502,7 +502,23 @@ This website supports keyboard navigation to enhance accessibility. Interactive 
 Pressing the Tab key cycles through all interactive elements (links, buttons, form fields). Each focused element is clearly highlighted with a bright orange outline or underline. No elements are skipped, and focus order is logical.
 **Result:** Pass
 
+
+
 ## Lighthouse Testing
+
+I tested the website using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome’s Incognito Mode to eliminate extension interference.
+
+| Category        | Score |
+|----------------|-------|
+| Performance     | 93    |
+| Accessibility   | 95    |
+| Best Practices  | 100   |
+| SEO             | 91    |
+
+All categories recieved a score above 90. Performance improved significantly after running in Incognito mode, with images optimised and layout tested across devices. Accessibility adjustments included ARIA labels, valid `alt` text, contrast improvements, and structural heading order.
+
+![Lighthouse Results Screenshot](docs/screenshot-lighthouse.png)
+![Lighthouse Results Screenshot](docs/screenshot-lighthouse-2.png)
 
 ## Browser Testing
 
