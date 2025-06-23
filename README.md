@@ -16,7 +16,7 @@ Whether you’re a curious beginner, a parent looking for the right class for yo
 
 This project simulates the development of a professional front-end website for a martial arts gym, intended to showcase a clean, accessible, and responsive design. The goal is to create a clean, accessible and responsive website that aims to provide visitors with clear and easy access to essential information such as class offerings, trainer profiles, educational content on mixed martial arts (MMA) and membership sign-ups. This project also emphasises practical application of UX principles while showcasing semantic HTML, and CSS best practices.
 
-### Key Features
+## Key Features
 
 - Mobile-first responsive design using Bootstrap.
 - Informative sections on coaches, classes, pricing, and testimonials.
@@ -43,22 +43,20 @@ The design encourages exploration without distraction, suitable for both first-t
 
 ## User Goals
 
-- Fast and clear access to class information.
-- Easy navigation across devices. 
-- Modern, mobile-friendly layout.
-- Confidence in the instructors through testimonials and coach bios.
-- Transparent pricing and schedule overview.
-- A simple, accessible way to sign up or ask questions.  
-- A motivating, energetic aesthetic without clutter.
+## User & Site Goals
 
+The primary aim of this website is to meet the needs of visitors quickly and clearly while aligning with the goals of Warrior Path as a modern martial arts gym. The following table maps user intentions to the site's strategic responses.
 
-
-| User Goals                                 | Site Goals                                  |
-|--------------------------------------------|---------------------------------------------|
-| Learn about available classes              | Present offerings clearly and concisely     |
-| Understand trainer qualifications          | Build trust through professional profiles   |
-| Register for a class easily                | Provide a seamless, error-free sign-up form |
-| Browse the site on any device              | Ensure full responsiveness and accessibility|
+| User Goal                                           | How the Site Addresses It                                                              |
+|----------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Learn about available classes                      | Clear descriptions of striking and grappling disciplines, separated by age group.       |
+| Understand trainer qualifications                  | Coach bios and professional photos build credibility and connection.                   |
+| Register for a class easily                        | Simple sign-up form with clear fields and success message confirmation.                |
+| Browse the site on any device                      | Fully responsive design using Bootstrap and custom media queries.                      |
+| Navigate confidently across pages                  | Clean, sticky navbar with active states and smooth anchor scrolling.                   |
+| Feel motivated without being overwhelmed           | Energetic visuals, clear structure, and minimal clutter for a focused experience.       |
+| Feel assured by pricing and testimonials           | Transparent pricing and student quotes shown early on the page.                        |
+| Ask questions or get in touch effortlessly         | Contact form placed at the bottom, easily accessible on all screen sizes.              |
 
 ## User Stories
 
@@ -526,7 +524,7 @@ There were 3 WAVE alerts, two of which were due to “Suspicious alternative tex
 
 I resolved these by rewriting the `alt` text for all relevant images to be more specific and contextual. For example:
 
-```html
+**html**
 alt="Inside the Warrior Path gym to welcome the user into the environment"
 alt="Image of the gym's interior to show off the equipment and amount of space"
 alt="Students posing together to show off the gym's friendly environment"
@@ -613,3 +611,8 @@ To clone the repository:
 - I'd also like to thank my facilitator, Kay for providing valuable information and answering questions about the grading criteria and course material.
 - Cam is one of the alumni at Code Institute and he was also a massive help, especially in the early stages when I was having trouble deploying my live website and later on when he pointed out specific things I need to fix or add.
 - Images came from Google Images.
+
+My understanding of the markdown language primarily comes from these sources: 
+
+https://www.youtube.com/watch?v=HUBNt18RFbo
+https://markdownlivepreview.com/
