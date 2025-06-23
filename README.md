@@ -152,9 +152,13 @@ The Warrior Path website uses a bold, bright orange colour palette to reflect en
 - **Base Theme:** `#1a1a1a` dark grey/black background to enhance contrast and create a striking visual hierarchy.
 - **Text Colour:** White and light greys for high legibility against the dark theme.
 
-All colours were chosen with accessibility and visual impact in mind. The palette is consistent with martial arts branding and helps create a sense of professionalism and energy. The dark background provides a sleek, professional appearance while the bright orange pops against the black for high visibility. Red was considered in place of orange but it was considered to be too aggressive and intimidating for a martial arts website.
+All colours were chosen with accessibility and visual impact in mind. The palette is consistent with martial arts branding and helps create a sense of professionalism and energy. The dark background provides a sleek, professional appearance while the bright orange pops against the black for high visibility. Red was considered in place of orange but I thought it would be too aggressive and intimidating for a martial arts website.
 
-![Warrior Path Colour Scheme](docs/color-scheme.png)
+![Warrior Path Colour Scheme](docs/colour-scheme.png)
+
+Contrast grid was also used so that I could get more ideas for shades of colours that would fit my website's theme.
+
+![Warrior Path Colour Scheme](docs/screenshot-colour-grid.png)
 
 ### Images
 
@@ -458,7 +462,7 @@ I used [JSHint](https://jshint.com/ "JSHint") to validate my JavaScript. Again, 
 | As a prospective student, I want to see clear pricing and know what to expect before joining.    | Pricing block is simple, scrollable and visible near the top of the page.                                     | Yes  | ![Pricing Block](docs/user-story4.png)                      |
 | As a user on mobile, I want everything to be scrollable and legible without pinching or zooming. | Fully responsive layout with Bootstrap grid and media queries; tested on real phone and DevTools.             | Yes  | ![Mobile Screenshot](docs/user-story5.png)                  |
 | As someone unfamiliar with martial arts, I want the tone to feel welcoming and non-intimidating. | Friendly copywriting, beginner-friendly descriptions, and call-to-actions with encouragement.                 | Yes  | ![About Section](docs/user-story6.png)                      |
-| As an accessibility-conscious user, I want keyboard focus indicators and readable font contrast. | Focus outlines, large readable fonts, and high color contrast were manually and programmatically tested.      | Yes  | See [Accessibility Testing](#accessibility-testing)         |
+| As an accessibility-conscious user, I want keyboard focus indicators and readable font contrast. | Focus outlines, large readable fonts, and high colour contrast were manually and programmatically tested.      | Yes  | See [Accessibility Testing](#accessibility-testing)         |
 | As a motivated learner, I want to sign up or express interest directly from the page.            | Call-to-action form at the bottom allows users to enter their details; success message and redirect included. | Yes  | ![Signup Form](docs/user-story7.png)                        |
 
 ## Feature Testing
