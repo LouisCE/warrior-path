@@ -121,7 +121,7 @@ The final site remains a single scrollable page, designed to reduce navigation f
 
 ## UX Design Approach
 
-This project followed key UX design principles, such as:
+I created this project while following key UX design principles, such as:
 
 - **User Research:** I considered the expectations of gym members, parents, and martial artists. Common goals include finding schedules, reading about instructors, looking at prices.
 - **Wireframing:** BI sketched rough layouts to visualise navigation flow and content hierarchy.
@@ -352,7 +352,7 @@ I added a confirmation page to make it clear to the user that their form has bee
 
 ## 404 Page
 
-I added a custom 404 error page to handle broken or mistyped URLs.
+I added a fun and onbrand custom 404 error page to handle broken or mistyped URLs so that the user has a positive experience, even when visiting a nonexistent page.
 
 - Displays a **clear error message**.
 - Includes a **5-second redirect** to the homepage.
