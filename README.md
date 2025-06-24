@@ -161,12 +161,12 @@ Contrast grid was also used so that I could get more ideas for shades of colours
 The site uses a curated collection of imagery designed to reflect the spirit of martial arts. Images were chosen from Google Images to represent:
 
 - **Juniors and Seniors** training in a focused, welcoming environment.
-- **Striking arts** like Muay Thai and Boxing, with photos showing pad work and form.
-- **Grappling arts** like Wrestling and Brazilian Jiu Jitsu, displaying movement and control.
+- **Striking arts** like Muay Thai and Boxing, with photos showing form.
+- **Grappling arts** like Wrestling and Brazilian Jiu Jitsu, displaying positional technique and control.
 
-All images were resized and compressed for performance. Where appropriate, Bootstrap’s responsive classes and custom CSS ensured that visuals scale naturally across devices without causing layout issues or horizontal scrolling.
+I combined Bootstrap’s responsive classes with custom CSS to ensure that visuals scale naturally across devices without causing layout issues or horizontal scrolling.
 
-Images complement the tone of each section and provide immediate visual context for the training styles available.
+Images complement the tone of each section and nicely portray the training styles available.
 
 ### Responsiveness
 
@@ -180,18 +180,18 @@ Testing across device emulators and real devices helped ensure layouts didn't br
 
 Each section, from the hero header to the info columns and call-to-action, adapts layout and spacing across devices to maintain readability and flow. Flexbox and utility classes helped ensure clean stacking on mobile while preserving side-by-side content on larger screens.
 
-# Features
+## Features
 
 The website layout is clean, focused, and built for clarity. Visitors can scroll through all content in a single-page layout, mimicking a modern one-page structure like Instagram, Facebook and LinkedIn. Section transitions are smooth, content is clearly separated, and visual hierarchy ensures no part overwhelms the user.
 
-## Existing Features
+### Existing Features
 
 - Home (`index.html`)
 - Classes (`classes.html`)
 - Trainers (`trainers.html`)
 - Join Us (`signup.html`)
 
-### Header
+#### Header
 
 The site features a simplified custom navbar that maintains consistency across screen sizes. It includes a Macondo font for a tough, yet elegant aesthetic and a menu with multiple options (i.e. Home, Classes, Trainers, Join Us).
 
@@ -199,10 +199,9 @@ The site features a simplified custom navbar that maintains consistency across s
 - **On desktop:** full links are displayed inline for ease of access.
 - The minimalist styling and contrast ensure high visibility and accessibility.
 
-![Home Page Screenshot](docs/screenshot-header.png)
+![Header Screenshot](docs/screenshot-header.png)
 
-
-### Hero Section
+#### Hero Section
 The homepage opens with a bold hero banner that immediately communicates the purpose of the site, to inspire and motivate users to begin their martial arts journey.
 
 - Eye-catching banner introduces the brand
@@ -218,86 +217,7 @@ This section creates immediate visual impact and sets the tone for the rest of t
 
 ![Hero section screenshot](docs/screenshot-home.png)
 
-### About Section
-Provides a warm, community-focused introduction to the gym’s mission, values, and atmosphere. Perfect for new visitors trying to understand the vibe.
-
-![About section screenshot](docs/screenshot-about.png)
-
-### Info Columns
-
-Below the hero, three main content columns communicate:
-
-- **Timetable and Opening Hours**
-- **Testimonials from Students and Parents**
-- **Pricing Structure**
-
-These are stacked on mobile for ease of reading and display in columns on larger screens. Icons and images enhance visual separation and aid scannability.
-
-### Pricing & Testimonials
-These blocks use card layouts for easy scanning. Testimonials help build trust, while pricing is clear and friendly. Cards are fully responsive and stack beautifully on mobile.
-
-![Pricing and testimonials screenshot](docs/screenshot-info.png)
-
-### Our Classes
-
-Class sections are divided by age group and discipline:
-
-- **Juniors:** safe, structured programs for kids.
-- **Adults:** more intensive classes for adults.
-- **Striking & Grappling:** users can visually identify the martial arts discipline via imagery and layout.
-
-This separation helps potential students or parents quickly find relevant info.
-
-- Grid layout displaying available classes
-- Descriptions help users choose the right program
-
-![Classes Page Screenshot](docs/screenshot-classes.png)
-
-### Mixed Martial Arts Breakdown
-
-Breaks down martial arts disciplines into striking and grappling, clearly explaining the four disciplines that Warrior Path teaches without being overwhelming. 
-
-Among the striking arts are:
-
-- **Boxing**
-- **Muay Thai**
-
-Among the grappling arts are:
-
-- **Wrestling**
-- **Brazilian Jiu Jitsu**
-
-Alternating layouts with images help keep the page dynamic and readable.
-
-![Classes section screenshot](docs/screenshot-classes-2.png)
-
-### Meet the Coaches
-
-Instructor bios are accompanied by photographs in circular format, names and short role descriptions. All sections are vertically stacked on small screens and aligned in columns on desktops.
-
-- Profile cards for each instructor
-- Bio and specialties provided for each trainer
-
-![Trainers Page Screenshot](docs/screenshot-trainers.png)
-
-### Signup Form
-
-At the bottom of the page is a call-to-action form that includes:
-
-- Full name  
-- Email address  
-- What are you hoping to achieve? 
-- Designed for easy user interaction
-
- Includes a working contact form to book a free first lesson. Fields are clearly labeled and spaced. All fields are required. A thank you message confirms submission.
-
-![Signup Page Screenshot](docs/screenshot-signup.png)
-![Signup Page Screenshot](docs/screenshot-signup-2.png)
-![Signup Page Screenshot](docs/screenshot-signup-3.png)
-![Signup Page Screenshot](docs/screenshot-signup-4.png)
-![Signup Page Screenshot](docs/screenshot-signup-5.png)
-
-## Landing View
+#### Landing View
 
 The site follows a single-page application layout to maintain fast performance, a smooth Instagram-like scroll experience, and intuitive structure. The landing section includes:
 
@@ -307,36 +227,88 @@ The site follows a single-page application layout to maintain fast performance, 
 
 All interactions are optimised for mobile. Buttons are styled consistently across the page with high-contrast orange and accessible sizing. Layout adapts naturally for smaller screens.
 
-## Class Overview Sections
+#### About Section
+Provides a warm, community-focused introduction to the gym’s mission, values, and atmosphere. Perfect for new visitors trying to understand the vibe.
 
-The class descriptions are divided by age group and discipline, making it easier for users to identify relevant training options:
+![About section screenshot](docs/screenshot-about.png)
 
-- **Juniors vs Adults:** Clear headings and age-appropriate imagery  
-- **Striking vs Grappling:** Distinct sections that introduce the techniques and training formats  
+#### Info Columns
 
-Each section is accompanied by supportive visuals and concise descriptions to help new visitors understand the benefits of different martial arts.
+Below the hero, three main content columns communicate:
 
-## Coach Profiles
+- **Timetable and Opening Hours**
+- **Testimonials from Students and Parents**
+- **Pricing Structure**
 
-The trainer section provides a human touch, with:
+These are stacked on mobile for ease of reading and display in columns on larger screens. Icons and images enhance visual separation and aid scannability.
 
-- **Photographs** of each instructor.
-- **Name and role** clearly labeled.
-- **Consistent formatting** and alignment across screen sizes.
+#### Pricing & Testimonials
+These blocks use card layouts for easy scanning. Testimonials help build trust, while pricing is clear and friendly. Cards are fully responsive and stack beautifully on mobile.
+
+![Pricing and testimonials screenshot](docs/screenshot-info.png)
+
+#### Class Overview
+
+Class sections are divided by age group and discipline, making it easier for users to identify what training options work best for them:
+
+- **Juniors:** safe, structured programs for kids.
+- **Adults:** more intensive classes for adults.
+
+This separation helps potential students or parents quickly find relevant info.
+
+Each section is accompanied by visuals of what the age groups look like and concise descriptions to help new visitors understand the benefits of different martial arts.
+
+![Classes Page Screenshot](docs/screenshot-classes.png)
+
+#### Mixed Martial Arts Breakdown
+
+This part breaks down martial arts disciplines into striking and grappling, clearly explaining the four disciplines that Warrior Path teaches without being overwhelming. 
+
+Among the striking arts are:
+
+- **Boxing**: Focus on punching, head movement and footwork.
+- **Muay Thai**: Focus on punching is less pure but it mixes in kicks, elbows and knees.
+
+Among the grappling arts are:
+
+- **Wrestling**: Focus on takedowns and positional control.
+- **Brazilian Jiu Jitsu**: Focus on chokes and submissions.
+
+The alternating grid layout with images is visually appealing and helps keep the page dynamic and readable.
+
+![Classes section screenshot](docs/screenshot-classes-2.png)
+
+#### Coach Profiles
+
+Instructor bios are accompanied by photographs in circular format, names and short role descriptions. All sections are vertically stacked on small screens and aligned in columns on desktops. This section includes:
+
+- Profile cards for each instructor
+- Pictures of each instructor.
+- Names of each instructor.
+- Bio and specialties of each instructor
 
 This builds credibility and trust with site visitors, especially parents considering classes for children.
 
-## Sign-Up Form
+![Trainers Page Screenshot](docs/screenshot-trainers.png)
+
+#### Signup Form
 
 The sign-up form serves as the call-to-action section of the page. It includes required fields:
 
-- **Name**
-- **Email**
-- **What are you hoping to achieve?**
+- Full name  
+- Email address  
+- What are you hoping to achieve? 
+- Designed for easy user interaction
 
-Users are encouraged to register their interest or request more information. Form fields are validated to avoid incomplete submissions. A confirmation message assures the user that their query was received.
+ It includes a working contact form to book a free first lesson. Fields are clearly labeled and spaced. All fields are required. A thank you message confirms submission.
 
-## Footer
+![Signup Page Screenshot](docs/screenshot-signup.png)
+![Signup Page Screenshot](docs/screenshot-signup-2.png)
+![Signup Page Screenshot](docs/screenshot-signup-3.png)
+![Signup Page Screenshot](docs/screenshot-signup-4.png)
+![Signup Page Screenshot](docs/screenshot-signup-5.png)
+
+#### Footer
 
 The footer is designed with simplicity and elegance to align with the site’s clean, minimal aesthetic.
 
@@ -344,13 +316,15 @@ The footer is designed with simplicity and elegance to align with the site’s c
 - **Icons are spaced** for touch accessibility.
 - Styled with **hover effects** in keeping with the rest of the UI.
 
-## Submission Confirmation Page
+### Other Pages
+
+#### Submission Confirmation Page
 
 I added a confirmation page to make it clear to the user that their form has been submitted.
 
 ![Success Page](docs/success.png)
 
-## 404 Page
+#### 404 Page
 
 I added a fun and onbrand custom 404 error page to handle broken or mistyped URLs so that the user has a positive experience, even when visiting a nonexistent page.
 
@@ -384,7 +358,7 @@ I added a fun and onbrand custom 404 error page to handle broken or mistyped URL
 - Font Awesome
 - Google Fonts
 
-### Tools & Platforms
+### Tools and Platforms
 
 - GitHub
 - VS Code
@@ -396,9 +370,9 @@ I added a fun and onbrand custom 404 error page to handle broken or mistyped URL
 - Am I Responsive
 - Responsive Design Checker
 
-# Testing
+## Testing
 
-## Bug & Testing Log
+### Bug Testing Log
 
 - Tested the website thoroughly on Chrome and DevTools across all major breakpoints (mobile, tablet, desktop).
 - HTML and CSS were validated using the W3C Markup and Jigsaw CSS Validators with zero errors.
@@ -416,7 +390,7 @@ I added a fun and onbrand custom 404 error page to handle broken or mistyped URL
 
 No unresolved bugs remain. All critical and visual issues have been addressed.
 
-## Responsiveness Tests
+### Responsiveness Testing Log
 
 The website was manually tested across a variety of real devices and emulators using Chrome DevTools. All key areas — including navigation, element alignment, content flow, and functionality — were checked to ensure a consistent experience.
 
@@ -440,7 +414,7 @@ The website was manually tested across a variety of real devices and emulators u
 | Nest Hub                   | Good       | Good              | Good              | Good          |
 | Nest Hub Max               | Good       | Good              | Good              | Good          |
 
-All responsive breakpoints worked as expected. The content is stacked appropriately on smaller devices, and navigation was smooth across all screen sizes. See examples below
+All responsive breakpoints worked as expected. The content is stacked appropriately on smaller devices, and navigation was smooth across all screen sizes.
 
 Below are three examples.
 
@@ -466,7 +440,7 @@ Below are three examples.
 
 ![W3C HTML Validator](docs/success-validation.png)
 
-**404 error page***
+**404 error page**
 
 ![W3C HTML Validator](docs/404-validation.png)
 
@@ -510,8 +484,6 @@ All core features were tested against expected behaviors, including:
 
 Testing was done throughout development and final checks were made once the content and layout were complete.
 
-[Feature Testing Results](docs/feature-test-results.pdf "Feature Testing Results")
-
 ## Accessibility Testing
 
 Accessibility was a key priority in the design and development of Warrior Path Martial Arts. I implemented the following measures to support inclusive use:
@@ -531,8 +503,6 @@ This website supports keyboard navigation to enhance accessibility. Interactive 
 **Keyboard Navigation Test:**  
 Pressing the Tab key cycles through all interactive elements (links, buttons, form fields). Each focused element is clearly highlighted with a bright orange outline or underline. No elements are skipped, and focus order is logical.
 **Result:** Pass
-
-## Accessibility Testing
 
 I used the [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) to assess the accessibility of the deployed site.
 
@@ -564,7 +534,7 @@ alt="Image of a famous quote from Muhammad Ali to motivate students and users"
 
 ![WAVE Screenshot](docs/screenshot-wave.png)
 
-## Lighthouse Testing
+### Lighthouse Testing
 
 I tested the website using [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) in Chrome’s Incognito Mode to eliminate extension interference.
 
@@ -580,7 +550,7 @@ All categories recieved a score above 90, which can be seen below. Performance i
 ![Lighthouse Results Screenshot](docs/screenshot-lighthouse.png)
 ![Lighthouse Results Screenshot](docs/screenshot-lighthouse-2.png)
 
-## Conclusion
+### Conclusion
 
 All critical accessibility issues were addressed. Minor alerts and contrast warnings are documented and do not hinder usability. The final Lighthouse audit confirmed a strong Accessibility score of 95/100, and the WAVE tool shows no major issues remaining.
 
@@ -598,7 +568,7 @@ I tested the website using [Google PageSpeed Insights](https://pagespeed.web.dev
 | SEO             | 91    |
 
 ![PageSpeed Results Part 1](docs/screenshot-pagespeed.png)
-![PageSpeed Results Part 2](docs/screenshot-pagespeed.png-2)
+![PageSpeed Results Part 2](docs/screenshot-pagespeed-2.png)
 
 These scores confirm that the site is fast, accessible, standards-compliant, and search-engine friendly on modern desktop browsers.
 
@@ -613,7 +583,7 @@ Given that I had a bit of extra time, I revisited WAVE and managed to cut the nu
 The website is deployed using GitHub Pages and is accessible at:  
 [Warrior Path Martial Arts](https://louisce.github.io/warrior-path/)
 
-## To deploy the project:
+### To deploy the project:
 
 Use GitHub Pages.
 
@@ -663,14 +633,14 @@ After reaching out to a Code Institute alumni (credited below) for support, I wa
 
 However, I did not delete the original repo and it still contains my earliest commits and development history. While most of the commit history exists in the current repo, the initial work can still be viewed via the link below.
 
-Original repo (where you can see my early commit history): https://github.com/LouisCE/warrior-path-x
+Original repo (where you can see my early commit history and original User Stories): https://github.com/LouisCE/warrior-path-x
 Current repo (for submission and deployment): https://github.com/LouisCE/warrior-path
 
 I spoke about this issue with my facilitator (also credited below) and it was confirmed with the assessment team that this would not be an issue. From that point onward, I have followed a consistent practice of committing my work to clearly demonstrate my development process.
 
-# Credits
+## Credits
 
-## Acknowledgments
+### Acknowledgments
 
 - Code Institute's Learning Management System (LMS) taught me HTML and CSS, as well as showing me detailed walkthroughs on the work that goes into web design, reinforcing page structure and strategising
 - Peer review and feedback from Slack provided valuable insights.
@@ -680,7 +650,7 @@ I spoke about this issue with my facilitator (also credited below) and it was co
 - Cam is one of the alumni at Code Institute and he was also a massive help, especially in the early stages when I was having trouble deploying my live website and later on when he pointed out specific things I need to fix or add.
 - Images came from Google Images.
 
-## Markdown Resources
+### Markdown Resources
 
 My understanding of the markdown language primarily comes from these sources:
 
