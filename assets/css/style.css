@@ -394,6 +394,21 @@ footer {
     margin-top: 80px;
   }
 
+/* Cards */
+.card-body {
+  padding: 2rem;
+}
+
+.card-text {
+  font-style: italic;
+}
+
+#gallery p {
+  font-style: italic;
+  color: #667;
+  font-size: 0.9rem;
+}
+
 /* Media queries */
 @media (min-width: 576px) {
   .col-sm {
@@ -438,19 +453,4 @@ footer {
   .hero-text p {
     font-size: 1.25rem;
   }
-}
-
-/* Cards */
-.card-body {
-  padding: 2rem;
-}
-
-.card-text {
-  font-style: italic;
-}
-
-#gallery p {
-  font-style: italic;
-  color: #667;
-  font-size: 0.9rem;
 }

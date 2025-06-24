@@ -2,7 +2,7 @@
 
 This is a responsive martial arts gym website that adapts without issue to desktop, tablet, and mobile screens, which is proven in the image below. Its purpose is to promote an inclusive mixed martial arts school and get users to sign up for classes.
 
-This image shows how the Warrior Path Martial Arts website displays seamlessly across a range of devices, including desktop, laptop, tablet, and mobile. The design uses a mobile-first approach with Bootstrap 5.3.7, ensuring all content is readable, cleanly laid out, and user-friendly no matter the screen size. Every section is stacked and spaced nicely to deliver an excellent user experience.
+This image shows how the Warrior Path Martial Arts website displays seamlessly across a range of devices, including desktop, laptop, tablet, and mobile. The design uses a mobile-first approach with Bootstrap, ensuring all content is readable, cleanly laid out, and user-friendly no matter the screen size. Every section is stacked and spaced nicely to deliver an excellent user experience.
 
 Warrior Path Martial Arts is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project uses responsive design, high accessibility and front-end best practices using HTML, CSS, Bootstrap and a little bit of JavaScript.
 
@@ -21,7 +21,7 @@ This project simulates the development of a professional front-end website for a
 I designed Warrior Path with both first-time visitors and returning students in mind. It combines accessibility, responsiveness, and clarity with a bold, energetic aesthetic.
 
 ### Design & Layout
-- **Mobile-First Responsive Design:** This was built with Bootstrap 5’s grid system and media queries for seamless viewing across different sized devices.
+- **Mobile-First Responsive Design:** This was built with Bootstrap’s grid system and media queries for seamless viewing across different sized devices.
 - **Dark Theme with Vibrant Accents:** The sleek dark background contrasts with orange highlights, which I chose over red to create a warm and welcoming tone without being intimidating to new users.
 - **Clean Visual Hierarchy:** Consistent use of typography and colour for clarity and readability across all sections.
 
@@ -129,7 +129,7 @@ I created this project while following key UX design principles, such as:
 
 - **Orange highlights**: Used for focus and hover states to guide user interaction.
 - **Responsive design**: Ensures usability on phones, tablets, and desktops.
-- **Bootstrap 5**: Chosen for its ease of use and mobile-first approach.
+- **Bootstrap**: Chosen for its ease of use and mobile-first approach.
 - **Image consistency**: All images follow a clean and modern visual style.
 - **Alt attributes**: Support screen readers and visually impaired users.
 
@@ -170,7 +170,7 @@ Images complement the tone of each section and nicely portray the training style
 
 ### Responsiveness
 
-The website was built mobile-first, ensuring usability across a wide range of devices. I used Bootstrap 5’s responsive grid system in combination with custom CSS media queries to handle layout adjustments. The navigation bar becomes a collapsible menu on small screens, and content sections stack vertically to prioritise readability.
+The website was built mobile-first, ensuring usability across a wide range of devices. I used Bootstrap’s responsive grid system in combination with custom CSS media queries to handle layout adjustments. The navigation bar becomes a collapsible menu on small screens, and content sections stack vertically to prioritise readability.
 
 Testing across device emulators and real devices helped ensure layouts didn't break at key breakpoints (576px, 768px, 992px, 1200px). Particular care was taken to ensure:
 
@@ -355,7 +355,7 @@ I added a fun and onbrand custom 404 error page to handle broken or mistyped URL
 
 ### Frameworks & Libraries
 
-- Bootstrap 5
+- Bootstrap
 - Font Awesome
 - Google Fonts
 
@@ -489,7 +489,7 @@ Testing was done throughout development and final checks were made once the cont
 
 Accessibility was a key priority in the design and development of Warrior Path Martial Arts. I implemented the following measures to support inclusive use:
 
-- **Responsive layout** using Bootstrap 5.3.7 ensures readability across all devices, from mobile phones to large desktops.
+- **Responsive layout** using Bootstrap ensures readability across all devices, from mobile phones to large desktops.
 - **Semantic HTML5 tags** such as `<header>`, `<nav>`, `<section>`, and `<footer>` are used to help screen readers and assistive technology interpret the content structure correctly.
 - **ARIA labels** have been included where necessary (for example, with form inputs) to provide extra context and improve form accessibility for screen readers.
 - **High-contrast colours** between text and background elements aid readability.
@@ -651,7 +651,7 @@ After reaching out to a Code Institute alumni (credited below) for support, I wa
 
 However, I did not delete the original repo and it still contains my earliest commits and development history. While most of the commit history exists in the current repo, the initial work can still be viewed via the link below.
 
-Original repo (where you can see my early commit history and original User Stories): https://github.com/LouisCE/warrior-path-x
+Original repo (where you can see my early commit history and old User Stories): https://github.com/LouisCE/warrior-path-x
 Current repo (for submission and deployment): https://github.com/LouisCE/warrior-path
 
 I spoke about this issue with my facilitator (also credited below) and it was confirmed with the assessment team that this would not be an issue. From that point onward, I have followed a consistent practice of committing my work to clearly demonstrate my development process.
