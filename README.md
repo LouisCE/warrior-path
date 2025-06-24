@@ -560,6 +560,22 @@ Given that I had a bit of extra time, I revisited WAVE and managed to cut the nu
 
 ## Browser Testing
 
+I tested the website using [Google PageSpeed Insights](https://pagespeed.web.dev/) to evaluate its performance, accessibility, best practices, and SEO compliance on desktop.
+
+**PageSpeed Insights (Desktop):**
+
+| Category        | Score |
+|----------------|-------|
+| Performance     | 94    |
+| Accessibility   | 95    |
+| Best Practices  | 100   |
+| SEO             | 91    |
+
+![PageSpeed Results Part 1](docs/screenshot-pagespeed.png)
+![PageSpeed Results Part 2](docs/screenshot-pagespeed.png-2)
+
+These scores confirm that the site is fast, accessible, standards-compliant, and search-engine friendly on modern desktop browsers.
+
 ## Deployment
 
 The website is deployed using GitHub Pages and is accessible at:  
@@ -575,7 +591,6 @@ Use GitHub Pages.
 4. In the left-hand sidebar, click on **Pages**.
 5. Under **Source**, select `main` branch and click **Save**.
 6. GitHub Pages will build and deploy the site. You may need to wait a minute for the changes to go live.
-
 
 ### To fork the project
 
