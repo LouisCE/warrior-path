@@ -18,34 +18,34 @@ This project simulates the development of a professional front-end website for a
 
 ## Key Features
 
-- Mobile-first responsive design using Bootstrap.
-- Informative sections on coaches, classes, pricing, and testimonials.
-- A visually engaging layout that balances energy with readability.
+I designed Warrior Path with both first-time visitors and returning students in mind. It combines accessibility, responsiveness, and clarity with a bold, energetic aesthetic.
 
+### Design & Layout
+- **Mobile-First Responsive Design:** This was built with Bootstrap 5’s grid system and media queries for seamless viewing across different sized devices.
+- **Dark Theme with Vibrant Accents:** The sleek dark background contrasts with orange highlights, which I chose over red to create a warm and welcoming tone without being intimidating to new users.
+- **Clean Visual Hierarchy:** Consistent use of typography and colour for clarity and readability across all sections.
 
-- **Responsive Layout:** Utilizes Bootstrap 5’s grid system and media queries to ensure the site adapts elegantly to all screen sizes.
-- **Navigation:** Fully functional, sticky navigation bar with clear active states provides easy and consistent site navigation.
-- **Consistent Styling:** Harmonised colour palette and typography maintain a professional and approachable brand image. A dark theme was chosen for the background to create a sleek, professional appearance. Red was considered too aggressive for a martial arts website, so orange was chosen instead to add vibrancy and pop against the dark background.
-- **Custom Forms:** Accessible and user-friendly sign-up form with validation prompts to facilitate membership registration.
-- **Standards Compliant:** HTML and CSS validated with zero errors, ensuring cross-browser compatibility and clean code.
-- **User-friendly** Sign-up form and call-to-action areas.
-- **Accessibility:** Designed with keyboard navigation, focus indicators and ARIA attributes to support users with disabilities.
+### Navigation & Structure
+- **Sticky Navbar:** Persistent, clearly labeled navigation bar with active state indicators and smooth scrolling.
+- **Logical Section Flow:** Content is laid out in a logical order and all of one page for a simple, vertical scrolling experience.
 
-#### Key interactive features include:
+### Content & Interactivity
+- **Informative Sections:** Clearly labeled content blocks for coaches, classes, pricing, opening hours, and testimonials.
+- **Call-to-Actions:** Prominent "Sign Up Today" buttons appear early and near the footer to encourage engagement.
+- **Embedded Form:** Accessible, user-friendly sign-up and enquiry form with validation for smooth submissions.
 
-- A **"Sign Up Today"** call-to-action near the top and again near the footer.
-- Informative sections on **opening hours**, **pricing**, and **student testimonials**.
-- Clear explanations of **junior** and **adult** classes.
-- Embedded form for **sign-ups and enquiries**.
-- Mobile layout with flow from intro to action.
+### Accessibility & Standards
+- **Keyboard Navigation & Focus States:** All interactive elements are accessible with visible focus indicators.
+- **ARIA & Alt Attributes:** Enhances usability for screen readers and assistive technology users.
+- **Validated Code:** HTML and CSS files pass W3C validation with zero errors, ensuring reliability and compatibility.
 
-The design encourages exploration without distraction, suitable for both first-time visitors and returning students.
+The final layout offers a focused, distraction-free experience that encourages users to explore, build trust, and take action confidently.
 
 ## User Goals
 
 ## User & Site Goals
 
-The primary aim of this website is to meet the needs of visitors quickly and clearly while aligning with the goals of Warrior Path as a modern martial arts gym. The following table maps user intentions to the site's strategic responses.
+The main objective of this website is to get users to sign up for the Warrior Path Mixed Martial Arts gym, which it achieves by fulfilling the goals of individual users. The table below shows what users want and how the website helps them achieve it.
 
 | User Goal                                           | How the Site Addresses It                                                              |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------|
@@ -54,7 +54,7 @@ The primary aim of this website is to meet the needs of visitors quickly and cle
 | Register for a class easily                        | Simple sign-up form with clear fields and success message confirmation.                |
 | Browse the site on any device                      | Fully responsive design using Bootstrap and custom media queries.                      |
 | Navigate confidently across pages                  | Clean, sticky navbar with active states and smooth anchor scrolling.                   |
-| Feel motivated without being overwhelmed           | Energetic visuals, clear structure, and minimal clutter for a focused experience.       |
+| Feel motivated without being overwhelmed           | Energetic visuals, clear structure, and minimal clutter for an easy browsing experience.       |
 | Feel assured by pricing and testimonials           | Transparent pricing and student quotes shown early on the page.                        |
 | Ask questions or get in touch effortlessly         | Contact form placed at the bottom, easily accessible on all screen sizes.              |
 
