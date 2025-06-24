@@ -627,14 +627,15 @@ I spoke about this issue with my facilitator (also credited below) and it was co
 
 - Code Institute's Learning Management System (LMS) taught me HTML and CSS, as well as showing me detailed walkthroughs on the work that goes into web design, reinforcing page structure and strategising
 - Peer review and feedback from Slack provided valuable insights.
-- Simen is my mentor. He hosted video calls reviewing my progress. We did an inception call, a midpoint call and a project review. He gave me valuable resources that helped me to complete this project, like 
-as well as advice on how to think like a developer that helped me to complete my project. Thank you, Simen.
-- Credit is also due to Tim who looked at my progress and provided me with a checklist of things that I should cover.
-- I'd also like to thank my facilitator, Kay for checking in with assessors on my behalf to get information about the situation mentioned earlier regarding my early troubles with GitHub Pages deployment. They also helped me providing valuable information and answering questions about the grading criteria and course material.
+- Simen is my mentor. He hosted video calls reviewing my progress. We did an inception call, a midpoint call and a project review. He gave me valuable resources that helped me to complete this project, like Coolors, Balsamiq Wireframes and a YouTube video that explains the Markdown language. He also gave me advice on how to think like a developer. Thank you, Simen.
+- Credit is also due to Tim who looked at my progress and provided me with constructive criticism and a checklist of things that I should cover.
+- I'd also like to thank my facilitator, Kay for checking in with assessors on my behalf to get information about the deployment issues I was having in the early stages.
 - Cam is one of the alumni at Code Institute and he was also a massive help, especially in the early stages when I was having trouble deploying my live website and later on when he pointed out specific things I need to fix or add.
 - Images came from Google Images.
 
-My understanding of the markdown language primarily comes from these sources: 
+## Markdown Resources
 
-https://www.youtube.com/watch?v=HUBNt18RFbo
-https://markdownlivepreview.com/
+My understanding of the markdown language primarily comes from these sources:
+
+- https://www.youtube.com/watch?v=HUBNt18RFbo
+- https://markdownlivepreview.com/
