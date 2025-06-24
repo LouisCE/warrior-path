@@ -6,7 +6,11 @@ This image shows how the Warrior Path Martial Arts website displays seamlessly a
 
 Warrior Path Martial Arts is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project uses responsive design, high accessibility and front-end best practices using HTML, CSS, Bootstrap and a little bit of JavaScript.
 
-It provides valuable information about classes, teachers and opportunities to sign up for both adults and juniors. With a clean layout, smooth scroll-friendly Instagram-like navigation, and carefully chosen visuals, the site delivers an engaging experience across all devices.
+It provides valuable information about classes, teachers and opportunities to sign up for both adults and juniors. With a clean layout, smooth scroll-friendly navigation, and carefully chosen visuals, the site delivers an engaging experience across all devices.
+
+The site has a single-page layout to maintain fast performance and a smooth Instagram-like experience.
+
+All interactions are optimised for mobile. Buttons are styled consistently across the page with high-contrast orange and accessible sizing. Layout adapts naturally for smaller screens.
 
 Whether the user is a curious beginner, a parent looking for the right class for their child, or an experienced martial artist looking for a place where they can test their limits, Warrior Path has a lot to offer.
 
@@ -202,30 +206,17 @@ The site features a simplified custom navbar that maintains consistency across s
 ![Header Screenshot](docs/screenshot-header.png)
 
 #### Hero Section
-The homepage opens with a bold hero banner that immediately communicates the purpose of the site, to inspire and motivate users to begin their martial arts journey.
-
-- Eye-catching banner introduces the brand
-- Clear navigation to other pages
-- Welcoming call to action
-
-The hero banner displays a large, full-width image accompanied by a bold heading ("Unlock Your Potential") and a primary call-to-action button ("Sign Up Today").
-
-- Image scales cleanly across devices.
-- Typography is centered and resized based on screen width.
-
-This section creates immediate visual impact and sets the tone for the rest of the page.
-
-![Hero section screenshot](docs/screenshot-home.png)
-
-#### Landing View
-
-The site follows a single-page application layout to maintain fast performance, a smooth Instagram-like scroll experience, and intuitive structure. The landing section includes:
+The homepage opens with a bold hero banner that immediately communicates the purpose of the site, to inspire and motivate users to begin their martial arts journey. It includes the following:
 
 - **Hero headline** encouraging users to start their journey.
 - **Sign Up Today** button with hover animation.
 - **Branding** that introduces the ethos of Warrior Path Martial Arts.
 
-All interactions are optimised for mobile. Buttons are styled consistently across the page with high-contrast orange and accessible sizing. Layout adapts naturally for smaller screens.
+The hero banner displays a large, full-width image accompanied by a bold heading ("Unlock Your Potential") and a primary call-to-action button ("Sign Up Today").
+
+This section creates immediate visual impact and sets the tone for the rest of the page.
+
+![Hero section screenshot](docs/screenshot-home.png)
 
 #### About Section
 Provides a warm, community-focused introduction to the gym’s mission, values, and atmosphere. Perfect for new visitors trying to understand the vibe.
