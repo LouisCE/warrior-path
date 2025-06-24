@@ -591,6 +591,10 @@ Given that I had a bit of extra time, I revisited WAVE and managed to cut the nu
 
 ![WAVE Screenshot](docs/screenshot-wave-2.png)
 
+I also took a moment to add styles to stop the buttons from spanning the entire width of the screen. This applies to the home page, the confirmation page and the 404 page. They now look like this.
+
+![Buttons fixed width styling](docs/screenshot-button.png)
+
 ## Deployment
 
 The website is deployed using GitHub Pages and is accessible at:  
