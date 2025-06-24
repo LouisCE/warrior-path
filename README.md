@@ -570,6 +570,19 @@ I tested the website using [Google PageSpeed Insights](https://pagespeed.web.dev
 ![PageSpeed Results Part 1](docs/screenshot-pagespeed.png)
 ![PageSpeed Results Part 2](docs/screenshot-pagespeed-2.png)
 
+**Lighthouse Testing**
+
+I also tested desktop on Lighthouse and the results are as follows.
+
+| Category        | Score |
+|----------------|-------|
+| Performance     | 99    |
+| Accessibility   | 95    |
+| Best Practices  | 100   |
+| SEO             | 91    |
+
+![PageSpeed Results Part 1](docs/screenshot-lighthouse-desktop-2.png)
+
 These scores confirm that the site is fast, accessible, standards-compliant, and search-engine friendly on modern desktop browsers.
 
 ## Last Minute Fixes
