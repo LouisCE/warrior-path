@@ -41,9 +41,7 @@ I designed Warrior Path with both first-time visitors and returning students in 
 
 The final layout offers a focused, distraction-free experience that encourages users to explore, build trust, and take action confidently.
 
-## User Goals
-
-## User & Site Goals
+## User and Site Goals
 
 The main objective of this website is to get users to sign up for the Warrior Path Mixed Martial Arts gym, which it achieves by fulfilling the goals of individual users. The table below shows what users want and how the website helps them achieve it.
 
@@ -139,8 +137,8 @@ I created this project while following key UX design principles, such as:
 
 The primary font families chosen for Warrior Path Martial Arts are [Inter](https://fonts.google.com/specimen/Inter "Inter") and [Macondo](https://fonts.google.com/specimen/Macondo "Macondo").  
 - **Inter** is a modern, highly legible sans-serif typeface that ensures clarity for all body text across devices.  
-- **Macondo** is a decorative, handwritten-style font used for headings to reflect the spirited, traditional identity of martial arts.  
-This combination creates a balance between readability and stylistic flair that aligns with the ethos of Warrior Path — discipline and fun.
+- **Macondo** is a decorative, handwritten-style font used for headings to reflect the spirited, traditional identity of martial arts.
+This combination creates a balance between readability and stylistic flair that aligns with the ethos of Warrior Path, discipline and fun.
 
 ### Colour Scheme
 
@@ -420,7 +418,41 @@ No unresolved bugs remain. All critical and visual issues have been addressed.
 
 ## Responsiveness Tests
 
-# Code Validation
+The website was manually tested across a variety of real devices and emulators using Chrome DevTools. All key areas — including navigation, element alignment, content flow, and functionality — were checked to ensure a consistent experience.
+
+| Device Example              | Navigation | Element Alignment | Content Placement | Functionality |
+|----------------------------|------------|-------------------|-------------------|---------------|
+| iPhone SE                  | Good       | Good              | Good              | Good          |
+| iPhone XR                  | Good       | Good              | Good              | Good          |
+| iPhone 12 Pro              | Good       | Good              | Good              | Good          |
+| iPhone 14 Pro Max          | Good       | Good              | Good              | Good          |
+| Pixel 7                    | Good       | Good              | Good              | Good          |
+| Samsung Galaxy S8+         | Good       | Good              | Good              | Good          |
+| Samsung Galaxy S20 Ultra   | Good       | Good              | Good              | Good          |
+| iPad Mini                  | Good       | Good              | Good              | Good          |
+| iPad Air                   | Good       | Good              | Good              | Good          |
+| iPad Pro                   | Good       | Good              | Good              | Good          |
+| Surface Pro 7              | Good       | Good              | Good              | Good          |
+| Surface Duo                | Good       | Good              | Good              | Good          |
+| Galaxy Z Fold 5            | Good       | Good              | Good              | Good          |
+| Asus Zenbook Fold          | Good       | Good              | Good              | Good          |
+| Samsung Galaxy A51/71      | Good       | Good              | Good              | Good          |
+| Nest Hub                   | Good       | Good              | Good              | Good          |
+| Nest Hub Max               | Good       | Good              | Good              | Good          |
+
+All responsive breakpoints worked as expected. The content is stacked appropriately on smaller devices, and navigation was smooth across all screen sizes. See examples below
+
+Below are three examples.
+
+- **iPhone SE** (mobile)
+- **iPad Mini** (tablet)
+- **Nest Hub Max** (smart display)
+
+![iPhone SE Screenshot](docs/screenshot-iphone-se.png)
+![iPad Mini Screenshot](docs/screenshot-ipad-mini.png)
+![Nest Hub Max Screenshot](docs/screenshot-nest-hub-max.png)
+
+## Code Validation
 
 ### HTML
 
@@ -552,12 +584,6 @@ All categories recieved a score above 90, which can be seen below. Performance i
 
 All critical accessibility issues were addressed. Minor alerts and contrast warnings are documented and do not hinder usability. The final Lighthouse audit confirmed a strong Accessibility score of 95/100, and the WAVE tool shows no major issues remaining.
 
-## Last Minute Fixes
-
-Given that I had a bit of extra time, I revisited WAVE and managed to cut the number of alerts from 3 to 0 by changing two alt texts, promoting a h2 element to h1 and the subsequent h3 elements to h2.
-
-![WAVE Screenshot](docs/screenshot-wave-2.png)
-
 ## Browser Testing
 
 I tested the website using [Google PageSpeed Insights](https://pagespeed.web.dev/) to evaluate its performance, accessibility, best practices, and SEO compliance on desktop.
@@ -575,6 +601,12 @@ I tested the website using [Google PageSpeed Insights](https://pagespeed.web.dev
 ![PageSpeed Results Part 2](docs/screenshot-pagespeed.png-2)
 
 These scores confirm that the site is fast, accessible, standards-compliant, and search-engine friendly on modern desktop browsers.
+
+## Last Minute Fixes
+
+Given that I had a bit of extra time, I revisited WAVE and managed to cut the number of alerts from 3 to 0 by changing two alt texts, promoting a h2 element to h1 and the subsequent h3 elements to h2.
+
+![WAVE Screenshot](docs/screenshot-wave-2.png)
 
 ## Deployment
 
