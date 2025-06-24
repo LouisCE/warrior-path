@@ -601,10 +601,25 @@ To clone the repository:
 - I deepended and consolidated my understanding of HTML and CSS.
 - I gained a basic understanding of JavaScript.
 - I learned how to troubleshoot and find bugs more efficiently.
+- I learned why it is important to commit often to demonstrate my development process.
 - I deepened my understanding of responsive layout with Bootstrap's grid system.
 - I learned why it's important to design for accessibility from the beginning, rather than fitting it at the end.
-- Balancing visual design with semantic HTML taught me how to build with both users and machines (screen readers and search engines) in mind.
-- Using GitHub Pages for deployment reinforced the importance of version control and remote collaboration tools.
+- I learned visual design with semantic HTML taught me how to build with both users and machines (screen readers and search engines) in mind.
+- I learned how to use many different resources that work together to polish a website, including wireframes, colour scheme tools, validators and performance checkers.
+- I learned how to use GitHub Pages.
+
+## Note on Commit History
+
+During the early stages of this project, I encountered an issue that prevented me from deploying my website on GitHub Pages. This is because my local VS Code instance wasn't properly connected to GitHub. The save button was greyed out despite multiple attempts to troubleshoot.
+
+After reaching out to a Code Institute alumni (credited below) for support, I was advised to start a fresh GitHub repository and transfer my code over, which I did. This resulted in a large initial commit which you will see as the first commit on the current live repository.
+
+However, I did not delete the original repo and it still contains my earliest commits and development history. While most of the commit history exists in the current repo, the initial work can still be viewed via the link below.
+
+Original repo (where you can see my early commit history): https://github.com/LouisCE/warrior-path-x
+Current repo (for submission and deployment): https://github.com/LouisCE/warrior-path
+
+I spoke about this issue with my facilitator (also credited below) and it was confirmed with the assessment team that this would not be an issue. From that point onward, I have followed a consistent practice of committing my work to clearly demonstrate my development process.
 
 # Credits
 
@@ -612,9 +627,10 @@ To clone the repository:
 
 - Code Institute's Learning Management System (LMS) taught me HTML and CSS, as well as showing me detailed walkthroughs on the work that goes into web design, reinforcing page structure and strategising
 - Peer review and feedback from Slack provided valuable insights.
-- Simen is my mentor. He hosted video calls reviewing my progress. We did an inception call, a midpoint call and a project review. He gave valuable advice on how to think like a developer that helped me to complete my project. Thank you, Simen.
+- Simen is my mentor. He hosted video calls reviewing my progress. We did an inception call, a midpoint call and a project review. He gave me valuable resources that helped me to complete this project, like 
+as well as advice on how to think like a developer that helped me to complete my project. Thank you, Simen.
 - Credit is also due to Tim who looked at my progress and provided me with a checklist of things that I should cover.
-- I'd also like to thank my facilitator, Kay for providing valuable information and answering questions about the grading criteria and course material.
+- I'd also like to thank my facilitator, Kay for checking in with assessors on my behalf to get information about the situation mentioned earlier regarding my early troubles with GitHub Pages deployment. They also helped me providing valuable information and answering questions about the grading criteria and course material.
 - Cam is one of the alumni at Code Institute and he was also a massive help, especially in the early stages when I was having trouble deploying my live website and later on when he pointed out specific things I need to fix or add.
 - Images came from Google Images.
 
