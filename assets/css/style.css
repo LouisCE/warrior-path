@@ -6,7 +6,6 @@
 
 html, body {
   scroll-behavior: smooth;
-  scroll-padding-top: 100px;
   width: 100%;
   max-width: 100%;
 }
@@ -410,7 +409,16 @@ footer {
 }
 
 /* Media queries */
+@media (max-width: 575.98px) {
+  html {
+    scroll-padding-top: 130px;
+  }
+}
+
 @media (min-width: 576px) {
+  html {
+    scroll-padding-top: 100px;
+  }
   .col-sm {
     width: 100%;
   }
@@ -430,7 +438,7 @@ footer {
     float: none;
   }
   #home {
-    margin-top: 40px; /* less space on tablets */
+    margin-top: 40px;
   }
 }
 
