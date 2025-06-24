@@ -1,14 +1,14 @@
 # Warrior Path Martial Arts
 
-A responsive martial arts gym website that adapts beautifully to desktop, tablet, and mobile screens.
+This is a responsive martial arts gym website that adapts without issue to desktop, tablet, and mobile screens, which is proven in the image below. Its purpose is to promote an inclusive mixed martial arts school and get users to sign up for classes.
 
-This image shows how the Warrior Path Martial Arts website displays seamlessly across a range of devices, including desktop, laptop, tablet, and mobile. The design uses a mobile-first approach with Bootstrap 5.3.7, ensuring all content is readable, cleanly laid out, and user-friendly no matter the screen size. Every section, from the call-to-action and class info to coach profiles and pricing, is stacked and spaced appropriately to deliver an excellent user experience.
+This image shows how the Warrior Path Martial Arts website displays seamlessly across a range of devices, including desktop, laptop, tablet, and mobile. The design uses a mobile-first approach with Bootstrap 5.3.7, ensuring all content is readable, cleanly laid out, and user-friendly no matter the screen size. Every section is stacked and spaced nicely to deliver an excellent user experience.
 
-Warrior Path Martial Arts is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project demonstrates skills in responsive design, accessibility, and front-end best practices using HTML, CSS and Bootstrap.
+Warrior Path Martial Arts is a fictional martial arts gym website developed as part of a front-end development project for Code Institute in 2025. This project uses responsive design, high accessibility and front-end best practices using HTML, CSS, Bootstrap and a little bit of JavaScript.
 
-Warrior Path Martial Arts is a responsive, one-page website designed to promote a dynamic and inclusive martial arts school. It provides key information about classes, coaching, and sign-up opportunities for both adults and juniors. With a clean layout, smooth scroll-friendly Instagram-like navigation, and carefully chosen visuals, the site delivers an engaging experience across all devices.
+It provides valuable information about classes, teachers and opportunities to sign up for both adults and juniors. With a clean layout, smooth scroll-friendly Instagram-like navigation, and carefully chosen visuals, the site delivers an engaging experience across all devices.
 
-Whether you’re a curious beginner, a parent looking for the right class for your child, or a seasoned martial artist seeking expert coaching, Warrior Path makes the journey clear, accessible, and inspiring.
+Whether the user is a curious beginner, a parent looking for the right class for their child, or an experienced martial artist looking for a place where they can test their limits, Warrior Path has a lot to offer.
 
 ![Am I Responsive design screenshot](docs/am-i-responsive.png)
 
@@ -62,7 +62,7 @@ The main objective of this website is to get users to sign up for the Warrior Pa
 
 - As a first-time visitor, I want to quickly understand what kinds of martial arts are taught here.  
 - As a parent, I want to know if there are junior classes suitable for my child’s age.  
-- As a returning user, I want to find coach profiles easily.  
+- As a returning user, I want to find coach profiles easily.
 - As a prospective student, I want to see clear pricing and know what to expect before joining.  
 - As a user on mobile, I want everything to be scrollable and legible without pinching or zooming.  
 - As someone unfamiliar with martial arts, I want the tone to feel welcoming and non-intimidating.  
@@ -122,7 +122,7 @@ The final site remains a single scrollable page, designed to reduce navigation f
 I created this project while following key UX design principles, such as:
 
 - **User Research:** I considered the expectations of gym members, parents, and martial artists. Common goals include finding schedules, reading about instructors, looking at prices.
-- **Wireframing:** BI sketched rough layouts to visualise navigation flow and content hierarchy.
+- **Wireframing:** I sketched rough layouts to visualise navigation flow and content hierarchy.
 - **Visual Hierarchy:** Used font sizes, spacing, and colour contrast to guide user attention. Primary CTAs are positioned prominently.
 - **Accessibility First:** ARIA labels, alt text, tab order, and contrast were used from the outset, not added after. (will add more ARIA later)
 - **Feedback Loops:** Peer review and user feedback from mentors and alumni helped identify areas to improve clarity and layout.
