@@ -554,7 +554,7 @@ All critical accessibility issues were addressed. Minor alerts and contrast warn
 
 ## Last Minute Fixes
 
-Given that I had a bit of extra time, I revisited WAVE and managed to cut the number of alerts from 3 to 2 by changing the alt text.
+Given that I had a bit of extra time, I revisited WAVE and managed to cut the number of alerts from 3 to 0 by changing two alt texts, promoting a h2 element to h1 and the subsequent h3 elements to h2.
 
 ## Browser Testing
 
