@@ -160,6 +160,13 @@ nav a:focus {
   font-size: 1rem;
 }
 
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
 .intro p {
   margin-bottom: 1rem;
 }
