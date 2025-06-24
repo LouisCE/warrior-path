@@ -277,6 +277,7 @@ Among the grappling arts are:
 The alternating grid layout with images is visually appealing and helps keep the page dynamic and readable.
 
 ![Classes section screenshot](docs/screenshot-classes-2.png)
+![Classes section screenshot](docs/screenshot-classes-3.png)
 
 #### Coach Profiles
 
