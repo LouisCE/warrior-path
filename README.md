@@ -63,11 +63,11 @@ The main objective of this website is to get users to sign up for the Warrior Pa
 - As a first-time visitor, I want to quickly understand what kinds of martial arts are taught here.  
 - As a parent, I want to know if there are junior classes suitable for my child’s age.  
 - As a returning user, I want to find coach profiles easily.
-- As a prospective student, I want to see clear pricing and know what to expect before joining.  
-- As a user on mobile, I want everything to be scrollable and legible without pinching or zooming.  
-- As someone unfamiliar with martial arts, I want the tone to feel welcoming and non-intimidating.  
+- As a potential student, I want to see clear pricing and know what to expect before joining.  
+- As a user on mobile, I want everything to be scrollable and legible without having to pinch or zoom.  
+- As someone new to martial arts, I want the tone to feel welcoming and non-intimidating.  
 - As an accessibility-conscious user, I want keyboard focus indicators and readable font contrast.  
-- As a motivated learner, I want to sign up or express interest directly from the page.
+- As a motivated learner, I want an easy method to sign up.
 
 ## Value to Users
 
@@ -307,7 +307,7 @@ The site follows a single-page application layout to maintain fast performance, 
 - **Sign Up Today** button with hover animation.
 - **Branding** that introduces the ethos of Warrior Path Martial Arts.
 
-All interactions are mobile-optimized. Buttons are styled consistently across the page with high-contrast colour and accessible sizing. Layout adapts naturally for smaller screens.
+All interactions are optimised for mobile. Buttons are styled consistently across the page with high-contrast orange and accessible sizing. Layout adapts naturally for smaller screens.
 
 ## Class Overview Sections
 
@@ -551,6 +551,10 @@ All categories recieved a score above 90, which can be seen below. Performance i
 ## Conclusion
 
 All critical accessibility issues were addressed. Minor alerts and contrast warnings are documented and do not hinder usability. The final Lighthouse audit confirmed a strong Accessibility score of 95/100, and the WAVE tool shows no major issues remaining.
+
+## Last Minute Fixes
+
+Given that I had a bit of extra time, I revisited WAVE and managed to cut the number of alerts from 3 to 2 by changing the alt text.
 
 ## Browser Testing
 
